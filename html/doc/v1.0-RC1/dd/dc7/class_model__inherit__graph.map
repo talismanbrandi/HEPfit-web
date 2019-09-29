@@ -1,0 +1,10 @@
+<map id="Model" name="Model">
+<area shape="rect" id="node2" href="$dd/dfa/class_q_c_d.html" title="A class for parameters related to QCD, hadrons and quarks. " alt="" coords="306,77,351,101"/>
+<area shape="rect" id="node3" href="$dc/dd5/class_standard_model.html" title="A model class for the Standard Model. " alt="" coords="281,149,376,173"/>
+<area shape="rect" id="node4" href="$d6/d75/class_flavour_wilson_coefficient.html" title="Model for NP contributions to flavour. " alt="" coords="5,221,145,245"/>
+<area shape="rect" id="node5" href="$dc/d20/classmy_model.html" title="My own Model. " alt="" coords="169,221,235,245"/>
+<area shape="rect" id="node6" href="$d2/df3/class_n_pbase.html" title="The auxiliary base model class for other model classes. " alt="" coords="259,221,319,245"/>
+<area shape="rect" id="node7" href="$dc/d6f/class_s_u_s_y.html" title="A base class for SUSY models. " alt="" coords="343,221,394,245"/>
+<area shape="rect" id="node8" href="$d9/d3b/class_s_u_s_y_mass_insertion.html" title="SUSYMassInsertion" alt="" coords="418,221,535,245"/>
+<area shape="rect" id="node9" href="$d0/d52/class_t_h_d_m.html" title="A base class &#160;symmetric Two&#45;Higgs&#45;Doublet models. " alt="" coords="559,221,613,245"/>
+</map>

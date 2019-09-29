@@ -1,0 +1,11 @@
+<map id="Hobs_gg_phi3_bb_CMS8" name="Hobs_gg_phi3_bb_CMS8">
+<area shape="rect" id="node2" href="$dc/d1f/class_th_observable.html" title="A class for a model prediction of an observable. " alt="" coords="11,223,101,247"/>
+<area shape="rect" id="node3" href="$dc/dd5/class_standard_model.html" title="A model class for the Standard Model. " alt="" coords="339,79,434,103"/>
+<area shape="rect" id="node6" href="$dc/df3/class_e_w_s_mcache.html" title="A class for cache variables used in computing radiative corrections to the EW precision observables..." alt="" coords="549,169,633,193"/>
+<area shape="rect" id="node8" href="$d2/df3/class_n_pbase.html" title="The auxiliary base model class for other model classes. " alt="" coords="307,169,367,193"/>
+<area shape="rect" id="node4" href="$dd/dfa/class_q_c_d.html" title="A class for parameters related to QCD, hadrons and quarks. " alt="" coords="364,5,409,29"/>
+<area shape="rect" id="node5" href="$db/d32/class_e_w_s_m_two_fermions_l_e_p2.html" title="A class for the form factors , &#160;and &#160;in the processes &#160;at LEP&#45;II. " alt="" coords="398,271,543,295"/>
+<area shape="rect" id="node7" href="$d3/d55/class_general_t_h_d_m.html" title="A base class for generic Two&#45;Higgs&#45;Doublet models. " alt="" coords="143,271,233,295"/>
+<area shape="rect" id="node10" href="$dc/dfd/class_general_t_h_d_mcache.html" title="GeneralTHDMcache" alt="" coords="195,355,314,379"/>
+<area shape="rect" id="node9" href="$d5/d76/class_matching.html" title="Matching\&lt; GeneralTHDMMatching,\l GeneralTHDM \&gt;" alt="" coords="93,163,283,199"/>
+</map>

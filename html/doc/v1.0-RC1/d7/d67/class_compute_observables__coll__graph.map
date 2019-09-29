@@ -1,0 +1,11 @@
+<map id="ComputeObservables" name="ComputeObservables">
+<area shape="rect" id="node2" href="$d1/df4/class_input_parser.html" title="A class for reading input parameters and output directives. " alt="" coords="142,173,219,197"/>
+<area shape="rect" id="node3" href="$db/da7/class_model_factory.html" title="A class for. " alt="" coords="5,89,92,113"/>
+<area shape="rect" id="node4" href="$d5/d49/class_th_obs_factory.html" title="A class for. " alt="" coords="117,89,207,113"/>
+<area shape="rect" id="node5" href="$dc/dd5/class_standard_model.html" title="A model class for the Standard Model. " alt="" coords="329,89,424,113"/>
+<area shape="rect" id="node7" href="$dc/df3/class_e_w_s_mcache.html" title="A class for cache variables used in computing radiative corrections to the EW precision observables..." alt="" coords="385,173,469,197"/>
+<area shape="rect" id="node6" href="$dd/dfa/class_q_c_d.html" title="A class for parameters related to QCD, hadrons and quarks. " alt="" coords="285,5,330,29"/>
+<area shape="rect" id="node9" href="$d5/dad/class_e_w_s_m_three_loop_e_w.html" title="A class for &#160;three&#45;loop corrections to the EW precision observables. " alt="" coords="405,257,529,281"/>
+<area shape="rect" id="node8" href="$d9/db9/class_c_k_m.html" title="A class for the CKM matrix elements. " alt="" coords="354,5,399,29"/>
+<area shape="rect" id="node10" href="$d4/d6d/class_flavour.html" title="The parent class in Flavour for calculating all the Wilson coefficients for various Flavor Violating ..." alt="" coords="424,5,481,29"/>
+</map>

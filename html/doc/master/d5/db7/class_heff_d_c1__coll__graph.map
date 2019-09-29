@@ -1,0 +1,11 @@
+<map id="HeffDC1" name="HeffDC1">
+<area shape="rect" id="node2" href="$d2/d95/class_wilson_coefficient.html" title="A class for the Wilson coefficients. " alt="" coords="524,238,628,262"/>
+<area shape="rect" id="node3" href="$dd/d6f/class_wilson_template.html" title="WilsonTemplate\&lt; gslpp\l::vector\&lt; gslpp::complex \&gt; \&gt;" alt="" coords="273,232,429,268"/>
+<area shape="rect" id="node4" href="$d1/d3c/classgslpp_1_1matrix.html" title="gslpp::matrix\&lt; gslpp\l::complex \&gt;" alt="" coords="293,149,410,185"/>
+<area shape="rect" id="node6" href="$dc/dd5/class_standard_model.html" title="A model class for the Standard Model. " alt="" coords="529,66,623,90"/>
+<area shape="rect" id="node5" href="$d1/d3c/classgslpp_1_1matrix.html" title="A base class for defining operations on matrices, both real and complex. " alt="" coords="5,155,113,179"/>
+<area shape="rect" id="node9" href="$dc/df3/class_e_w_s_mcache.html" title="A class for cache variables used in computing radiative corrections to the EW precision observables..." alt="" coords="768,77,852,101"/>
+<area shape="rect" id="node7" href="$dd/dfa/class_q_c_d.html" title="A class for parameters related to QCD, hadrons and quarks. " alt="" coords="329,66,374,90"/>
+<area shape="rect" id="node8" href="$db/d32/class_e_w_s_m_two_fermions_l_e_p2.html" title="A class for the form factors , &#160;and &#160;in the processes &#160;at LEP&#45;II. " alt="" coords="944,46,1089,70"/>
+<area shape="rect" id="node10" href="$d5/d76/class_matching.html" title="Matching\&lt; StandardModelMatching,\l StandardModel \&gt;" alt="" coords="255,5,448,41"/>
+</map>

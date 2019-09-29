@@ -1,0 +1,11 @@
+<map id="GeneralSUSY" name="GeneralSUSY">
+<area shape="rect" id="node2" href="$dc/d6f/class_s_u_s_y.html" title="A base class for SUSY models. " alt="" coords="529,639,579,663"/>
+<area shape="rect" id="node8" href="$d5/dac/class_s_u_s_y_matching.html" title="A class for the matching in the MSSM. " alt="" coords="737,477,832,501"/>
+<area shape="rect" id="node10" href="$d4/d6e/class_s_u_s_y_spectrum.html" title="A class for calculating the Higgs and sparticle spectra at tree level. " alt="" coords="736,639,833,663"/>
+<area shape="rect" id="node3" href="$dc/dd5/class_standard_model.html" title="A model class for the Standard Model. " alt="" coords="270,725,365,749"/>
+<area shape="rect" id="node5" href="$dc/df3/class_e_w_s_mcache.html" title="A class for cache variables used in computing radiative corrections to the EW precision observables..." alt="" coords="512,732,596,756"/>
+<area shape="rect" id="node4" href="$dd/dfa/class_q_c_d.html" title="A class for parameters related to QCD, hadrons and quarks. " alt="" coords="41,663,87,687"/>
+<area shape="rect" id="node6" href="$dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers. " alt="" coords="17,740,111,764"/>
+<area shape="rect" id="node7" href="$d1/d3c/classgslpp_1_1matrix.html" title="gslpp::matrix\&lt; gslpp\l::complex \&gt;" alt="" coords="5,398,123,434"/>
+<area shape="rect" id="node9" href="$d6/d73/classgslpp_1_1vector_3_01double_01_4.html" title="A class for constructing and defining operations on real vectors. " alt="" coords="251,401,384,425"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="DC7_1" name="DC7_1">
+<area shape="rect" id="node2" href="$de/dc7/class_m_vgamma.html" title="A class for the &#160;decay. " alt="" coords="54,545,127,569"/>
+<area shape="rect" id="node3" href="$dc/d1f/class_th_observable.html" title="A class for a model prediction of an observable. " alt="" coords="46,431,135,455"/>
+<area shape="rect" id="node4" href="$dc/dd5/class_standard_model.html" title="A model class for the Standard Model. " alt="" coords="113,305,207,329"/>
+<area shape="rect" id="node6" href="$dc/df3/class_e_w_s_mcache.html" title="A class for cache variables used in computing radiative corrections to the EW precision observables..." alt="" coords="159,431,243,455"/>
+<area shape="rect" id="node5" href="$dd/dfa/class_q_c_d.html" title="A class for parameters related to QCD, hadrons and quarks. " alt="" coords="240,185,285,209"/>
+<area shape="rect" id="node7" href="$d9/db9/class_c_k_m.html" title="A class for the CKM matrix elements. " alt="" coords="171,185,216,209"/>
+<area shape="rect" id="node8" href="$dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers. " alt="" coords="20,5,113,29"/>
+<area shape="rect" id="node9" href="$dd/d59/classgslpp_1_1vector.html" title="gslpp::vector\&lt; gslpp\l::complex \&gt;" alt="" coords="268,425,385,461"/>
+<area shape="rect" id="node10" href="$dd/d59/classgslpp_1_1vector.html" title="A base class for defining operations on vectors, both real and complex. " alt="" coords="273,305,381,329"/>
+</map>

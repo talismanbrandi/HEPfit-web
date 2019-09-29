@@ -1,0 +1,11 @@
+<map id="EWSMTwoFermionsLEP2" name="EWSMTwoFermionsLEP2">
+<area shape="rect" id="node7" href="$dc/dd5/class_standard_model.html" title="A model class for the Standard Model. " alt="" coords="189,187,283,211"/>
+<area shape="rect" id="node2" href="$dc/df3/class_e_w_s_mcache.html" title="A class for cache variables used in computing radiative corrections to the EW precision observables..." alt="" coords="574,271,658,295"/>
+<area shape="rect" id="node10" href="$d1/dfc/class_e_w_s_m_one_loop_e_w.html" title="A class for &#160;one&#45;loop corrections to the EW precision observables. " alt="" coords="298,355,414,379"/>
+<area shape="rect" id="node3" href="$d4/d7b/class_p_vfunctions.html" title="A class for Passarino&#45;Veltman functions. " alt="" coords="659,187,738,211"/>
+<area shape="rect" id="node4" href="$d8/db3/class_polylogarithms.html" title="A class for the polylogarithms. " alt="" coords="741,85,833,109"/>
+<area shape="rect" id="node5" href="$df/dea/class_bernoulli_numbers.html" title="A class for the Bernoulli numbers. " alt="" coords="776,5,883,29"/>
+<area shape="rect" id="node6" href="$d5/d9d/class_clausen_functions.html" title="A class for the Clausen functions. " alt="" coords="822,139,930,163"/>
+<area shape="rect" id="node8" href="$dd/dfa/class_q_c_d.html" title="A class for parameters related to QCD, hadrons and quarks. " alt="" coords="5,85,51,109"/>
+<area shape="rect" id="node9" href="$d5/d76/class_matching.html" title="Matching\&lt; StandardModelMatching,\l StandardModel \&gt;" alt="" coords="75,79,269,115"/>
+</map>

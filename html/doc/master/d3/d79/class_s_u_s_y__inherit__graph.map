@@ -1,0 +1,8 @@
+<map id="SUSY" name="SUSY">
+<area shape="rect" id="node5" href="$d5/dfb/class_general_s_u_s_y.html" title="A class for the general MSSM. " alt="" coords="5,293,95,317"/>
+<area shape="rect" id="node6" href="$d7/d0d/class_m_f_v.html" title="calculation of soft masses and trilinear couplings for squarks and sleptons in Minimal Flavour Violat..." alt="" coords="119,293,163,317"/>
+<area shape="rect" id="node7" href="$d8/d5e/classp_m_s_s_m.html" title="A class for the phenomenological MSSM. " alt="" coords="187,293,247,317"/>
+<area shape="rect" id="node2" href="$dc/dd5/class_standard_model.html" title="A model class for the Standard Model. " alt="" coords="93,149,188,173"/>
+<area shape="rect" id="node3" href="$dd/dfa/class_q_c_d.html" title="A class for parameters related to QCD, hadrons and quarks. " alt="" coords="118,77,163,101"/>
+<area shape="rect" id="node4" href="$d0/de3/class_model.html" title="A class for the template of models. " alt="" coords="115,5,166,29"/>
+</map>

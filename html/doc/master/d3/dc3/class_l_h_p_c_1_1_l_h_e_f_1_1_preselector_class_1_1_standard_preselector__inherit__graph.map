@@ -1,0 +1,6 @@
+<map id="LHPC::LHEF::PreselectorClass::StandardPreselector" name="LHPC::LHEF::PreselectorClass::StandardPreselector">
+<area shape="rect" id="node2" href="$d2/d11/class_l_h_p_c_1_1_l_h_e_f_1_1_preselector_class_1_1_either_sign_electron_preselector.html" title="LHPC::LHEF::PreselectorClass\l::EitherSignElectronPreselector" alt="" coords="224,5,395,41"/>
+<area shape="rect" id="node3" href="$d1/d5a/class_l_h_p_c_1_1_l_h_e_f_1_1_preselector_class_1_1_either_sign_muon_preselector.html" title="LHPC::LHEF::PreselectorClass\l::EitherSignMuonPreselector" alt="" coords="224,65,395,101"/>
+<area shape="rect" id="node4" href="$df/d55/class_l_h_p_c_1_1_l_h_e_f_1_1_preselector_class_1_1_jet_preselector.html" title="LHPC::LHEF::PreselectorClass\l::JetPreselector" alt="" coords="224,125,395,161"/>
+<area shape="rect" id="node5" href="$d1/d82/class_l_h_p_c_1_1_l_h_e_f_1_1_preselector_class_1_1_light_lepton_preselector.html" title="LHPC::LHEF::PreselectorClass\l::LightLeptonPreselector" alt="" coords="224,185,395,221"/>
+</map>

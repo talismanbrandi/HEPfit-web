@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>BSM Physics - HEPfit Collaboration</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+                           extensions: ["tex2jax.js", "TeX/AMSmath.js", "TeX/AMSsymbols.js"],
+                           jax: ["input/TeX","output/HTML-CSS"],
+                           tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+                           messageStyle: "none"
+                           });
+    </script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script>
+        // Wait for window load
+        $(window).load(function() {
+            $(".se-pre-con").fadeOut("slow");
+        });
+    </script>
+</head>
+<body>
+
+<div class="se-pre-con"></div>
+    <div id="header">
+        <div class="section">
+            <div class="logo">
+                <a href="index.html"></a>
+            </div>
+            <ul>
+                <li>
+                    <a href="index.html">home</a>
+                </li>
+                <li>
+                    <a href="developers.html">developers</a>
+                </li>
+                <li>
+                    <a href="physics.html">physics</a>
+                </li>
+                <li>
+                    <a href="http://hepfit.roma1.infn.it/doc/v1.0-RC1/">documentation</a>
+                </li>
+            </ul>
+        </div>
+	</div>
+	<div id="body">
+		<h3>BSM Physics</h3>
+		<b>THDM</b>
+		<p>
+        The Two-Higgs-Doublet model (THDM) is one of the simplest extensions of the Standard Model: no fundamental theorem forbids to add a second scalar doublet to the Standard Model particle zoo. The THDM can offer a solution to problems like the stability of the scalar potential or electroweak baryogenesis, which cannot be solved in the Standard Model. Furthermore, it could be an effective description of more complicated models; especially supersymmetric models should be mentioned here, which necessarily contain two Higgs doublets.
+        </p>
+        <p>
+        There are several THDM variants with different phenomenological implications. At the moment $\texttt{HEPfit}$ contains the versions which exclude flavour-changing neutral currents at tree-level as well as CP violation in the Higgs sector. In order to fulfil the first demand, an additional softly broken $Z_2$ symmetry is assumed, which can be chosen in four different ways; thus these versions are called type I, type II, type X and type Y. (The THDM of type II contains the scalar Higgs part of supersymmetric models.) The four types only differ in the couplings of the Higgs fields to fermions.
+        </p>
+        <p>
+        The THDM contains five physical states, two of which are neutral and even under CP transformations, one is neutral and CP-odd, and the remaining two carry the electric charge $\pm$1 and are degenerate in mass. We assume that the 125 GeV resonance measured at the LHC is the lighter CP-even Higgs $h$, while the other particles are labelled $H$, $A$, $H^+$ and $H^-$, respectively.
+        The above-mentioned THDM types contain eight independent parameters in the Higgs potential:
+		</p>
+        <p>
+        <ul class="m">
+            <li> the vacuum expectation value $v$, </li>
+            <li> the lighter CP-even Higgs mass $m_h$, </li>
+            <li> the heavier CP-even Higgs mass $m_H$, </li>
+            <li> the CP-odd Higgs mass $m_A$, </li>
+            <li> the charged Higgs mass $m_{H^+}$, </li>
+            <li> the mixing angle $\alpha$, </li>
+            <li> the mixing angle $\beta$ and </li>
+            <li> the soft $Z_2$ breaking parameter $m_{12}^2$. </li>
+        </ul>
+        </p>
+        In $\texttt{HEPfit}$, we offer the possibility to apply various constraints on these parameters. In particular, these include:
+        </p>
+        <ul class="m">
+            <li> theoretical constraints on the potential, </li>
+            <li> the observation of quark flavour changing processes, </li>
+            <li> precision measurements at the $Z$-pole, </li>
+            <li> the characteristics of the 125 GeV Higgs and </li>
+            <li> the search for other Higgs particles. </li>
+        </ul>
+        </p>
+
+
+        <div id="body">
+                <div class="content" style="width: 900px">
+                    <b>References:</b>
+                    <ol type="1" class="p">
+                        <li>
+                            <p>G. Durieux, A. Irles, V. Miralles, A. Peñuelas, R. Pöschl, M. Perelló and M. Vos<br>
+                                <i>The electro-weak couplings of the top and bottom quarks - global fit and future prospects</i><br>
+                                <a href="https://inspirehep.net/record/1746315" target="_blank">arXiv:1907.10619 [hep-ph]</a></p>
+                        </li>
+                        <li>
+                            <p>P. Arnan, A. Crivellin, M. Fedele and F. Mescia<br>
+                                <i>Generic loop effects of new scalars and fermions in $b\to s\ell^+\ell^-$ and a vector-like $4^{\rm th}$ generation</i><br>
+                                <a href="https://www.doi.org/10.1007/JHEP06(2019)118" target="_blank">JHEP <b>1906</b>  (2019) 118</a><br>
+                                <a href="https://inspirehep.net/record/1729598" target="_blank">arXiv:1904.05890 [hep-ph]</a></p>
+                        </li>
+                        <li>
+                            <p>M. Ciuchini, A. M. Coutinho, M. Fedele, E. Franco, A. Paul, L. Silvestrini and M. Valli<br>
+                                <i>New Physics in $b \to s \ell^+ \ell^-$ confronts new data on Lepton Universality</i><br>
+                                <a href="https://www.doi.org/10.1140/epjc/s10052-019-7210-9" target="_blank">Eur. Phys. J. C <b>79</b> (2019) no.8,  719</a><br>
+                                <a href="https://inspirehep.net/record/1726374" target="_blank">arXiv:1903.09632 [hep-ph]</a></p>
+                        </li>
+                        <li>
+                            <p>O. Eberhardt<br>
+                                <i>Current status of Two-Higgs-Doublet models with a softly broken $\mathbb{Z}_2$ symmetry</i><br>
+                                <a href="https://www.doi.org/10.22323/1.340.0457" target="_blank">PoS ICHEP <b>2018</b> (2019) 457</a><br>
+                                <a href="https://inspirehep.net/record/1693777" target="_blank">arXiv:1809.04851 [hep-ph]</a></p>
+                        </li>
+                        <li>
+                            <p>L. Cheng, O. Eberhardt and C. W. Murphy<br>
+                                <i>Novel theoretical constraints for color-octet scalar models</i><br>
+                                <a href="https://www.doi.org/10.1088/1674-1137/43/9/093101" target="_blank">Chin. Phys. C <b>43</b> (2019) no.9,  093101</a><br>
+                                <a href="https://inspirehep.net/record/1688700" target="_blank">arXiv:1808.05824 [hep-ph]</a></p>
+                        </li>
+                        <li>
+                            <p>C. W. Chiang, G. Cottin and O. Eberhardt<br>
+                                <i>Global fits in the Georgi-Machacek model</i><br>
+                                <a href="https://www.doi.org/10.1103/PhysRevD.99.015001" target="_blank">Phys. Rev. D <b>99</b> (2019) no.1,  015001</a><br>
+                                <a href="https://inspirehep.net/record/1684222" target="_blank">arXiv:1807.10660 [hep-ph]</a></p>
+                        </li>
+                        <li>
+                            <p>D. Chowdhury and O. Eberhardt<br>
+                                <i>Update of Global Two-Higgs-Doublet Model Fits</i><br>
+                                <a href="https://www.doi.org/10.1007/JHEP05(2018)161" target="_blank">JHEP <b>1805</b> (2018) 161</a><br>
+                                <a href="https://inspirehep.net/record/1634832" target="_blank">arXiv:1711.02095 [hep-ph]</a></p>
+                        </li>
+                        <li>
+                            <p>S. Gori, C. Grojean, A. Juste and A. Paul<br>
+                                <i>Heavy Higgs Searches: Flavour Matters</i><br>
+                                <a href="https://www.doi.org/10.1007/JHEP01(2018)108" target="_blank">JHEP <b>1801</b> (2018) 108</a><br>
+                                <a href="https://inspirehep.net/record/1629956" target="_blank">arXiv:1710.03752 [hep-ph]</a></p>
+                        </li>
+                        <li>
+                            <p>O. Eberhardt<br>
+                                <i>Two-Higgs-doublet model fits with HEPfit</i><br>
+                                <a href="https://inspirehep.net/record/1626106" target="_blank">arXiv:1709.09414 [hep-ph]</a></p>
+                        </li>
+                        <li>
+                            <p> V. Cacchio, D. Chowdhury, O. Eberhardt and C. W. Murphy<br>
+                                <i>Next-to-leading order unitarity fits in Two-Higgs-Doublet models with soft $\mathbb{Z}_2$ breaking</i><br>
+                                <a href="https://www.doi.org/10.1007/JHEP11(2016)026" target="_blank">JHEP <b>1611</b> (2016) 026</a><br>
+                                <a href="https://inspirehep.net/record/1485350" target="_blank">arXiv:1609.01290 [hep-ph]</a></p>
+                        </li>
+                        <li>
+                            <p>D. Ghosh, M. Salvarezza and F. Senia<br>
+                                <i>Extending the Analysis of Electroweak Precision Constraints in Composite Higgs Models</i><br>
+                                <a href="https://www.doi.org/10.1016/j.nuclphysb.2016.11.013" target="_blank">Nucl.  Phys.  B <b>914</b> (2017) 346</a><br>
+                                <a href="https://inspirehep.net/record/1406933" target="_blank">arXiv:1511.08235 [hep-ph]</a></p>
+                        </li>
+                    </ol>
+                </div>
+        </div>
+	</div>
+    <div id="footer">
+        <div>
+            <div class="connect">
+                <a href="https://twitter.com/HEPfit" id="twitter" target="blank">twitter</a>
+                <a href="https://www.facebook.com/HEPfit" id="facebook" target="blank">facebook</a>
+                <a href="https://plus.google.com/u/0/105323561942242310742" id="googleplus" target="blank">googleplus</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

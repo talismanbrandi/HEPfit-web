@@ -1,0 +1,25 @@
+var class_heff_d_s1 =
+[
+    [ "HeffDS1", "d6/db5/class_heff_d_s1.html#a7fd3c4d6ac5af5b76fabcce1106ee5e8", null ],
+    [ "~HeffDS1", "d6/db5/class_heff_d_s1.html#a06feb69217f9c01318cdcbdb20af01bc", null ],
+    [ "CharmMatch", "d6/db5/class_heff_d_s1.html#af06acbfd69d3b10ae2854de6a0231bd7", null ],
+    [ "ComputeCoeffDS1mumu", "d6/db5/class_heff_d_s1.html#a8385850b144f0851616a0d3dd31de0d3", null ],
+    [ "ComputeCoeffDS1pnunu", "d6/db5/class_heff_d_s1.html#a392e2ef67f826efbb39cbe194a2ff030", null ],
+    [ "ComputeCoeffDS1PP", "d6/db5/class_heff_d_s1.html#a92be279d8ce379e51c72c7cef11a0c85", null ],
+    [ "getCoeffDS1cc", "d6/db5/class_heff_d_s1.html#afa6bbadf639fe11177cdf6255f4fa0ee", null ],
+    [ "getCoeffDS1mumu", "d6/db5/class_heff_d_s1.html#ac49a7450fbeb69c4257fda99a469d37d", null ],
+    [ "getCoeffDS1pnunu", "d6/db5/class_heff_d_s1.html#a0fa2794bea7e0c3bf6aaae41e378f236", null ],
+    [ "getCoeffDS1PP", "d6/db5/class_heff_d_s1.html#ae70a4d6194d64d205f08c58707e0dd23", null ],
+    [ "GetModel", "d6/db5/class_heff_d_s1.html#ac365db5e288ea18327a69598464aa538", null ],
+    [ "getUDF1B", "d6/db5/class_heff_d_s1.html#a728013165d3353b0530c22f240ed5773", null ],
+    [ "getUDF1M", "d6/db5/class_heff_d_s1.html#accc34c7cb0a696eff1bda3d88a34556c", null ],
+    [ "coeffds1", "d6/db5/class_heff_d_s1.html#a9fad6b2127dc287e36d0a34dde5f296f", null ],
+    [ "coeffds1cc", "d6/db5/class_heff_d_s1.html#a473d80b726d8786a21aef984602265a3", null ],
+    [ "coeffds1mumu", "d6/db5/class_heff_d_s1.html#a9a638e4ef9970e8af7c35851b086ec1f", null ],
+    [ "coeffds1pnunu", "d6/db5/class_heff_d_s1.html#ac0c1fbc13b3fd390b7719ad1b93cadf3", null ],
+    [ "DS1cc", "d6/db5/class_heff_d_s1.html#aa679c41360fe02ddd835d84e5f34127c", null ],
+    [ "DS1cce", "d6/db5/class_heff_d_s1.html#a8cd5ea25866675a564fba58bbc25b8de", null ],
+    [ "model", "d6/db5/class_heff_d_s1.html#a41e47f1a717abe6eab9b5d6dbfb7e0b2", null ],
+    [ "u", "d6/db5/class_heff_d_s1.html#ae2430a0f02f9c84bb4652b7dcab45b16", null ],
+    [ "uM", "d6/db5/class_heff_d_s1.html#adfbcc82d451597f509010ceb1b63098e", null ]
+];

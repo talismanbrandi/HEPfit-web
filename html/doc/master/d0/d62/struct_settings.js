@@ -1,0 +1,25 @@
+var struct_settings =
+[
+    [ "Settings", "d0/d62/struct_settings.html#a647bdedca677afba1c29a2653d315ec0", null ],
+    [ "base_dir", "d0/d62/struct_settings.html#aa92848cb0ac2e764dc7f83c959e2ef5a", null ],
+    [ "boost_posterior", "d0/d62/struct_settings.html#a76ccd3375ee698020176b3dbd21974ce", null ],
+    [ "cluster_posteriors", "d0/d62/struct_settings.html#a02acd70274716182b8c7f40adef87fd8", null ],
+    [ "do_clustering", "d0/d62/struct_settings.html#aeec1ffa45a522202999fff9d4c59563e", null ],
+    [ "equals", "d0/d62/struct_settings.html#a5157b7184ac86ffed3cb1b4097571b58", null ],
+    [ "feedback", "d0/d62/struct_settings.html#ac32853c4d931bb579a14fa98f60cd31f", null ],
+    [ "file_root", "d0/d62/struct_settings.html#acbc8ac4a2085ddcc9d91ec1fe4cdd74e", null ],
+    [ "max_ndead", "d0/d62/struct_settings.html#a10a6c4ee124a1e300b2da8f124582931", null ],
+    [ "nDerived", "d0/d62/struct_settings.html#ad326ef45b548fb2ae9c52c5824f4f2b3", null ],
+    [ "nDims", "d0/d62/struct_settings.html#a2b8c12be793922bf5969afe51541027f", null ],
+    [ "nlive", "d0/d62/struct_settings.html#a5cdf92a6004cb5a04205f7460c2816c1", null ],
+    [ "num_repeats", "d0/d62/struct_settings.html#a54b1ce2a99c63d6b0f88729855e323a8", null ],
+    [ "posteriors", "d0/d62/struct_settings.html#aa78b3d3f45af137517dfa68f8ba5e9c3", null ],
+    [ "precision_criterion", "d0/d62/struct_settings.html#af2919ae3f5f9dee8c68a3b0a82deb92a", null ],
+    [ "read_resume", "d0/d62/struct_settings.html#ae9bcdbfca788eb5f68694a078cff0c04", null ],
+    [ "update_files", "d0/d62/struct_settings.html#aee1c07f974ff0f189a75df3ef7ecd4f8", null ],
+    [ "write_dead", "d0/d62/struct_settings.html#a0783661e72dbcdd6d99b1252c55643eb", null ],
+    [ "write_live", "d0/d62/struct_settings.html#a1e7664b72472856d238a9e6e87cf3039", null ],
+    [ "write_paramnames", "d0/d62/struct_settings.html#a10b30340f5f93cde9685d8b1eda7e36b", null ],
+    [ "write_resume", "d0/d62/struct_settings.html#ad7ce5788fa1fb6e0a75d98333dfa23b0", null ],
+    [ "write_stats", "d0/d62/struct_settings.html#a45931d2e76dca7af5d45f1722e0a4140", null ]
+];

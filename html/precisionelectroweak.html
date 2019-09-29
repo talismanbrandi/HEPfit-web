@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>BSM Physics - HEPfit Collaboration</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+                           extensions: ["tex2jax.js", "TeX/AMSmath.js", "TeX/AMSsymbols.js"],
+                           jax: ["input/TeX","output/HTML-CSS"],
+                           tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+                           });
+    </script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script>
+        // Wait for window load
+        $(window).load(function() {
+            $(".se-pre-con").fadeOut("slow");
+        });
+    </script>
+</head>
+<body>
+
+<div class="se-pre-con"></div>
+    <div id="header">
+        <div class="section">
+            <div class="logo">
+                <a href="index.html"></a>
+            </div>
+            <ul>
+                <li>
+                    <a href="index.html">home</a>
+                </li>
+                <li>
+                    <a href="developers.html">developers</a>
+                </li>
+                <li>
+                    <a href="physics.html">physics</a>
+                </li>
+                <li>
+                    <a href="http://hepfit.roma1.infn.it/doc/v1.0-RC1/">documentation</a>
+                </li>
+            </ul>
+        </div>
+	</div>
+	<div id="body">
+        <h3>Electroweak Precision Observables</h3>
+        <b></b>
+        <p>
+        The electroweak precision data (EWPD) measured at SLAC, LEP and Tevatron
+        provide a strong validation of the Standard Model (SM) description of the electroweak
+        interactions. With a precision in many cases of the order of one per mille, these
+        measurements have tested the SM to the level of radiative corrections, finding
+        good agreement between the data and the SM predictions. This sets strong
+        constraints on models with new physics modifying the electroweak sector. Moreover,
+        the recent discovery of the Higgs boson, with a mass consistent with the EWPD indirect
+        determination, implies that the global fit of the SM to EWPD is over constrained.
+        </p>
+        <p>
+        The standard set of electroweak precision observables has been implemented in the
+        $\texttt{HEPfit}$ code, including precision measurement at the $Z$-pole ($Z$ decay widths, left-right
+        and forward-backward asymmetries, the effective weak mixing angle), the $W$ mass and
+        width, the top and Higgs masses, the value of the strong coupling constant and the 5 flavor
+        contribution to the running of the electromagnetic constant ($\Delta \alpha^{(5)}_{had}$).
+        These can be used to test against the predictions of any model of interest. The following list
+        of models are implemented in the current version of $\texttt{HEPfit}$:
+        <ul class="m">
+            <li> The Standard Model of electroweak interactions.</li>
+            <li> The SM plus the new physics in the form of contributions to the oblique parameters $S$, $T$, $U$.</li>
+            <li> The SM plus new physics in the form of the so-called $\epsilon_{1,2,3,b}$ parameters.</li>
+            <li> The SM plus new physics modifying the bottom quark neutral current couplings.</li>
+            <li> The SM plus new physics modifying the couplings of the Higgs with the electroweak vector bosons.</li>
+            <li> The dimension six Standard Model Effective Lagrangian.</li>
+            <li> Two-Higgs-Doublet models.</li>
+        </ul>
+        </p>
+        <div id="body">
+            <div class="content" style="width: 900px">
+                <b>References:</b>
+                <ol type="1" class="p">
+                    <li>
+                        <p>G. Durieux, A. Irles, V. Miralles, A. Peñuelas, R. Pöschl, M. Perelló and M. Vos<br>
+                            <i>The electro-weak couplings of the top and bottom quarks - global fit and future prospects</i><br>
+                            <a href="https://inspirehep.net/record/1746315" target="_blank">arXiv:1907.10619 [hep-ph]</a></p>
+                    </li>
+                    <li>
+                        <p>J. De Blas, G. Durieux, C. Grojean, J. Gu and A. Paul<br>
+                            <i>On the future of Higgs, electroweak and diboson measurements at lepton colliders</i><br>
+                            <a href="https://inspirehep.net/record/1742980" target="_blank">arXiv:1907.04311 [hep-ph]</a></p>
+                    </li>
+                    <li>
+                        <p>J. de Blas, M. Ciuchini, E. Franco, S. Mishima, M. Pierini, L. Reina and L. Silvestrini<br>
+                            <i>The Global Electroweak and Higgs Fits in the LHC era</i><br>
+                            <a href="https://www.doi.org/10.22323/1.314.0467" target="_blank">PoS EPS <b>HEP2017</b> (2017) 467</a><br>
+                            <a href="https://inspirehep.net/record/1630895" target="_blank">arXiv:1710.05402 [hep-ph]</a></p>
+                    </li>
+                    <li>
+                        <p> M. Ciuchini, J. de Blas, E. Franco, D. Ghosh, S. Mishima, M. Pierini, L. Reina and L. Silvestrini<br>
+                            <i>Updates on fits to electroweak parameters</i><br>
+                            <a href="https://www.doi.org/10.22323/1.245.0013" target="_blank">PoS LeptonPhoton <b>2015</b> (2016) 013</a><br>
+                            <a href="https://inspirehep.net/record/1500809" target="_blank">inspire link</a></p>
+                    </li>
+                    <li>
+                        <p> J. de Blas, M. Ciuchini, E. Franco, S. Mishima, M. Pierini, L. Reina and L. Silvestrini<br>
+                            <i>Electroweak precision constraints at present and future colliders</i><br>
+                            <a href="https://www.doi.org/10.22323/1.282.0690" target="_blank">PoS ICHEP <b>2016</b> (2017) 690</a><br>
+                            <a href="https://inspirehep.net/record/1498316" target="_blank">arXiv:1611.05354 [hep-ph]</a></p>
+                    </li>
+                    <li>
+                        <p>J. de Blas, M. Ciuchini, E. Franco, S. Mishima, M. Pierini, L. Reina and L. Silvestrini<br>
+                            <i>Electroweak precision observables and Higgs-boson signal strengths in the Standard Model and beyond: present and future</i><br>
+                            <a href="https://www.doi.org/10.1007/JHEP04(2017)027" target="_blank">JHEP <b>1704</b> (2017) 027</a><br>
+                            <a href="https://inspirehep.net/record/1479949" target="_blank">arXiv:1608.02556 [hep-ph]</a></p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+	</div>
+    <div id="footer">
+        <div>
+            <div class="connect">
+                <a href="https://twitter.com/HEPfit" id="twitter" target="blank">twitter</a>
+                <a href="https://www.facebook.com/HEPfit" id="facebook" target="blank">facebook</a>
+                <a href="https://plus.google.com/u/0/105323561942242310742" id="googleplus" target="blank">googleplus</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<map id="ModelMatching" name="ModelMatching">
+<area shape="rect" id="node2" href="$d6/d2e/class_standard_model_matching.html" title="A class for the matching in the Standard Model. " alt="" coords="148,90,285,114"/>
+<area shape="rect" id="node3" href="$d2/d0a/class_flavour_wilson_coefficient_matching.html" title="A class for the matching in the FlavourWilsonCoefficient. " alt="" coords="344,5,484,41"/>
+<area shape="rect" id="node4" href="$d5/d1f/class_s_u_s_y_mass_insertion_matching.html" title="A class for the matching of SUSY MIA. " alt="" coords="333,66,495,90"/>
+<area shape="rect" id="node5" href="$d5/dac/class_s_u_s_y_matching.html" title="A class for the matching in the MSSM. " alt="" coords="367,114,461,138"/>
+<area shape="rect" id="node6" href="$dc/d38/class_t_h_d_m_matching.html" title="A class for the Wilson coefficients in the THDM. " alt="" coords="366,162,462,186"/>
+</map>

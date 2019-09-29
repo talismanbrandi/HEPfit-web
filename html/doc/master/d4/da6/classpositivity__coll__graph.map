@@ -1,0 +1,11 @@
+<map id="positivity" name="positivity">
+<area shape="rect" id="node2" href="$dc/d1f/class_th_observable.html" title="A class for a model prediction of an observable. " alt="" coords="461,173,550,197"/>
+<area shape="rect" id="node6" href="$d2/ded/classlambda1.html" title="An observable class for the quartic Higgs potential coupling . " alt="" coords="407,247,470,271"/>
+<area shape="rect" id="node9" href="$db/d8b/classlambda2.html" title="An observable class for the quartic Higgs potential coupling . " alt="" coords="365,511,427,535"/>
+<area shape="rect" id="node3" href="$dc/dd5/class_standard_model.html" title="A model class for the Standard Model. " alt="" coords="41,89,135,113"/>
+<area shape="rect" id="node7" href="$d0/d52/class_t_h_d_m.html" title="A base class for &#160;symmetric Two&#45;Higgs&#45;Doublet models. " alt="" coords="219,427,272,451"/>
+<area shape="rect" id="node4" href="$dd/dfa/class_q_c_d.html" title="A class for parameters related to QCD, hadrons and quarks. " alt="" coords="5,5,51,29"/>
+<area shape="rect" id="node5" href="$db/d32/class_e_w_s_m_two_fermions_l_e_p2.html" title="A class for the form factors , &#160;and &#160;in the processes &#160;at LEP&#45;II. " alt="" coords="75,5,221,29"/>
+<area shape="rect" id="node8" href="$d5/df2/class_t_h_d_mcache.html" title="A class for the caching of some THDM objects. " alt="" coords="377,337,458,361"/>
+<area shape="rect" id="node10" href="$d5/d76/class_matching.html" title="Matching\&lt; THDMMatching,\l THDM \&gt;" alt="" coords="200,331,352,367"/>
+</map>

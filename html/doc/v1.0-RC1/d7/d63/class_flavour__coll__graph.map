@@ -1,0 +1,11 @@
+<map id="Flavour" name="Flavour">
+<area shape="rect" id="node4" href="$dc/dd5/class_standard_model.html" title="A model class for the Standard Model. " alt="" coords="175,229,270,253"/>
+<area shape="rect" id="node2" href="$dc/da2/class_heff_d_f2.html" title="A class for the &#160;effective Hamiltonian. " alt="" coords="656,229,717,253"/>
+<area shape="rect" id="node3" href="$d6/d86/class_evol_d_f2.html" title="EvolDF2" alt="" coords="457,159,519,183"/>
+<area shape="rect" id="node7" href="$dc/dce/class_m_pll.html" title="A class for the &#160;decay. " alt="" coords="467,88,509,112"/>
+<area shape="rect" id="node9" href="$d5/d81/class_m_vll.html" title="A class for the &#160;decay. " alt="" coords="467,371,509,395"/>
+<area shape="rect" id="node10" href="$dd/d87/class_heff_d_b1.html" title="HeffDB1" alt="" coords="457,471,519,495"/>
+<area shape="rect" id="node5" href="$d7/d10/classgslpp_1_1matrix_3_01double_01_4.html" title="A class for constructing and defining operations on real matrices. " alt="" coords="421,519,555,543"/>
+<area shape="rect" id="node6" href="$d2/d95/class_wilson_coefficient.html" title="A class for the Wilson coefficients. " alt="" coords="171,689,275,713"/>
+<area shape="rect" id="node8" href="$dd/d59/classgslpp_1_1vector.html" title="gslpp::vector\&lt; gslpp\l::complex \&gt;" alt="" coords="164,318,281,354"/>
+</map>

@@ -1,0 +1,24 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d0/de3/class_model.html" title="A class for the template of models. " alt="" coords="5,293,56,317"/>
+<area shape="rect" id="node2" href="$dd/dfa/class_q_c_d.html" title="A class for parameters related to QCD, hadrons and quarks. " alt="" coords="104,293,149,317"/>
+<area shape="rect" id="node3" href="$dc/dd5/class_standard_model.html" title="A model class for the Standard Model. " alt="" coords="197,293,292,317"/>
+<area shape="rect" id="node4" href="$d6/d75/class_flavour_wilson_coefficient.html" title="Model for NP contributions to flavour. " alt="" coords="340,173,480,197"/>
+<area shape="rect" id="node5" href="$dc/d20/classmy_model.html" title="My own Model. " alt="" coords="377,221,443,245"/>
+<area shape="rect" id="node6" href="$d2/df3/class_n_pbase.html" title="The auxiliary base model class for other model classes. " alt="" coords="380,269,440,293"/>
+<area shape="rect" id="node19" href="$dc/d6f/class_s_u_s_y.html" title="A base class for SUSY models. " alt="" coords="385,317,435,341"/>
+<area shape="rect" id="node21" href="$d9/d3b/class_s_u_s_y_mass_insertion.html" title="SUSYMassInsertion" alt="" coords="351,365,469,389"/>
+<area shape="rect" id="node22" href="$d0/d52/class_t_h_d_m.html" title="A base class &#160;symmetric Two&#45;Higgs&#45;Doublet models. " alt="" coords="383,413,437,437"/>
+<area shape="rect" id="node7" href="$d6/dfa/class_higgs_kvgen_kf.html" title="A model class extending the StandardModel Higgs sector with four couplings. " alt="" coords="543,5,633,29"/>
+<area shape="rect" id="node8" href="$d4/dc1/class_higgs_kv_kf.html" title="A model class extending the StandardModel Higgs sector with three universal couplings. " alt="" coords="552,53,624,77"/>
+<area shape="rect" id="node9" href="$d2/d27/class_higgs_kv_kfgen.html" title="A model class extending the StandardModel Higgs sector with five flavour&#45;universal couplings..." alt="" coords="543,101,633,125"/>
+<area shape="rect" id="node10" href="$db/d75/class_n_p_effective_b_s.html" title="A model class for new physics in the form the dimension&#45;six effective Lagrangian in the basis of Barb..." alt="" coords="542,149,634,173"/>
+<area shape="rect" id="node11" href="$de/d04/class_n_p_effective_g_i_m_r.html" title="A model class for new physics in the form of the dimension&#45;six effective Lagrangian. " alt="" coords="535,197,641,221"/>
+<area shape="rect" id="node12" href="$d1/d57/class_n_p_epsilons.html" title="A model class for new physics in the form of contributions to the &#160;parameters. " alt="" coords="549,245,627,269"/>
+<area shape="rect" id="node13" href="$d0/dc8/class_n_p_epsilons__pure_n_p.html" title="A model class for new physics in the form of contributions to the &#160;parameters. " alt="" coords="529,293,647,317"/>
+<area shape="rect" id="node14" href="$db/db3/class_n_p_higgs.html" title="A model class for new physics in the form of an electroweak chiral Lagrangian with a light Higgs&#45;like..." alt="" coords="556,341,620,365"/>
+<area shape="rect" id="node15" href="$d9/dad/class_n_p_s_t_u.html" title="A model class for new physics in the form of contributions to the oblique parameters &#160;and ..." alt="" coords="559,389,617,413"/>
+<area shape="rect" id="node17" href="$dc/def/class_n_p_zbbbar.html" title="A model class for new physics in the form of contributions to the &#160;couplings. " alt="" coords="553,437,623,461"/>
+<area shape="rect" id="node18" href="$d4/d22/class_n_p_zbbbar_linearized.html" title="A model class for new physics in the form of contributions to the &#160;couplings. " alt="" coords="528,485,648,509"/>
+<area shape="rect" id="node16" href="$d4/dac/class_n_p_s_t_u_zbbbar_l_r.html" title="A model class for new physics in the form of oblique and &#45;vertex corrections. " alt="" coords="696,389,801,413"/>
+<area shape="rect" id="node20" href="$d5/dfb/class_general_s_u_s_y.html" title="A class for the general MSSM. " alt="" coords="543,533,633,557"/>
+</map>

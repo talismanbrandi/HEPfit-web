@@ -1,0 +1,10 @@
+<map id="Model" name="Model">
+<area shape="rect" id="node2" href="$dd/dfa/class_q_c_d.html" title="A class for parameters related to QCD, hadrons and quarks. " alt="" coords="104,125,149,149"/>
+<area shape="rect" id="node3" href="$dc/dd5/class_standard_model.html" title="A model class for the Standard Model. " alt="" coords="197,125,292,149"/>
+<area shape="rect" id="node4" href="$d1/d6a/class_c_m_f_v.html" title="CMFV" alt="" coords="386,5,438,29"/>
+<area shape="rect" id="node5" href="$d4/d27/class_e_w_s_m___output.html" title="A class for testing SM radiative corrections to the EW precision obsrvables. " alt="" coords="365,53,459,77"/>
+<area shape="rect" id="node6" href="$d6/d75/class_flavour_wilson_coefficient.html" title="Model for NP contributions to flavour. " alt="" coords="342,101,482,125"/>
+<area shape="rect" id="node7" href="$d6/da6/class_left_right_symmetric_model.html" title="A base class for generic Left Right Symmetric Models. " alt="" coords="340,149,484,173"/>
+<area shape="rect" id="node8" href="$d5/d69/class_loop_mediators.html" title="Model for NP contributions to flavour. " alt="" coords="366,197,458,221"/>
+<area shape="rect" id="node9" href="$d2/df3/class_n_pbase.html" title="The auxiliary base model class for other model classes. " alt="" coords="382,245,442,269"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="positivity" name="positivity">
+<area shape="rect" id="node2" href="$dc/d1f/class_th_observable.html" title="A class for a model prediction of an observable. " alt="" coords="125,163,215,187"/>
+<area shape="rect" id="node6" href="$d2/ded/classlambda1.html" title="An observable class for the quartic Higgs potential coupling . " alt="" coords="257,247,320,271"/>
+<area shape="rect" id="node10" href="$db/d8b/classlambda2.html" title="An observable class for the quartic Higgs potential coupling . " alt="" coords="168,247,231,271"/>
+<area shape="rect" id="node3" href="$dc/dd5/class_standard_model.html" title="A model class for the Standard Model. " alt="" coords="107,79,201,103"/>
+<area shape="rect" id="node5" href="$dc/df3/class_e_w_s_mcache.html" title="A class for cache variables used in computing radiative corrections to the EW precision observables..." alt="" coords="5,163,89,187"/>
+<area shape="rect" id="node7" href="$d0/d52/class_t_h_d_m.html" title="A base class &#160;symmetric Two&#45;Higgs&#45;Doublet models. " alt="" coords="317,163,370,187"/>
+<area shape="rect" id="node4" href="$dd/dfa/class_q_c_d.html" title="A class for parameters related to QCD, hadrons and quarks. " alt="" coords="131,5,177,29"/>
+<area shape="rect" id="node9" href="$dc/d38/class_t_h_d_m_matching.html" title="A class for the Wilson coefficients in the THDM. " alt="" coords="451,247,547,271"/>
+<area shape="rect" id="node8" href="$d5/df2/class_t_h_d_mcache.html" title="A class for the caching of some THDM objects. " alt="" coords="303,79,384,103"/>
+</map>

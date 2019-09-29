@@ -1,0 +1,11 @@
+<map id="LEP2AFBcharm" name="LEP2AFBcharm">
+<area shape="rect" id="node2" href="$db/de5/class_l_e_p2_th_observable.html" title="A class for the LEP&#45;II observables. " alt="" coords="727,33,842,57"/>
+<area shape="rect" id="node3" href="$dc/d1f/class_th_observable.html" title="A class for a model prediction of an observable. " alt="" coords="520,5,609,29"/>
+<area shape="rect" id="node4" href="$dc/dd5/class_standard_model.html" title="A model class for the Standard Model. " alt="" coords="288,117,383,141"/>
+<area shape="rect" id="node7" href="$dc/df3/class_e_w_s_mcache.html" title="A class for cache variables used in computing radiative corrections to the EW precision observables..." alt="" coords="523,161,607,185"/>
+<area shape="rect" id="node5" href="$dd/dfa/class_q_c_d.html" title="A class for parameters related to QCD, hadrons and quarks. " alt="" coords="79,63,125,87"/>
+<area shape="rect" id="node6" href="$db/d32/class_e_w_s_m_two_fermions_l_e_p2.html" title="A class for the form factors , &#160;and &#160;in the processes &#160;at LEP&#45;II. " alt="" coords="712,124,857,148"/>
+<area shape="rect" id="node8" href="$d5/d76/class_matching.html" title="Matching\&lt; StandardModelMatching,\l StandardModel \&gt;" alt="" coords="5,111,199,147"/>
+<area shape="rect" id="node9" href="$d9/db9/class_c_k_m.html" title="A class for the CKM matrix elements. " alt="" coords="79,172,125,196"/>
+<area shape="rect" id="node10" href="$dd/d89/class_l_e_p2test.html" title="A test class for the LEP&#45;II observables. " alt="" coords="532,53,597,77"/>
+</map>

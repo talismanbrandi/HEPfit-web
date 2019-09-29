@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>BSM Physics - HEPfit Collaboration</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+                           extensions: ["tex2jax.js", "TeX/AMSmath.js", "TeX/AMSsymbols.js"],
+                           jax: ["input/TeX","output/HTML-CSS"],
+                           tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+                           messageStyle: "none"
+                           });
+    </script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script>
+        // Wait for window load
+        $(window).load(function() {
+            $(".se-pre-con").fadeOut("slow");
+        });
+    </script>
+</head>
+<body>
+
+<div class="se-pre-con"></div>
+    <div id="header">
+        <div class="section">
+            <div class="logo">
+                <a href="index.html"></a>
+            </div>
+            <ul>
+                <li>
+                    <a href="index.html">home</a>
+                </li>
+                <li>
+                    <a href="developers.html">developers</a>
+                </li>
+                <li>
+                    <a href="physics.html">physics</a>
+                </li>
+                <li>
+                    <a href="http://hepfit.roma1.infn.it/doc/v1.0-RC1/">documentation</a>
+                </li>
+            </ul>
+        </div>
+	</div>
+	<div id="body">
+        <h3>Higgs Physics</h3>
+        <b></b>
+        <p>
+        Higgs observables are also included wihtin the list of physical
+        observables currently available in the $\texttt{HEPfit}$ code. These
+        include the experimental measurements for the Higgs signal strengths measured
+        by the ATLAS and CMS collaborations at the LHC at 7 and 8 TeV, as well
+        as from CDF and D0 at Tevatron. All the individual experimental categories
+        are available for the following final states:
+        <ul class="m">
+            <li> $H\rightarrow \gamma\gamma$</li>
+            <li> $H\rightarrow Z Z$</li>
+            <li> $H\rightarrow W^+ W^-$</li>
+            <li> $H\rightarrow \tau^+ \tau^-$</li>
+            <li> $H\rightarrow b \bar{b}$</li>
+        </ul>
+        </p>
+        <p>
+        The theoretical predictions for these signal strengths can be computed as
+        
+        \begin{equation}
+        \mu = \sum_i w_i r_i,\nonumber
+        \end{equation}
+        
+        where the sum runs over all the production mechanism that can contribute to each category.
+        The weights and individual signal strength for each channel are given by
+        
+        \begin{equation}
+        w_i=\frac{\epsilon_i \left[\sigma_\mathrm{SM}\times\mathrm{BR}_\mathrm{SM}\right]_i}{\sum_j \epsilon_j^\mathrm{SM} \left[\sigma_\mathrm{SM}\times\mathrm{BR}_\mathrm{SM}\right]_j},
+        ~~~~r_i=\frac{\left[\sigma\times\mathrm{BR}\right]_i}{\left[\sigma_\mathrm{SM}\times\mathrm{BR}_\mathrm{SM}\right]_i}.\nonumber
+        \end{equation}
+        
+        The experimental efficiencies, $\epsilon_i$, are taken to be approximately equal to the
+        Standard Model ones, which is a good approximation if new physics effects are small.
+        </p>
+        <p>
+        In the current version of $\texttt{HEPfit}$ the theoretical predictions for Higgs
+        observables are implemented for the following new physics scenarios:
+        <ul class="m">
+            <li> The Standard Model with modified Higgs couplings ($\kappa_{V}$, $\kappa_f$).</li>
+            <li> The dimension six Standard Model Effective Lagrangian.</li>
+            <li> Two-Higgs-Doublet models.</li>
+        </ul>
+        </p>
+        <div id="body">
+                <div class="content" style="width: 900px">
+                    <b>References:</b>
+                    <ol type="1" class="p">
+                        <li>
+                            <p>J. De Blas, G. Durieux, C. Grojean, J. Gu and A. Paul<br>
+                                <i>On the future of Higgs, electroweak and diboson measurements at lepton colliders</i><br>
+                                <a href="https://inspirehep.net/record/1742980" target="_blank">arXiv:1907.04311 [hep-ph]</a></p>
+                        </li>
+                        <li>
+                            <p>J. de Blas <i>et. al.</i><br>
+                                <i>Higgs Boson Studies at Future Particle Colliders</i><br>
+                                <a href="https://inspirehep.net/record/1733996" target="_blank">arXiv:1905.03764 [hep-ph]</a></p>
+                        </li>
+                        <li>
+                            <p>J. de Blas, O. Eberhardt and C. Krause<br>
+                                <i>Current and Future Constraints on Higgs Couplings in the Nonlinear Effective Theory</i><br>
+                                <a href="https://www.doi.org/10.1007/JHEP07(2018)048" target="_blank">JHEP <b>1807</b> (2018) 048</a><br>
+                                <a href="https://inspirehep.net/record/1658469" target="_blank">arXiv:1803.00939 [hep-ph]</a></p>
+                        </li>
+                        <li>
+                            <p>J. de Blas, M. Ciuchini, E. Franco, S. Mishima, M. Pierini, L. Reina and L. Silvestrini<br>
+                                <i>The Global Electroweak and Higgs Fits in the LHC era</i><br>
+                                <a href="https://www.doi.org/10.22323/1.314.0467" target="_blank">PoS EPS <b>HEP2017</b> (2017) 467</a><br>
+                                <a href="https://inspirehep.net/record/1630895" target="_blank">arXiv:1710.05402 [hep-ph]</a></p>
+                        </li>
+                        <li>
+                            <p>J. de Blas, M. Ciuchini, E. Franco, S. Mishima, M. Pierini, L. Reina and L. Silvestrini<br>
+                                <i>Electroweak precision observables and Higgs-boson signal strengths in the Standard Model and beyond: present and future</i><br>
+                                <a href="https://www.doi.org/10.1007/JHEP04(2017)027" target="_blank">JHEP <b>1704</b> (2017) 027</a><br>
+                                <a href="https://inspirehep.net/record/1479949" target="_blank">arXiv:1608.02556 [hep-ph]</a></p>
+                        </li>
+                        <li>
+                            <p>L. Reina, J. de Blas, M. Ciuchini, E. Franco, D. Ghosh, S. Mishima, M. Pierini and L. Silvestrini<br>
+                                <i>Precision constraints on non-standard Higgs-boson couplings with HEPfit</i><br>
+                                <a href="https://www.doi.org/10.22323/1.234.0187" target="_blank">PoS EPS <b>HEP2015</b> (2015) 187</a><br>
+                                <a href="https://inspirehep.net/record/1430559" target="_blank">inspire link</a></p>
+                        </li>
+                    </ol>
+                </div>
+        </div>
+	</div>
+    <div id="footer">
+        <div>
+            <div class="connect">
+                <a href="https://twitter.com/HEPfit" id="twitter" target="blank">twitter</a>
+                <a href="https://www.facebook.com/HEPfit" id="facebook" target="blank">facebook</a>
+                <a href="https://plus.google.com/u/0/105323561942242310742" id="googleplus" target="blank">googleplus</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

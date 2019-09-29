@@ -1,0 +1,29 @@
+<map id="src" name="src">
+<area shape="rect" id="node1" href="dir_e0771760c57e2379c2b9ea45e6536d33.html" title="src" alt="" coords="190,49,262,97"/>
+<area shape="rect" id="node2" href="dir_c2aa2cb4e0c986d55db329a86184b083.html" title="StandardModel" alt="" coords="118,241,213,289"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000118_000004.html" title="9" alt="" coords="183,220,190,232"/>
+<area shape="rect" id="node3" href="dir_5db6616082cde53441490dccc55cf8fe.html" title="Observables" alt="" coords="48,433,129,481"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000118_000076.html" title="9" alt="" coords="68,407,74,419"/>
+<area shape="rect" id="node4" href="dir_0eda29277a6077c1c02542f56cc6373a.html" title="LeptonFlavour" alt="" coords="204,337,295,385"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000118_000062.html" title="1" alt="" coords="251,312,258,324"/>
+<area shape="rect" id="node5" href="dir_666c9667863ccc7af17064510cec8262.html" title="NewPhysics" alt="" coords="43,145,123,193"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000118_000073.html" title="1" alt="" coords="135,136,142,148"/>
+<area shape="rect" id="node6" href="dir_6db1c069948d59c49e3dd255dfa7d52e.html" title="LoopFunctions" alt="" coords="320,337,412,385"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000118_000020.html" title="2" alt="" coords="350,311,357,323"/>
+<area shape="rect" id="node7" href="dir_a41afcbfbf54af8aa656914f5423c760.html" title="gslpp" alt="" coords="172,529,244,577"/>
+<area shape="rect" id="edge10-headlabel" href="dir_000118_000050.html" title="8" alt="" coords="261,539,268,551"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000004_000076.html" title="2" alt="" coords="102,413,109,425"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000004_000062.html" title="1" alt="" coords="211,312,217,324"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000004_000020.html" title="8" alt="" coords="304,318,310,330"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000004_000050.html" title="16" alt="" coords="204,504,216,516"/>
+<area shape="rect" id="edge11-headlabel" href="dir_000076_000004.html" title="3" alt="" coords="145,298,152,310"/>
+<area shape="rect" id="edge12-headlabel" href="dir_000076_000050.html" title="3" alt="" coords="166,505,172,517"/>
+<area shape="rect" id="edge13-headlabel" href="dir_000062_000004.html" title="16" alt="" coords="195,303,207,315"/>
+<area shape="rect" id="edge14-headlabel" href="dir_000062_000076.html" title="4" alt="" coords="146,425,152,437"/>
+<area shape="rect" id="edge15-headlabel" href="dir_000062_000050.html" title="4" alt="" coords="222,507,229,519"/>
+<area shape="rect" id="edge16-headlabel" href="dir_000073_000004.html" title="9" alt="" coords="136,216,142,228"/>
+<area shape="rect" id="edge17-headlabel" href="dir_000073_000076.html" title="3" alt="" coords="93,409,99,421"/>
+<area shape="rect" id="edge18-headlabel" href="dir_000073_000050.html" title="8" alt="" coords="152,533,159,545"/>
+<area shape="rect" id="edge19-headlabel" href="dir_000020_000050.html" title="2" alt="" coords="243,515,249,527"/>
+<area shape="rect" id="clust1" href="dir_6e393f1cfc0ec71aa9e8f3d2e068aede.html" title="GeneralTHDM" alt="" coords="179,16,272,108"/>
+</map>

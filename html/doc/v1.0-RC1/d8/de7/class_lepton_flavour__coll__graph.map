@@ -1,0 +1,11 @@
+<map id="LeptonFlavour" name="LeptonFlavour">
+<area shape="rect" id="node5" href="$dc/dd5/class_standard_model.html" title="A model class for the Standard Model. " alt="" coords="141,101,236,125"/>
+<area shape="rect" id="node2" href="$db/d40/class_heffgminus2.html" title="A class for calculating all the Wilson coefficients for the process &#160;at one&#45;loop. ..." alt="" coords="459,221,540,245"/>
+<area shape="rect" id="node3" href="$d2/d95/class_wilson_coefficient.html" title="A class for the Wilson coefficients. " alt="" coords="769,101,873,125"/>
+<area shape="rect" id="node8" href="$de/d23/class_heff_d_li3j.html" title="A class for calculating all the Wilson coefficients for the process . " alt="" coords="676,221,741,245"/>
+<area shape="rect" id="node9" href="$d9/d13/class_heff_d_lij.html" title="A class for calculating all the Wilson coefficients for the process . " alt="" coords="816,221,876,245"/>
+<area shape="rect" id="node10" href="$de/da2/class_heffmueconv.html" title="A class for calculating all the Wilson coefficients for the process &#160;conversion in Nuclei..." alt="" coords="258,221,343,245"/>
+<area shape="rect" id="node4" href="$dd/d6f/class_wilson_template.html" title="WilsonTemplate\&lt; gslpp\l::vector\&lt; gslpp::complex \&gt; \&gt;" alt="" coords="743,5,899,41"/>
+<area shape="rect" id="node7" href="$dc/df3/class_e_w_s_mcache.html" title="A class for cache variables used in computing radiative corrections to the EW precision observables..." alt="" coords="5,221,89,245"/>
+<area shape="rect" id="node6" href="$dd/dfa/class_q_c_d.html" title="A class for parameters related to QCD, hadrons and quarks. " alt="" coords="127,11,173,35"/>
+</map>

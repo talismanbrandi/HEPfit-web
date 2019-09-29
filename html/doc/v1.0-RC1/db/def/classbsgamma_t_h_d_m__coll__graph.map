@@ -1,0 +1,11 @@
+<map id="bsgammaTHDM" name="bsgammaTHDM">
+<area shape="rect" id="node2" href="$dc/d1f/class_th_observable.html" title="A class for a model prediction of an observable. " alt="" coords="193,413,283,437"/>
+<area shape="rect" id="node3" href="$dc/dd5/class_standard_model.html" title="A model class for the Standard Model. " alt="" coords="69,329,164,353"/>
+<area shape="rect" id="node9" href="$d0/d52/class_t_h_d_m.html" title="A base class &#160;symmetric Two&#45;Higgs&#45;Doublet models. " alt="" coords="103,413,157,437"/>
+<area shape="rect" id="node4" href="$dd/dfa/class_q_c_d.html" title="A class for parameters related to QCD, hadrons and quarks. " alt="" coords="50,5,95,29"/>
+<area shape="rect" id="node5" href="$dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers. " alt="" coords="150,5,243,29"/>
+<area shape="rect" id="node6" href="$d5/df2/class_t_h_d_mcache.html" title="A class for the caching of some THDM objects. " alt="" coords="291,329,372,353"/>
+<area shape="rect" id="node7" href="$d4/d7b/class_p_vfunctions.html" title="A class for Passarino&#45;Veltman functions. " alt="" coords="359,5,437,29"/>
+<area shape="rect" id="node8" href="$d7/d10/classgslpp_1_1matrix_3_01double_01_4.html" title="A class for constructing and defining operations on real matrices. " alt="" coords="462,5,595,29"/>
+<area shape="rect" id="node10" href="$dc/d38/class_t_h_d_m_matching.html" title="A class for the Wilson coefficients in the THDM. " alt="" coords="21,497,117,521"/>
+</map>

@@ -1,0 +1,25 @@
+var classlight_higgs =
+[
+    [ "lightHiggs", "d7/d2f/classlight_higgs.html#a1c5709bb223faff69f3b039fc246a958", null ],
+    [ "~lightHiggs", "d7/d2f/classlight_higgs.html#a8174224e73da1b8ddb76c1a77df7c2a5", null ],
+    [ "computeSignalStrengthQuantities", "d7/d2f/classlight_higgs.html#ad50c47650bdcd6a47d9b8861fa521c65", null ],
+    [ "computeThValue", "d7/d2f/classlight_higgs.html#ad32e07fd6ac19c1df135091f8d4d1c78", null ],
+    [ "THDM_BR_h_bb", "d7/d2f/classlight_higgs.html#a5b2f6937dd445a311cca014c6cd46bb6", null ],
+    [ "THDM_BR_h_gaga", "d7/d2f/classlight_higgs.html#aa60c2163e65a0d3693fdf318578073a9", null ],
+    [ "THDM_BR_h_tautau", "d7/d2f/classlight_higgs.html#a09b3158bf13533c96ed443e45146616f", null ],
+    [ "BrSM_htobb", "d7/d2f/classlight_higgs.html#a4e6382c9de06edf730b723cb8a2f351c", null ],
+    [ "BrSM_htogaga", "d7/d2f/classlight_higgs.html#a41c29ff0b9864a9b557ab41b6d3f8d67", null ],
+    [ "BrSM_htotautau", "d7/d2f/classlight_higgs.html#a609aa6c6c2b30b910aaa5445223fc236", null ],
+    [ "ggF_tth", "d7/d2f/classlight_higgs.html#a384cf97711f194ffa6419359e782bd1b", null ],
+    [ "mySM", "d7/d2f/classlight_higgs.html#ad17aa0cb7e52c3bfb01d48a532cfa10b", null ],
+    [ "myTHDM", "d7/d2f/classlight_higgs.html#a4c9bff23e780cd8c8658f7a082398a1a", null ],
+    [ "rh_gaga", "d7/d2f/classlight_higgs.html#a2f2288c57398b1cda20ffeb5d72d2834", null ],
+    [ "rh_gg", "d7/d2f/classlight_higgs.html#af7752cc7067c2b0b5ac0e6fcd301d875", null ],
+    [ "rh_ll", "d7/d2f/classlight_higgs.html#ae3536e6fb229b90f42c2fcb14dd48fe5", null ],
+    [ "rh_QdQd", "d7/d2f/classlight_higgs.html#a277869864c296e948371a0fc3bcf18ce", null ],
+    [ "rh_QuQu", "d7/d2f/classlight_higgs.html#a24576e9bd3eb96cc80c613daa99dd288", null ],
+    [ "rh_VV", "d7/d2f/classlight_higgs.html#af39b665130661c90760380383eab456e", null ],
+    [ "rh_Zga", "d7/d2f/classlight_higgs.html#a893ef06f46d735c87979a2f05a6540dd", null ],
+    [ "sumModBRs", "d7/d2f/classlight_higgs.html#a6769aa56952d3a305c808cae48621dbb", null ],
+    [ "VBF_Vh", "d7/d2f/classlight_higgs.html#a240e5dbefb78228c4e303c84d6cfa113", null ]
+];
