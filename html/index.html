@@ -3,6 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#3b6f74">
+	<meta name="msapplication-TileColor" content="#3b6f74">
+	<meta name="theme-color" content="#3b6f74">
 	<title>HEPfit Collaboration</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
     <script type="text/x-mathjax-config">
@@ -12,7 +18,7 @@
                            tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
                            messageStyle: "none"
                            });
-    </script><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_CHTML"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 
@@ -29,26 +35,34 @@
 
 	<div id="header">
 		<div class="section">
-			<div class="logo">
-				<a href="index.html"></a>
-			</div>
-			<ul class="p">
-				<li class="selected">
-					<a href="index.html">home</a>
-				</li>
-				<li>
-					<a href="developers.html">developers</a>
-				</li>
-				<li>
-					<a href="physics.html">physics</a>
-				</li>
-				<li>
-					<a href="https://www.desy.de/~apaul/release/html/index.html">documentation</a>
-				</li>
-			</ul>
+			<table style="width: 1000px;">
+				<tr>
+					<td>
+						<div class="logo">
+						<a href="index.html"></a>
+						</div>
+					</td>
+					<td>
+						<ul class="p">
+						<li class="selected">
+							<a href="index.html">home</a>
+						</li>
+						<li>
+							<a href="developers.html">developers</a>
+						</li>
+						<li>
+							<a href="physics.html">physics</a>
+						</li>
+						<li>
+							<a href="doc/v1.0/index.html">documentation</a>
+						</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
 		</div>
 		<div class="article">
-			<h1>$\texttt{HEPfit}$: a Code for the Combination of Indirect and Direct Constraints on High Energy Physics Models.</h1>
+			<h1>$\texttt{HEPfit}$: a Code for the Combination of Indirect and Direct Constraints on High Energy Physics Models</h1>
 		</div>
 	</div>
 	<div id="body">
@@ -105,21 +119,23 @@
 				<div class="article">
 					<h2>downloads</h2>
 					<p>
-                    Current Version: <a href="http://hepfit.roma1.infn.it/HEPfit-1.0.tar.gz">$\texttt{HEPfit}$ v1.0</a>
+                    Current Version: <a href="HEPfit-1.0.tar.gz" >$\texttt{HEPfit v1.0}$</a>
                     </br>
-                    Developer Version: <a href="https://github.com/silvest/HEPfit"  target="_blank">$\texttt{HEPfit}$ @ GitHub</a>
+                    Developer Version: <a href="https://github.com/silvest/HEPfit"  target="_blank">$\texttt{HEPfit @ GitHub}$</a>
                     </br>
-                    Previous Versions: <a href="http://hepfit.roma1.infn.it/HEPfit-1.0-RC1.tar.gz">$\texttt{HEPfit}$ v1.0-RC1</a>
+                    Previous Versions: <a href="HEPfit-1.0-RC1.tar.gz">$\texttt{HEPfit v1.0-RC1}$</a>
                     </br>
-                    Dependencies: <a href="http://www.gnu.org/software/gsl/"  target="_blank">GSL</a>,
-                    <a href="https://root.cern.ch/"  target="_blank">ROOT</a>,
-                    <a href="http://www.boost.org/"  target="_blank">BOOST</a>,
-                    <a href="https://www.mppmu.mpg.de/bat/"  target="_blank">BAT</a>
+                    Dependencies: <a href="https://www.gnu.org/software/gsl/"  target="_blank">$\texttt{GSL}$</a>,
+                    <a href="https://root.cern.ch/"  target="_blank">$\texttt{ROOT}$</a>,
+                    <a href="https://www.boost.org/"  target="_blank">$\texttt{BOOST}$</a>,
+                    <a href="https://www.mppmu.mpg.de/bat/"  target="_blank">$\texttt{BAT}$</a>
                     </br>
+					Build System: <a href="https://cmake.org/"  target="_blank">$\texttt{CMake}$</a>,
                     </br>
-                    For installation please follow the instructions below or <a href="https://www.desy.de/~apaul/release/html/d6/d57/_page_installation.html">here</a>
+					</br>
+                    Installation Instructions: <a href="doc/v1.0/d6/d57/_page_installation.html">Online Documentation</a>
                     </br>
-                    Detailed documentation of the code along with examples can be found <a href="https://www.desy.de/~apaul/release/html/index.html">here</a>
+                    Documentation & Examples: <a href="doc/v1.0/index.html">Online Documentation</a>
 					</p>
 				</div>
                 <div class="article">
@@ -134,7 +150,7 @@
 						&#187; make install
                     </p>
 					<br>
-					<p>Example codes can be found in build/examples.</p>
+					<p>Example codes can be found in <a href="doc/v1.0/examples.html">build/examples.</a></p>
                 </div>
 			</div>
 		</div>
