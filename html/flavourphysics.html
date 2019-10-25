@@ -63,12 +63,38 @@
 	<div id="body">
         <h3>Flavour Dynamics</h3>
         <b>Flavour Changing Neutral Currents in the quark sector</b>
-        <p align="justify"> A series of global fits to all the experimental information at hand, employing an EFT approach both in the WET and the SMEFT framework~\cite{Ciuchini:2015qxb,Ciuchini:2017mik,Ciuchini:2019usw}. These global fits are extremely useful to the model builders community, since they describe the outcome of the low energy limit of the theory once the heavy NP degrees of freedom are integrated out: therefore, they are to be used as a guideline to select viable models to address the anomalies. It is worth to mention that, regarding non-factorizable hadronic correction, we employ a more conservative approach compared to the ones used by other groups. The anomaly in the angular distribution of the $B \to K^* \mu^+\mu^-$ decay induced these groups to always require NP effects in the muon channel; however, the byproduct of our approach is that interplay between hadronic contributions and NP in the electron channel can also be a viable option to explain all the data, i.e. addressing the angular observables discrepancies by means of the former and the LFUV ratios by means of the latter.
+        <p align="justify">
+            $\texttt{HEPfit}$ has been used to address the claimed "anomaly" in the angular distribution of the four body $B \to K^* \mu^+\mu^-$ decays. The perturbative short distance physics are calculable to $\mathcal{O}(1\%)$ precision.  Estimation of the form factors are available from QCD sum rules calculations or from Lattice QCD and are shrouded by $\mathcal{O}(10\%)$ errors. The non-factorizable corrections, over which not much theoretical handle can be exercised, bring forth the leading source of theoretical errors. We extract the non-factorizable hadronic contributions from available data and show the non-factorizable contribution necessary to resolve the anomaly is within reasonable theoretical expectations. In $\texttt{HEPfit}$ these are parameterized as:
+            \begin{align}
+            h_-(q^2) &= -\frac{m_b}{8\pi^2 m_B} \widetilde T_{L -}(q^2) h_-^{(0)} -\frac{\widetilde V_{L -}(q^2)}{16\pi^2 m_B^2} h_-^{(1)} q^2 + h_-^{(2)} q^4+{\cal O}(q^6)\,, \\
+            %
+            h_+(q^2) &=  -\frac{m_b}{8\pi^2 m_B} \widetilde T_{L +}(q^2) h_-^{(0)} -\frac{\widetilde V_{L +}(q^2)}{16\pi^2 m_B^2}  h_-^{(1)} q^2 + h_+^{(0)} + h_+^{(1)}q^2 + h_+^{(2)} q^4+{\cal O}(q^6)\,,\\
+            %
+            h_0(q^2) &= -\frac{m_b}{8\pi^2 m_B} \widetilde T_{L 0}(q^2) h_-^{(0)} -\frac{\widetilde V_{L 0}(q^2)}{16\pi^2 m_B^2}  h_-^{(1)} q^2 + h_0^{(0)}\sqrt{q^2} + h_0^{(1)}(q^2)^\frac{3}{2}  +{\cal O}((q^2)^\frac{5}{2})\,.
+            \end{align}
+            <br>
+            This choice allows us to write the helicity amplitudes $H_V^\lambda$ as
+
+            \begin{eqnarray}
+            H_V^{-} \propto \bigg\{\left(C_9^{\rm SM} + h_-^{(1)}\right)\widetilde V_{L -}
+            + \frac{m_B^2}{q^2} && \left[ \frac{2m_b}{m_B}\left(C_7^{\rm SM} + h_-^{(0)} \right) \widetilde T_{L -} - 16\pi^2 h_-^{(2)}\, q^4 \right]\bigg\}\,, \\
+            %
+            H_V^{+} \propto  \bigg\{\left(C_9^{\rm SM} + h_-^{(1)}\right)\widetilde V_{L +}
+            + \frac{m_B^2}{q^2} && \left[\frac{2m_b}{m_B}\left(C_7^{\rm SM} + h_-^{(0)} \right) \widetilde T_{L +} - 16\pi^2\left(h_{+}^{(0)} + h_{+}^{(1)}\, q^2 +  h_{+}^{(2)}\, q^4\right) \right]\bigg\}\,,\\
+            %
+            H_V^{0} \propto  \bigg\{\left(C_9^{\rm SM} + h_-^{(1)}\right) \widetilde{V}_{L0}
+            + \frac{m_B^2}{q^2} && \left[\frac{2m_b}{m_B} \left(C_7^{\rm SM} + h_-^{(0)} \right) \widetilde{T}_{L0} - 16\pi^2\sqrt{q^2}\left({h}_{0}^{(0)} + {h}_{0}^{(1)}\, q^2\right)\right]\bigg\}\,.
+            \end{eqnarray}
+            <br>
+            With this definition for  the $h_\lambda$-coefficients, it is manifest that $h_-^{(0)}$ and $h_-^{(1)}$ can be
+            considered as constant shifts to the Wilson coefficients $C_{7,9}^{\rm SM}$, hence indistinguishable
+            from NP contributions to $Q_{7\gamma,9V}$. Consequently, it is not possible to extract $h_-^{(0)}$ and
+            $h_-^{(1)}$ directly from data unless one assumes the absence of NP effects. On the other hand, it is also not possible to ascertain the presence of
+            NP without a theory input for these hadronic effects. The advantage of our parameterization becomes clear when any of the remaining $h_\lambda$-coefficients turns out to be non-vanishing, since they likely spot purely hadronic contributions.
+            <br>
+            Lepton universality testing ratios like $R_K$ and $R_{K^*}$ that have been recently measured by LHCb and Belle are strictly close to unity within the Standard Model and any significant deviation from this would herald the discovery of new dynamics. We addressed different scenarios of physics beyond the Standard Model in the language of effective field theories (EFT) that can resolve such anomalies both in the presence and absence of large hadronic contributions.
         </p><br><br>
         <b>Lepton Flavour Violation</b>
-        <p align="justify">
-        Neutrino oscillation experiments have unambiguously proved the fact that neutrinos have tiny non-zero mass and they mix among each other. The discovery of neutrino oscillations reveals that charged lepton flavour violating phenomena must occur. In the Standard Model, due to massless neutrinos lepton flavour violating decays like $\mu \to e \gamma$ are forbidden. Even if we go one step further and assume that there exist massive neutrinos in the Standard Model, the rates for lepton flavour violating processes are absurdly small (for example  ${\rm BR}(\mu \to e \gamma) \lesssim 10^{-54}$) owing to the GIM mechanism and the fact that neutrino masses are tiny compared to the weak scale. This is clearly undetectable from the experimental point of view. Thus any observable signal to this process will indisputably prove the existence of new physics. In many new physics models, new particles occur at the loop-level and contribute considerably to these lepton flavour violating processes.
-        </p>
         <p align="justify">
         The LFV module in $\texttt{HEPfit}$ calculates the decay rates for various lepton flavour violating observables in a given new physics model. The expression for various $\Delta F = 1$ and $\Delta F = 0$ processes are calculated in terms of the Wilson coefficients of the responsible operators. Therefore, given any new physics model, once the user provides the Wilson coefficients generated in the model, $\texttt{HEPfit}$ will calculate the decay rates for all the lepton flavour violating observables generated by those operators. This enables the user to include any new physics model to $\texttt{HEPfit}$ and analyze the lepton flavour violating processes efficiently. For example, the effective weak Hamiltonian for the $\ell_i \to \ell_j\, \gamma$ process is given by
         \begin{align}
@@ -88,7 +114,7 @@
         \Gamma (\ell_i \to \ell_j\, \gamma) &= \frac{e^2}{4\pi} m_{l_i}^5
         \bigg(|\mathcal{C}_{7}|^2 + |\mathcal{C}_{7}^\prime|^2\bigg) \ . \nonumber
         \end{align}
-        In the present version of the HEPfit, all the Wilson coefficients for the processes $\ell_i \to \ell_j\, \gamma$, $\ell_i \to 3\ell$, $\mu \to e$ conversion as well as $(g-2)_{\mu}$ at two-loop level is included in the general MSSM.
+        In the present version of the $\texttt{HEPfit}$, all the Wilson coefficients for the processes $\ell_i \to \ell_j\, \gamma$, $\ell_i \to 3\ell$, $\mu \to e$ conversion as well as $(g-2)_{\mu}$ at two-loop level is included in the general MSSM.
         </p>
 
 <div id="body">
