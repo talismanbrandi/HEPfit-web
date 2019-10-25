@@ -638,13 +638,11 @@ body {
 	left: 0;
 	right: 0;
 	background: #4c8f96;
-	border: 5px solid #5fb3bd;
+	border-top: 5px solid #5fb3bd;
 	border-bottom: none;
-	border-top-right-radius: 4px;
-	border-top-left-radius: 4px;
 	margin: 0;
 	padding: 0;
-	width: calc(100% - 10px);
+	width: calc(100%);
 	min-width: 1000px;
 }
 
