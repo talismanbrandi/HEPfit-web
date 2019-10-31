@@ -43,8 +43,6 @@ var class_higgs_kv_kf =
     [ "setKv", "d4/dc1/class_higgs_kv_kf.html#af4befa2927eacefc47fbb66091547600", null ],
     [ "setParameter", "d4/dc1/class_higgs_kv_kf.html#a38f35aeeac1b2211ec29a6e15c380fe5", null ],
     [ "BrHinv", "d4/dc1/class_higgs_kv_kf.html#a2087f5daef3ea676a1ad9268e5d7b73b", null ],
-    [ "HKvKfvars", "d4/dc1/class_higgs_kv_kf.html#a5a807335a4800d7c2ec7ddb3f2f4ed67", null ],
     [ "Kf", "d4/dc1/class_higgs_kv_kf.html#a25c5e5399d5a5aeffedc0f39f99ee3bd", null ],
-    [ "Kv", "d4/dc1/class_higgs_kv_kf.html#a024f9d9ec37c9f20aceaca1d87ed6520", null ],
-    [ "NHKvKfvars", "d4/dc1/class_higgs_kv_kf.html#a47c8e554f40978488b50ab1fcdb551af", null ]
+    [ "Kv", "d4/dc1/class_higgs_kv_kf.html#a024f9d9ec37c9f20aceaca1d87ed6520", null ]
 ];

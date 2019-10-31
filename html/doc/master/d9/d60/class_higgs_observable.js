@@ -11,7 +11,7 @@ var class_higgs_observable =
     [ "ParseHiggsObservable", "d9/d60/class_higgs_observable.html#ad6a3abb0e41625382a357ca63c13a04d", null ],
     [ "setIsCorrelated", "d9/d60/class_higgs_observable.html#aa4de53414b4bd2d07a1c5a88b020bf90", null ],
     [ "setIsnew", "d9/d60/class_higgs_observable.html#aaef71437966b4150682d622a611d3c65", null ],
-    [ "setParametricLikelihood", "d9/d60/class_higgs_observable.html#aaf8f2370d755dc1ee19acd5cb17a6add", null ],
+    [ "setParametricLikelihood", "d9/d60/class_higgs_observable.html#a0212d2fb48b95dd4b792ba644a81faf2", null ],
     [ "channels", "d9/d60/class_higgs_observable.html#a02de36a97bb0fb252fe7463a4a375194", null ],
     [ "channelsize", "d9/d60/class_higgs_observable.html#a305177fbb438ed7cc9cf5587e7844de1", null ],
     [ "covarianceFromConfig", "d9/d60/class_higgs_observable.html#ae703c3abc5e9cf223cdb01e894b23c88", null ],

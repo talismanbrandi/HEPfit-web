@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['defaultflags',['defaultFlags',['../d3/d8f/class_l_h_p_c_1_1_mass_spectrum.html#a793b3bf2a22e5511ab1fd8ee746e93c4',1,'LHPC::MassSpectrum']]]
+  ['lep2rcs_22501',['LEP2RCs',['../dc/dd5/class_standard_model.html#a53c6498edc5c7e2d2a2b465adf93f935',1,'StandardModel']]],
+  ['lepton_22502',['lepton',['../dd/dfa/class_q_c_d.html#ac8b0ab59ae9d238b1ee9d67525ee92d3',1,'QCD']]]
 ];

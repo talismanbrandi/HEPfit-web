@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['objecttype',['objectType',['../d9/d8f/class_l_h_p_c_1_1_l_h_c_o_1_1_lhco_event.html#ae35633468ebf012802fff8eec7711a79',1,'LHPC::LHCO::LhcoEvent']]],
-  ['oblique',['Oblique',['../da/d10/class_l_e_p2oblique.html#abdf358b6681fcd7b576c57a8c24625ed',1,'LEP2oblique']]],
-  ['orders',['orders',['../d9/d8f/group___standard_model.html#ga5f038b5aa5a392661ff3a8494829bd9e',1,'OrderScheme.h']]],
-  ['orders_5few',['orders_EW',['../dc/dd5/class_standard_model.html#acb21d137df949d81e3b318a2207134b7',1,'StandardModel']]],
-  ['orders_5fqed',['orders_qed',['../d9/d8f/group___standard_model.html#gaedfe8994731224f3497151a54eb75abd',1,'OrderScheme.h']]]
+  ['qcd_5forders_22509',['qcd_orders',['../d4/d36/_order_scheme_8h.html#afdeb2b6c039acca75ebbc57ff69004ae',1,'OrderScheme.h']]],
+  ['qed_5forders_22510',['qed_orders',['../d4/d36/_order_scheme_8h.html#adb5b4063c9d00b5fd8af20ec261246b1',1,'OrderScheme.h']]],
+  ['quark_22511',['quark',['../dd/dfa/class_q_c_d.html#a83f641ad01d1965b44a555cfd868166c',1,'QCD']]]
 ];

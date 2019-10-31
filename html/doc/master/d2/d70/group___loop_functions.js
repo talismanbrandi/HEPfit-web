@@ -34,6 +34,7 @@ var group___loop_functions =
       [ "D0", "d4/d7b/class_p_vfunctions.html#af4097a73ef6feed5b26b4db0dc265797", null ],
       [ "D00", "d4/d7b/class_p_vfunctions.html#a295c86d5a3f2a5d2b3a2bd017aab159e", null ],
       [ "ExtraMinusSign", "d4/d7b/class_p_vfunctions.html#aecf8e04aba19ba8999ce23047c5adf18", null ],
+      [ "myLT", "d4/d7b/class_p_vfunctions.html#a2b069ca746f22c84e5cd5ab096bbd15d", null ],
       [ "myPolylog", "d4/d7b/class_p_vfunctions.html#ac7524d44615b1e8c7e4480759c88ca5d", null ]
     ] ]
 ];

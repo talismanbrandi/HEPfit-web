@@ -2,8 +2,7 @@ var group___lepton_flavour =
 [
     [ "gminus2_mu", "db/dc9/classgminus2__mu.html", [
       [ "gminus2_mu", "db/dc9/classgminus2__mu.html#a02d3e6ec08bbb5f8af77471e1ae3b42f", null ],
-      [ "computeThValue", "db/dc9/classgminus2__mu.html#a0827b73ce5fd4553fafec5c936bb6e26", null ],
-      [ "mySM", "db/dc9/classgminus2__mu.html#ab393494f256b4fd1b25d7370c70f8b70", null ]
+      [ "computeThValue", "db/dc9/classgminus2__mu.html#a0827b73ce5fd4553fafec5c936bb6e26", null ]
     ] ],
     [ "HeffDLi3j", "de/d23/class_heff_d_li3j.html", [
       [ "HeffDLi3j", "de/d23/class_heff_d_li3j.html#aceb3524a8957270ea2a53e5cca9d58b0", null ],
@@ -59,87 +58,70 @@ var group___lepton_flavour =
     ] ],
     [ "log_meg", "db/dc0/classlog__meg.html", [
       [ "log_meg", "db/dc0/classlog__meg.html#ad33f9ae35c4f0fbc737747b94ab3cbab", null ],
-      [ "computeThValue", "db/dc0/classlog__meg.html#a106e514ab5c38744e916777cd763513d", null ],
-      [ "mySM", "db/dc0/classlog__meg.html#a63979f3e166bd9128d677c387c32201c", null ]
+      [ "computeThValue", "db/dc0/classlog__meg.html#a106e514ab5c38744e916777cd763513d", null ]
     ] ],
     [ "log_teg", "dc/d71/classlog__teg.html", [
       [ "log_teg", "dc/d71/classlog__teg.html#a56d956233b376731ee0978500a1ae911", null ],
-      [ "computeThValue", "dc/d71/classlog__teg.html#a544f09d1d469ee7c019d57ea81e4e49f", null ],
-      [ "mySM", "dc/d71/classlog__teg.html#aa441383e68c9eeaceda44af743d78421", null ]
+      [ "computeThValue", "dc/d71/classlog__teg.html#a544f09d1d469ee7c019d57ea81e4e49f", null ]
     ] ],
     [ "log_tmg", "dc/d42/classlog__tmg.html", [
       [ "log_tmg", "dc/d42/classlog__tmg.html#a36b67ab95fc25a683037e563029f4a56", null ],
-      [ "computeThValue", "dc/d42/classlog__tmg.html#a93cacc3a625721ebfecb12ba052ce91d", null ],
-      [ "mySM", "dc/d42/classlog__tmg.html#af1d5dd7fc9d306c65b4fa34b0787733c", null ]
+      [ "computeThValue", "dc/d42/classlog__tmg.html#a93cacc3a625721ebfecb12ba052ce91d", null ]
     ] ],
     [ "mu_3e", "d7/d87/classmu__3e.html", [
       [ "mu_3e", "d7/d87/classmu__3e.html#aef42eb3ed389ec258aa63d2b89ada443", null ],
-      [ "computeThValue", "d7/d87/classmu__3e.html#a85c75220c2792da4ff6183c9467deea1", null ],
-      [ "mySM", "d7/d87/classmu__3e.html#a9286b67c68c486f203acf13686819cf8", null ]
+      [ "computeThValue", "d7/d87/classmu__3e.html#a85c75220c2792da4ff6183c9467deea1", null ]
     ] ],
     [ "mu_e_gamma", "d0/d30/classmu__e__gamma.html", [
       [ "mu_e_gamma", "d0/d30/classmu__e__gamma.html#aecfa60aa52ac010b7562e337bb78664c", null ],
-      [ "computeThValue", "d0/d30/classmu__e__gamma.html#af555b9bbaafc22f31bd9aed76747f100", null ],
-      [ "mySM", "d0/d30/classmu__e__gamma.html#afa9dc928ed4f77db31fc0eca88bdf8dd", null ]
+      [ "computeThValue", "d0/d30/classmu__e__gamma.html#af555b9bbaafc22f31bd9aed76747f100", null ]
     ] ],
     [ "mueconversion_Ti", "de/df5/classmueconversion___ti.html", [
       [ "mueconversion_Ti", "de/df5/classmueconversion___ti.html#a5d5f636a2f70c587751bdf9bf4ac7a02", null ],
-      [ "computeThValue", "de/df5/classmueconversion___ti.html#a3a3eb9ee0b8ac405ba035a081f0d4c3b", null ],
-      [ "mySM", "de/df5/classmueconversion___ti.html#aa7672ed181a874cf644c9248536d30c0", null ]
+      [ "computeThValue", "de/df5/classmueconversion___ti.html#a3a3eb9ee0b8ac405ba035a081f0d4c3b", null ]
     ] ],
     [ "Robs_mu_3e", "d2/dee/class_robs__mu__3e.html", [
       [ "Robs_mu_3e", "d2/dee/class_robs__mu__3e.html#a5a68e64f2e45ccb85ec4db3e1bd20d89", null ],
-      [ "computeThValue", "d2/dee/class_robs__mu__3e.html#a8b76356eb43f6ff24f863ea4cf8f12b0", null ],
-      [ "mySM", "d2/dee/class_robs__mu__3e.html#abace2858fa27b188b710a027ef15fff0", null ]
+      [ "computeThValue", "d2/dee/class_robs__mu__3e.html#a8b76356eb43f6ff24f863ea4cf8f12b0", null ]
     ] ],
     [ "Robs_mu_e_gamma", "d3/d0c/class_robs__mu__e__gamma.html", [
       [ "Robs_mu_e_gamma", "d3/d0c/class_robs__mu__e__gamma.html#ab098b098fcb83e6b24f2895e618c3789", null ],
-      [ "computeThValue", "d3/d0c/class_robs__mu__e__gamma.html#ab438c2807fa71ce06e701ab7763fccba", null ],
-      [ "mySM", "d3/d0c/class_robs__mu__e__gamma.html#a088d2ca0a8b630e374afe80276d39e20", null ]
+      [ "computeThValue", "d3/d0c/class_robs__mu__e__gamma.html#ab438c2807fa71ce06e701ab7763fccba", null ]
     ] ],
     [ "Robs_tau_3e", "d8/da4/class_robs__tau__3e.html", [
       [ "Robs_tau_3e", "d8/da4/class_robs__tau__3e.html#a86fe128ec7306b53131d5973e6ba637f", null ],
-      [ "computeThValue", "d8/da4/class_robs__tau__3e.html#a44abad9f9dfbf1ce464586f81cab429b", null ],
-      [ "mySM", "d8/da4/class_robs__tau__3e.html#a7aa7c3c8a203534ad9ff0bd75e45c91d", null ]
+      [ "computeThValue", "d8/da4/class_robs__tau__3e.html#a44abad9f9dfbf1ce464586f81cab429b", null ]
     ] ],
     [ "Robs_tau_3mu", "dc/d34/class_robs__tau__3mu.html", [
       [ "Robs_tau_3mu", "dc/d34/class_robs__tau__3mu.html#aad83290b801ab3cc78b20a1c9fa412f7", null ],
-      [ "computeThValue", "dc/d34/class_robs__tau__3mu.html#a7fe94b15caea296f2eae5e1f9ad8b748", null ],
-      [ "mySM", "dc/d34/class_robs__tau__3mu.html#a6236a0d4757077ca80aeea88234f504b", null ]
+      [ "computeThValue", "dc/d34/class_robs__tau__3mu.html#a7fe94b15caea296f2eae5e1f9ad8b748", null ]
     ] ],
     [ "Robs_tau_e_gamma", "d8/da6/class_robs__tau__e__gamma.html", [
       [ "Robs_tau_e_gamma", "d8/da6/class_robs__tau__e__gamma.html#aa7bceb7060af7a15fc95e7c1751bb216", null ],
-      [ "computeThValue", "d8/da6/class_robs__tau__e__gamma.html#a20a00cc23d018e428dc9b5c1293787b9", null ],
-      [ "mySM", "d8/da6/class_robs__tau__e__gamma.html#ac60d48aaeb6f0b73299edf6228bf0cc6", null ]
+      [ "computeThValue", "d8/da6/class_robs__tau__e__gamma.html#a20a00cc23d018e428dc9b5c1293787b9", null ]
     ] ],
     [ "Robs_tau_mu_gamma", "dc/d8c/class_robs__tau__mu__gamma.html", [
       [ "Robs_tau_mu_gamma", "dc/d8c/class_robs__tau__mu__gamma.html#aa43a6526edc76033dc2662753f17f742", null ],
-      [ "computeThValue", "dc/d8c/class_robs__tau__mu__gamma.html#a4fc91d81e0df8dab0cc2648bd4805087", null ],
-      [ "mySM", "dc/d8c/class_robs__tau__mu__gamma.html#a5e11bc6a11ae164dbbc0e6892df1a8c9", null ]
+      [ "computeThValue", "dc/d8c/class_robs__tau__mu__gamma.html#a4fc91d81e0df8dab0cc2648bd4805087", null ]
     ] ],
     [ "Robs_tau_mu_gamma_BelleII", "d7/dd4/class_robs__tau__mu__gamma___belle_i_i.html", [
       [ "Robs_tau_mu_gamma_BelleII", "d7/dd4/class_robs__tau__mu__gamma___belle_i_i.html#af3f806efa506c8a3ad37ee4ed9eaff7d", null ],
-      [ "computeThValue", "d7/dd4/class_robs__tau__mu__gamma___belle_i_i.html#ae8f12655918d35481880ce261ac0a9a7", null ],
-      [ "mySM", "d7/dd4/class_robs__tau__mu__gamma___belle_i_i.html#aa9a596b64568218dec83aa116a5a3a7a", null ]
+      [ "computeThValue", "d7/dd4/class_robs__tau__mu__gamma___belle_i_i.html#ae8f12655918d35481880ce261ac0a9a7", null ]
     ] ],
     [ "tau_3e", "d9/d23/classtau__3e.html", [
       [ "tau_3e", "d9/d23/classtau__3e.html#ad7c51210109ece233fa59fd7f27ea551", null ],
-      [ "computeThValue", "d9/d23/classtau__3e.html#a519d0a44189f65de67699186f4bcc48c", null ],
-      [ "mySM", "d9/d23/classtau__3e.html#a13c8d59fb9de76b8bcf1bcabf1b3d14d", null ]
+      [ "computeThValue", "d9/d23/classtau__3e.html#a519d0a44189f65de67699186f4bcc48c", null ]
     ] ],
     [ "tau_3mu", "d2/d8a/classtau__3mu.html", [
       [ "tau_3mu", "d2/d8a/classtau__3mu.html#a50090367e49c5a21db40d7552b322b09", null ],
-      [ "computeThValue", "d2/d8a/classtau__3mu.html#a2ce945d598d30ec7c8b064a0d7949c7f", null ],
-      [ "mySM", "d2/d8a/classtau__3mu.html#aae04116001347bc5f8a40441f043fdac", null ]
+      [ "computeThValue", "d2/d8a/classtau__3mu.html#a2ce945d598d30ec7c8b064a0d7949c7f", null ]
     ] ],
     [ "tau_e_gamma", "dc/d86/classtau__e__gamma.html", [
       [ "tau_e_gamma", "dc/d86/classtau__e__gamma.html#ab78fe9746a56aa3777a021e5c4811659", null ],
-      [ "computeThValue", "dc/d86/classtau__e__gamma.html#a89da3a4aabea67e4c1e83a5750700b52", null ],
-      [ "mySM", "dc/d86/classtau__e__gamma.html#ae70a86763163d0c51db0bb7a99ac6cce", null ]
+      [ "computeThValue", "dc/d86/classtau__e__gamma.html#a89da3a4aabea67e4c1e83a5750700b52", null ]
     ] ],
     [ "tau_mu_gamma", "d7/d1e/classtau__mu__gamma.html", [
       [ "tau_mu_gamma", "d7/d1e/classtau__mu__gamma.html#a81ea154e631d08613b03fcbe06e440b4", null ],
-      [ "computeThValue", "d7/d1e/classtau__mu__gamma.html#ac3114abe73addec7cac85510b6cd0553", null ],
-      [ "mySM", "d7/d1e/classtau__mu__gamma.html#a5a7002b1600d013a60797772fd33bb34", null ]
+      [ "computeThValue", "d7/d1e/classtau__mu__gamma.html#ac3114abe73addec7cac85510b6cd0553", null ]
     ] ]
 ];

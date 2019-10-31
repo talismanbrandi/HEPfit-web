@@ -13,8 +13,6 @@ var class_n_p_d_f2 =
     [ "CBs", "d5/d71/class_n_p_d_f2.html#a26aae282a409a49e788f1a6a1696d49a", null ],
     [ "CDMK", "d5/d71/class_n_p_d_f2.html#aff5ae385bf97e21c6a69c179bba91b8c", null ],
     [ "CepsK", "d5/d71/class_n_p_d_f2.html#a581ffacf4055e3288a370347425e5d3a", null ],
-    [ "NNPDF2vars", "d5/d71/class_n_p_d_f2.html#a079580380051c3296bdc7b2452df146d", null ],
-    [ "NPDF2vars", "d5/d71/class_n_p_d_f2.html#a32c9f80abdcef6f9a53d752432c95455", null ],
     [ "phiBd", "d5/d71/class_n_p_d_f2.html#a898a421d2a07c73cef0cc94648b9f457", null ],
     [ "PhiBs", "d5/d71/class_n_p_d_f2.html#a4c2a1cc1f292e1ddae0b602ce03986e8", null ]
 ];

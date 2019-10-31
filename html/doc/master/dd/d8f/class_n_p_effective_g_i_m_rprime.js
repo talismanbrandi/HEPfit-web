@@ -362,12 +362,6 @@ var class_n_p_effective_g_i_m_rprime =
     [ "Lambda_NP", "dd/d8f/class_n_p_effective_g_i_m_rprime.html#abb814194b0aac918d873831bfe3fe10a", null ],
     [ "LambdaNP2", "dd/d8f/class_n_p_effective_g_i_m_rprime.html#a2535bca546715194cd60a766d9eec341", null ],
     [ "MwInput", "dd/d8f/class_n_p_effective_g_i_m_rprime.html#a27844e3558e30a599f0ecdd09175025b", null ],
-    [ "NNPEffectiveGIMRprimeVars", "dd/d8f/class_n_p_effective_g_i_m_rprime.html#a6df5993eb5779bf1aa8a4ef3860b5a22", null ],
-    [ "NNPEffectiveGIMRprimeVars_LFU_QFU", "dd/d8f/class_n_p_effective_g_i_m_rprime.html#a96ddeff944460fd03c3b9632b6d350b7", null ],
-    [ "NPEffectiveGIMRprimeVars", "dd/d8f/class_n_p_effective_g_i_m_rprime.html#aea791a7c1ac89113a4b56894ff906b07", null ],
-    [ "NPEffectiveGIMRprimeVars_LFU_QFU", "dd/d8f/class_n_p_effective_g_i_m_rprime.html#aeeff73148e895776bfc659a4c935ff43", null ],
-    [ "NPEffectiveGIMRprimeVarsRot", "dd/d8f/class_n_p_effective_g_i_m_rprime.html#a25da57e9b4b32145d3f2e6f05db2ac1c", null ],
-    [ "NPEffectiveGIMRprimeVarsRot_LFU_QFU", "dd/d8f/class_n_p_effective_g_i_m_rprime.html#a24f7192f0c57ead44a6a6be9292cf980", null ],
     [ "sW2_tree", "dd/d8f/class_n_p_effective_g_i_m_rprime.html#a512f66adbf83872e4695b6d06f22a9d4", null ],
     [ "sW_tree", "dd/d8f/class_n_p_effective_g_i_m_rprime.html#a548241c164fdd403288a6a6558c52854", null ],
     [ "v2_over_LambdaNP2", "dd/d8f/class_n_p_effective_g_i_m_rprime.html#a5d0fd644621c21286b71ee4ad5e894da", null ]

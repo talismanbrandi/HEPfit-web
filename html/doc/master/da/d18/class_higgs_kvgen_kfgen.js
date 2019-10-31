@@ -46,11 +46,9 @@ var class_higgs_kvgen_kfgen =
     [ "setKZ", "da/d18/class_higgs_kvgen_kfgen.html#a5b7ed9e3cd1e3657cd7541b7e8c642c2", null ],
     [ "setParameter", "da/d18/class_higgs_kvgen_kfgen.html#ab72156f3b8ea74231d4ca2f9a1a03c71", null ],
     [ "BrHinv", "da/d18/class_higgs_kvgen_kfgen.html#a9e267c808444b44b2880e91cfd7b63cf", null ],
-    [ "HKvgenKfgenvars", "da/d18/class_higgs_kvgen_kfgen.html#a067502f0bcce60ee14d75b5fd71b3d2a", null ],
     [ "Kd", "da/d18/class_higgs_kvgen_kfgen.html#a5053b43ad0710e726527840783fa7a9e", null ],
     [ "Kl", "da/d18/class_higgs_kvgen_kfgen.html#aee4cd1a805adddf82dd7dc6372816a3b", null ],
     [ "Ku", "da/d18/class_higgs_kvgen_kfgen.html#a952098f3801f734ef2fdf302b5dbde27", null ],
     [ "KW", "da/d18/class_higgs_kvgen_kfgen.html#a038526c26cc6749a8fc58b44725f9432", null ],
-    [ "KZ", "da/d18/class_higgs_kvgen_kfgen.html#a4a178071ba5132cb447855e1a0fa25ff", null ],
-    [ "NHKvgenKfgenvars", "da/d18/class_higgs_kvgen_kfgen.html#ab0d9e08bc74ac867ced5d921c5e49093", null ]
+    [ "KZ", "da/d18/class_higgs_kvgen_kfgen.html#a4a178071ba5132cb447855e1a0fa25ff", null ]
 ];

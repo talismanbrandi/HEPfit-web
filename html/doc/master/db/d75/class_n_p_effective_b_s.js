@@ -45,13 +45,5 @@ var class_n_p_effective_b_s =
     [ "cWB", "db/d75/class_n_p_effective_b_s.html#a44192f7c1ea5a050a58df7e1d0b00783", null ],
     [ "FlagLeptonUniversal", "db/d75/class_n_p_effective_b_s.html#aa39ce38505b93dbc0b8e6fabdf2f4737", null ],
     [ "FlagQuarkUniversal", "db/d75/class_n_p_effective_b_s.html#a722f3e8af6039d36853437b96aa20e7f", null ],
-    [ "Lambda_NP", "db/d75/class_n_p_effective_b_s.html#aaa89def3661309d479294d8ddb5c3edf", null ],
-    [ "NNPEffectiveBSVars", "db/d75/class_n_p_effective_b_s.html#aa4a4a99dddd3aabd23423ae7b0647049", null ],
-    [ "NNPEffectiveBSVars_LFU", "db/d75/class_n_p_effective_b_s.html#a0883bcee291d5484b1d259468c0fcd92", null ],
-    [ "NNPEffectiveBSVars_LFU_QFU", "db/d75/class_n_p_effective_b_s.html#a8f4f217bec74ccdbce1ce8fdbadcbeb7", null ],
-    [ "NNPEffectiveBSVars_QFU", "db/d75/class_n_p_effective_b_s.html#a03159779471a4278e420c18211835c44", null ],
-    [ "NPEffectiveBSVars", "db/d75/class_n_p_effective_b_s.html#a431868944933e51cadc192f899c7dc44", null ],
-    [ "NPEffectiveBSVars_LFU", "db/d75/class_n_p_effective_b_s.html#ab64722f1395e3a1e1f9006f47108c353", null ],
-    [ "NPEffectiveBSVars_LFU_QFU", "db/d75/class_n_p_effective_b_s.html#a13004581459a7fc9ff4ef38a0cb0f93f", null ],
-    [ "NPEffectiveBSVars_QFU", "db/d75/class_n_p_effective_b_s.html#a9c6f7df74c6d759e767b8e79ad00e45a", null ]
+    [ "Lambda_NP", "db/d75/class_n_p_effective_b_s.html#aaa89def3661309d479294d8ddb5c3edf", null ]
 ];

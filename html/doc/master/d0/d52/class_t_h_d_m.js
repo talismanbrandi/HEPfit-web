@@ -43,9 +43,9 @@ var class_t_h_d_m =
     [ "InitializeModel", "d0/d52/class_t_h_d_m.html#a69a0627982e57d54c7058d4d545900cd", null ],
     [ "PostUpdate", "d0/d52/class_t_h_d_m.html#abcffc3f073d7a9bcee440fdf6fcb37c7", null ],
     [ "PreUpdate", "d0/d52/class_t_h_d_m.html#a935f7199ee51fc97c32b6186ae4a6789", null ],
-    [ "setFlag", "d0/d52/class_t_h_d_m.html#a20cffb3be8c742e65bb6a6a53c4e6a9a", null ],
+    [ "setFlag", "d0/d52/class_t_h_d_m.html#a4a7f231c8f44f2c94f71cf5eac4a2e90", null ],
     [ "setFlagStr", "d0/d52/class_t_h_d_m.html#ac2fd00c022c3650a800ded1714de36f3", null ],
-    [ "setParameter", "d0/d52/class_t_h_d_m.html#a2f9235c46b78107caee135820a418ce7", null ],
+    [ "setParameter", "d0/d52/class_t_h_d_m.html#af869e79daedd189d47ada70b426af2c6", null ],
     [ "Update", "d0/d52/class_t_h_d_m.html#a9b3c6dc594e89dcdac1877b71d335b44", null ],
     [ "BDstartaunu_A", "d0/d52/class_t_h_d_m.html#a82f0e5c0f1bd633af03869a76004571b", null ],
     [ "BDstartaunu_B", "d0/d52/class_t_h_d_m.html#aad8f41ce603c7a00f3dac516941a26e4", null ],
@@ -71,12 +71,10 @@ var class_t_h_d_m =
     [ "mHp2", "d0/d52/class_t_h_d_m.html#aab32975137ae8e5ae45ec4d11fd4d78d", null ],
     [ "myTHDMcache", "d0/d52/class_t_h_d_m.html#a26742bf863324fa6ef929a30a833b1e3", null ],
     [ "NLOuniscale", "d0/d52/class_t_h_d_m.html#af4cbc9b8fcdaaacc153ebae9e81f8745", null ],
-    [ "NTHDMvars", "d0/d52/class_t_h_d_m.html#a5e74e6f5c655c5a3ab38e8c9636bf9f8", null ],
     [ "Q_THDM", "d0/d52/class_t_h_d_m.html#a43cbb97d978d2e73c36726877d0d1418", null ],
     [ "Rpeps", "d0/d52/class_t_h_d_m.html#ae4751f961fd49cc8cc7855a451a1de77", null ],
     [ "sin_ba", "d0/d52/class_t_h_d_m.html#a461604fed9616a8f8c53fb49550a7230", null ],
     [ "sinb", "d0/d52/class_t_h_d_m.html#a972ac0b8802ea3170dcb11f9520bc9c4", null ],
     [ "tanb", "d0/d52/class_t_h_d_m.html#a085d42e98267d48b66234860b23ff600", null ],
-    [ "THDMM", "d0/d52/class_t_h_d_m.html#a187a78fddb79da133dfea907c0013ada", null ],
-    [ "THDMvars", "d0/d52/class_t_h_d_m.html#a89f108942fdaa127177f1657177ad32b", null ]
+    [ "THDMM", "d0/d52/class_t_h_d_m.html#a187a78fddb79da133dfea907c0013ada", null ]
 ];

@@ -12,7 +12,5 @@ var class_n_p_s_t_u =
     [ "setParameter", "d9/dad/class_n_p_s_t_u.html#a35508077f3d96bc08bfa3d8916282060", null ],
     [ "myObliqueS", "d9/dad/class_n_p_s_t_u.html#a0d73f1289f87c2442080c17ad6832b0b", null ],
     [ "myObliqueT", "d9/dad/class_n_p_s_t_u.html#aa0aa0fa17d040552c09648e2efdfa37b", null ],
-    [ "myObliqueU", "d9/dad/class_n_p_s_t_u.html#aeabe99641c1280d2208db221c13352f5", null ],
-    [ "NSTUvars", "d9/dad/class_n_p_s_t_u.html#a2d3bb2c39a2230455704f56a8f191d93", null ],
-    [ "STUvars", "d9/dad/class_n_p_s_t_u.html#aa940ea7c73a4df9e374031321892917d", null ]
+    [ "myObliqueU", "d9/dad/class_n_p_s_t_u.html#aeabe99641c1280d2208db221c13352f5", null ]
 ];

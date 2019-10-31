@@ -24,10 +24,12 @@ var class_georgi_machacek =
     [ "getmHh", "db/d2b/class_georgi_machacek.html#a881acb164e01923de02eccb0f33d6627", null ],
     [ "getmHh2", "db/d2b/class_georgi_machacek.html#a372487546ccf1a23ad10bfc3a0b3b9b5", null ],
     [ "getmHl2", "db/d2b/class_georgi_machacek.html#a4296a9adc7c56e042ae3575a5f15c7f5", null ],
+    [ "getMu1", "db/d2b/class_georgi_machacek.html#ac35c0200cb0b8b1df743ec9ec763a48f", null ],
     [ "getMu2", "db/d2b/class_georgi_machacek.html#aa9731a5abe3059f8101a2f77a543d0d1", null ],
     [ "getMyGMCache", "db/d2b/class_georgi_machacek.html#a0f0a93c5aa01f2713807cf075157cd7b", null ],
     [ "getQ_GM", "db/d2b/class_georgi_machacek.html#ac11b83edcfb4b804bf07fbfcb4fd41b0", null ],
     [ "getsina", "db/d2b/class_georgi_machacek.html#aae38b512b823776ac9a81996a6d0818f", null ],
+    [ "getvDelta", "db/d2b/class_georgi_machacek.html#acc2c706a211d8d45517f73f4d16f0419", null ],
     [ "Init", "db/d2b/class_georgi_machacek.html#a35b5229be24891e45935055ca56b63cb", null ],
     [ "InitializeModel", "db/d2b/class_georgi_machacek.html#a7d862c5e0b43cf957a4e3015513620cf", null ],
     [ "mueeWBF", "db/d2b/class_georgi_machacek.html#a6bfb958f90e19ccfbdb49f4504b85da3", null ],
@@ -70,7 +72,6 @@ var class_georgi_machacek =
     [ "alpha", "db/d2b/class_georgi_machacek.html#a5c7e6cb20d9d1c812cef74bd49517e46", null ],
     [ "flag_use_sq_masses", "db/d2b/class_georgi_machacek.html#a5c3243e6a0a0545cc6418d6307d46302", null ],
     [ "GMM", "db/d2b/class_georgi_machacek.html#a912f1176fae41d1b98a7069e68278c5b", null ],
-    [ "GMvars", "db/d2b/class_georgi_machacek.html#a24b88c65b8d6d6adad7e3c5057235d36", null ],
     [ "mA", "db/d2b/class_georgi_machacek.html#abce4a299ed11724f3cacade97ce22f4b", null ],
     [ "mAsq", "db/d2b/class_georgi_machacek.html#a571e1720c11e3d783f65d63450363901", null ],
     [ "mH5", "db/d2b/class_georgi_machacek.html#ae0812d0090ece5a1e75c5bfa1c0b0e09", null ],
@@ -81,7 +82,6 @@ var class_georgi_machacek =
     [ "Mu1", "db/d2b/class_georgi_machacek.html#ab434fe4b2329d429d76500652d26e46d", null ],
     [ "Mu2", "db/d2b/class_georgi_machacek.html#ad651d3184f9c883266567bbfa404b55c", null ],
     [ "myGMcache", "db/d2b/class_georgi_machacek.html#a5c5925467883fa7ae44662844bd0b744", null ],
-    [ "NGMvars", "db/d2b/class_georgi_machacek.html#aae0f9ea36c1bdd8651f7b614cf675190", null ],
     [ "Q_GM", "db/d2b/class_georgi_machacek.html#a7c969e255f7ecd181b96b508d48f6fd2", null ],
     [ "vDelta", "db/d2b/class_georgi_machacek.html#a8c3ce29e85f43a0418b4f7d97987542a", null ]
 ];

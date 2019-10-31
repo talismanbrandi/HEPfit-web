@@ -18,8 +18,5 @@ var class_n_p_zbbbar =
     [ "myDeltaGAb", "dc/def/class_n_p_zbbbar.html#af1fc01fe849b61610dac751e4722e12a", null ],
     [ "myDeltaGLb", "dc/def/class_n_p_zbbbar.html#af02c98584abaf2260915abdebb3219a2", null ],
     [ "myDeltaGRb", "dc/def/class_n_p_zbbbar.html#a286dea1213c9b506082caae68e9e557b", null ],
-    [ "myDeltaGVb", "dc/def/class_n_p_zbbbar.html#aeeb23f578a752f7c1c681ed32c945d41", null ],
-    [ "NZbbbarVars", "dc/def/class_n_p_zbbbar.html#aced72d97408260ef61f72230f47977a5", null ],
-    [ "ZbbbarLRVars", "dc/def/class_n_p_zbbbar.html#abca52508a7694040d07c21d270529b6b", null ],
-    [ "ZbbbarVAVars", "dc/def/class_n_p_zbbbar.html#a502a0fe0213d24a76cb6777c0ae89b2c", null ]
+    [ "myDeltaGVb", "dc/def/class_n_p_zbbbar.html#aeeb23f578a752f7c1c681ed32c945d41", null ]
 ];

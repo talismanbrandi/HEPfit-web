@@ -17,7 +17,7 @@ var class_b_parameter =
     [ "getFBsSqrtBBs5", "dd/d75/class_b_parameter.html#a983363ca225c75f662c0f3f63bc0b19d", null ],
     [ "getMu", "dd/d75/class_b_parameter.html#a6d762d5b1e47b2ece624a9b3b4e4ae26", null ],
     [ "getScheme", "dd/d75/class_b_parameter.html#a25a6c395db236ed6b22df06593a7dca3", null ],
-    [ "ModelParameterMapInsert", "dd/d75/class_b_parameter.html#af2c8b5a28e3d01309abc04101f505ac9", null ],
+    [ "ModelParameterMapInsert", "dd/d75/class_b_parameter.html#a1ebcd7de9fd8d01915b31c2b7a6e0f27", null ],
     [ "parameterList", "dd/d75/class_b_parameter.html#af0f504ce3685969ff95f9e421dd1f7e0", null ],
     [ "setBBsoBBd", "dd/d75/class_b_parameter.html#a60ddc2d7e6f1037327c887cdf41e6a76", null ],
     [ "setBpars", "dd/d75/class_b_parameter.html#abcbc4669354028e0b7b635e7737ae129", null ],

@@ -1,19 +1,13 @@
 var searchData=
 [
-  ['correlatedgaussianobservables_2ecpp',['CorrelatedGaussianObservables.cpp',['../d3/d47/doc_2_developer_01_support_2_doxygen_01_support_2_correlated_gaussian_observables_8cpp.html',1,'']]],
-  ['correlatedgaussianobservables_2eh',['CorrelatedGaussianObservables.h',['../d0/d76/doc_2_developer_01_support_2_doxygen_01_support_2_correlated_gaussian_observables_8h.html',1,'']]],
-  ['defaultspectra_2ehpp',['DefaultSpectra.hpp',['../d0/d81/_default_spectra_8hpp.html',1,'']]],
-  ['densedoublyindexed_2ehpp',['DenseDoublyIndexed.hpp',['../dc/d4a/_dense_doubly_indexed_8hpp.html',1,'']]],
-  ['densedoublyindexedblock_2ehpp',['DenseDoublyIndexedBlock.hpp',['../d0/d75/_dense_doubly_indexed_block_8hpp.html',1,'']]],
-  ['densesinglyindexed_2ehpp',['DenseSinglyIndexed.hpp',['../dd/d05/_dense_singly_indexed_8hpp.html',1,'']]],
-  ['densesinglyindexedblock_2ehpp',['DenseSinglyIndexedBlock.hpp',['../d2/dbd/_dense_singly_indexed_block_8hpp.html',1,'']]],
-  ['densetriplyindexed_2ehpp',['DenseTriplyIndexed.hpp',['../d0/d07/_dense_triply_indexed_8hpp.html',1,'']]],
-  ['densetriplyindexedblock_2ehpp',['DenseTriplyIndexedBlock.hpp',['../d4/d31/_dense_triply_indexed_block_8hpp.html',1,'']]],
-  ['dmbd_2ecpp',['DmBd.cpp',['../d7/da7/_dm_bd_8cpp.html',1,'']]],
-  ['dmbd_2eh',['DmBd.h',['../d8/d5b/_dm_bd_8h.html',1,'']]],
-  ['dmbs_2ecpp',['DmBs.cpp',['../d2/d59/_dm_bs_8cpp.html',1,'']]],
-  ['dmbs_2eh',['DmBs.h',['../df/dee/_dm_bs_8h.html',1,'']]],
-  ['dmk_2ecpp',['DmK.cpp',['../d9/dd5/_dm_k_8cpp.html',1,'']]],
-  ['dmk_2eh',['DmK.h',['../d1/d74/_dm_k_8h.html',1,'']]],
-  ['doublyindexedmultipleentriesblock_2ehpp',['DoublyIndexedMultipleEntriesBlock.hpp',['../d5/db2/_doubly_indexed_multiple_entries_block_8hpp.html',1,'']]]
+  ['dibosonthobservables_2ecpp_12320',['DiBosonThObservables.cpp',['../db/d53/_di_boson_th_observables_8cpp.html',1,'']]],
+  ['dibosonthobservables_2eh_12321',['DiBosonThObservables.h',['../d0/dd8/_di_boson_th_observables_8h.html',1,'']]],
+  ['dmbd_2ecpp_12322',['DmBd.cpp',['../d7/da7/_dm_bd_8cpp.html',1,'']]],
+  ['dmbd_2eh_12323',['DmBd.h',['../d8/d5b/_dm_bd_8h.html',1,'']]],
+  ['dmbs_2ecpp_12324',['DmBs.cpp',['../d2/d59/_dm_bs_8cpp.html',1,'']]],
+  ['dmbs_2eh_12325',['DmBs.h',['../df/dee/_dm_bs_8h.html',1,'']]],
+  ['dmk_2ecpp_12326',['DmK.cpp',['../d9/dd5/_dm_k_8cpp.html',1,'']]],
+  ['dmk_2eh_12327',['DmK.h',['../d1/d74/_dm_k_8h.html',1,'']]],
+  ['install_2emd_12328',['INSTALL.md',['../d7/ddc/_doxygen_2_i_n_s_t_a_l_l_8md.html',1,'']]],
+  ['usage_2emd_12329',['Usage.md',['../d6/d27/_doxygen_2_usage_8md.html',1,'']]]
 ];

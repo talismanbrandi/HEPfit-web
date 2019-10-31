@@ -1,10 +1,6 @@
 var group___e_w =
 [
     [ "EWObservables.h", "dd/df3/_e_w_observables_8h.html", null ],
-    [ "Abottom", "d6/d8e/class_abottom.html", [
-      [ "Abottom", "d6/d8e/class_abottom.html#afef26dbda92f60042faa2564f5c9fbe4", null ],
-      [ "computeThValue", "d6/d8e/class_abottom.html#aaef66e654fac34e9315ca8b983bf295d", null ]
-    ] ],
     [ "Acharm", "d0/ded/class_acharm.html", [
       [ "Acharm", "d0/ded/class_acharm.html#ae9ea473e1ab3faa3c877c6a54754e2f7", null ],
       [ "computeThValue", "d0/ded/class_acharm.html#a4d420b7bdfca790860a5661cade21568", null ]
@@ -45,10 +41,6 @@ var group___e_w =
       [ "Alepton", "d4/db4/class_alepton.html#a8aadbff7502f5f33679cc1c973404965", null ],
       [ "computeThValue", "d4/db4/class_alepton.html#a5985046035a7adbf65fc3613f474d9d4", null ]
     ] ],
-    [ "AlphaEmMz", "da/dc9/class_alpha_em_mz.html", [
-      [ "AlphaEmMz", "da/dc9/class_alpha_em_mz.html#a2d055e3d49be268fd75d7df09fc1c369", null ],
-      [ "computeThValue", "da/dc9/class_alpha_em_mz.html#a7595188d57063c667a8e3c25c869e30f", null ]
-    ] ],
     [ "Amuon", "de/ddc/class_amuon.html", [
       [ "Amuon", "de/ddc/class_amuon.html#a987e752082a2c875f614f3f9263410b9", null ],
       [ "computeThValue", "de/ddc/class_amuon.html#a7f1ccd6e3403667852802315ea4fe0b8", null ]
@@ -81,26 +73,6 @@ var group___e_w =
       [ "BrWtau", "df/d38/class_br_wtau.html#a1d3f8fd52e180d7ba1d3b3a0ba8715e1", null ],
       [ "computeThValue", "df/d38/class_br_wtau.html#a223a0bae0930693415bead2fb89378f7", null ]
     ] ],
-    [ "deltag1Z", "da/db7/classdeltag1_z.html", [
-      [ "deltag1Z", "da/db7/classdeltag1_z.html#acf1b15c27a69bdb3b702d4eb14eb7ca1", null ],
-      [ "~deltag1Z", "da/db7/classdeltag1_z.html#aca5c016e87f109c67aef5933b2e7cd04", null ],
-      [ "computeThValue", "da/db7/classdeltag1_z.html#a417595a10c7dc877c87cd59a607672c1", null ],
-      [ "myNPbase", "da/db7/classdeltag1_z.html#a1ae97e3ced37b2061c581d4e904a7283", null ]
-    ] ],
-    [ "deltaKgamma", "d8/d77/classdelta_kgamma.html", [
-      [ "deltaKgamma", "d8/d77/classdelta_kgamma.html#a9985cb8b17a76d75cb6c2f9b25e746c7", null ],
-      [ "~deltaKgamma", "d8/d77/classdelta_kgamma.html#a3efe55115f0b0b0629c7ec089f0508e0", null ],
-      [ "computeThValue", "d8/d77/classdelta_kgamma.html#a5f728dc86f39ab5bdd279824131f48df", null ],
-      [ "myNPbase", "d8/d77/classdelta_kgamma.html#aa8dfe7e5987a385b2b724f9a955c62b7", null ]
-    ] ],
-    [ "dxseeWWdcosBin", "d6/d8e/classdxsee_w_wdcos_bin.html", [
-      [ "dxseeWWdcosBin", "d6/d8e/classdxsee_w_wdcos_bin.html#ad0ab77399f1eb1c6ad33e49f693776db", null ],
-      [ "computeThValue", "d6/d8e/classdxsee_w_wdcos_bin.html#aee8b32a2b76ca830f42547c53435f059", null ],
-      [ "cos1", "d6/d8e/classdxsee_w_wdcos_bin.html#af88dc612aad9d0c8ea2e4504c101bcc3", null ],
-      [ "cos2", "d6/d8e/classdxsee_w_wdcos_bin.html#a06cddcabb87549358d5cc95de9299ded", null ],
-      [ "myNPbase", "d6/d8e/classdxsee_w_wdcos_bin.html#ac13d80f4ed0f2c641cd7054cce91ccfa", null ],
-      [ "sqrt_s", "d6/d8e/classdxsee_w_wdcos_bin.html#ac3de498d96c0a409672b150d40301374", null ]
-    ] ],
     [ "Epsilon1", "dd/d75/class_epsilon1.html", [
       [ "Epsilon1", "dd/d75/class_epsilon1.html#ae89a55fbf85f1795e111c6581e6017be", null ],
       [ "computeThValue", "dd/d75/class_epsilon1.html#aaf58da85dfbc8a9df078f193dc684a51", null ]
@@ -125,11 +97,9 @@ var group___e_w =
       [ "GammaZ", "df/d87/class_gamma_z.html#a55aef1cec9bab396beb131d40639745c", null ],
       [ "computeThValue", "df/d87/class_gamma_z.html#a38e0de8edc61bb414ca91e7977a31603", null ]
     ] ],
-    [ "lambdaZ", "d6/d86/classlambda_z.html", [
-      [ "lambdaZ", "d6/d86/classlambda_z.html#a05f3b78b7c89dbed6e17a443de58dac7", null ],
-      [ "~lambdaZ", "d6/d86/classlambda_z.html#a5c128ef333ce495b9172f31b0840093e", null ],
-      [ "computeThValue", "d6/d86/classlambda_z.html#aaf8814d74d43217bebaad34dd2c409db", null ],
-      [ "myNPbase", "d6/d86/classlambda_z.html#af9519dd57d3d70e2f4b4641025e74f41", null ]
+    [ "GammaZhad", "dc/d6c/class_gamma_zhad.html", [
+      [ "GammaZhad", "dc/d6c/class_gamma_zhad.html#a7ce6dfc4b7ba581f52a39f09284ef41b", null ],
+      [ "computeThValue", "dc/d6c/class_gamma_zhad.html#a35a348c3f7d0822f306d9cc147af3cf0", null ]
     ] ],
     [ "LEP2AFBbottom", "d5/d4a/class_l_e_p2_a_f_bbottom.html", [
       [ "LEP2AFBbottom", "d5/d4a/class_l_e_p2_a_f_bbottom.html#a11ccd73d5479d2acf6eb5e4aaa858bc2", null ],
@@ -268,18 +238,7 @@ var group___e_w =
       [ "RcharmTEST", "dd/d89/class_l_e_p2test.html#a9f577c8c9223ca9f21be84a109f86028", null ],
       [ "sigmaHadronTEST", "dd/d89/class_l_e_p2test.html#ac028e1b3a6620883e9461b89d1feb902", null ],
       [ "sigmaMuTEST", "dd/d89/class_l_e_p2test.html#a32e357d3663caf0db51b390efef799a0", null ],
-      [ "sigmaTauTEST", "dd/d89/class_l_e_p2test.html#a5f6dcfcd292d4dc9571a2051b69113f3", null ],
-      [ "AFBbottom", "dd/d89/class_l_e_p2test.html#aa15994920775d20fb09b5ea9aea404fb", null ],
-      [ "AFBcharm", "dd/d89/class_l_e_p2test.html#a9f09c61ac54009a775aa3698a6e240ce", null ],
-      [ "AFBmu", "dd/d89/class_l_e_p2test.html#a5082bfb8dfee3e586cd341c2a0562ea6", null ],
-      [ "AFBtau", "dd/d89/class_l_e_p2test.html#a5b5858f13b2f69a22b58f413930b74c8", null ],
-      [ "Rbottom", "dd/d89/class_l_e_p2test.html#aec94b4c81996468d7222f7dac265440c", null ],
-      [ "Rcharm", "dd/d89/class_l_e_p2test.html#a2b320ffa03d9ef3136401327016c06df", null ],
-      [ "sigmaHadron", "dd/d89/class_l_e_p2test.html#acd3ab9a48a1bfb3b5ee4f77a2a65168d", null ],
-      [ "sigmaMu", "dd/d89/class_l_e_p2test.html#a1117bd8ef2a86f3605b9252dedd82f86", null ],
-      [ "sigmaTau", "dd/d89/class_l_e_p2test.html#ade69be5ffebb4bcfdec11bfeec3d221a", null ],
-      [ "sqrt_s", "dd/d89/class_l_e_p2test.html#aa41398374940530ceac7cf64a9fbac55", null ],
-      [ "sqrt_s_HF", "dd/d89/class_l_e_p2test.html#ad689b1d160a90d910fb3b9dfef59ab45", null ]
+      [ "sigmaTauTEST", "dd/d89/class_l_e_p2test.html#a5f6dcfcd292d4dc9571a2051b69113f3", null ]
     ] ],
     [ "LEP2ThObservable", "db/de5/class_l_e_p2_th_observable.html", [
       [ "LEP2ThObservable", "db/de5/class_l_e_p2_th_observable.html#a28442015d172a763fe3601daf53a631c", null ],
@@ -311,14 +270,6 @@ var group___e_w =
       [ "sigma_q", "d3/d09/class_l_e_p2_two_fermions.html#adb96723ceea3252ea407bb088eea6ece", null ],
       [ "SM", "d3/d09/class_l_e_p2_two_fermions.html#a26473102828cad7a797a9e2e040b9efc", null ]
     ] ],
-    [ "mupTVppWZ", "d2/dc3/classmup_t_vpp_w_z.html", [
-      [ "mupTVppWZ", "d2/dc3/classmup_t_vpp_w_z.html#a5eefec45f378cef2c4357db628645ebf", null ],
-      [ "computeThValue", "d2/dc3/classmup_t_vpp_w_z.html#a2a56c3b7b2cf8d6de86d58faa373eef1", null ],
-      [ "myNPbase", "d2/dc3/classmup_t_vpp_w_z.html#aa124e52c7c5dcd2c22445f2a5d6529c5", null ],
-      [ "pTV1", "d2/dc3/classmup_t_vpp_w_z.html#af3bead69c4978b32d6e994f5d4bb3a39", null ],
-      [ "pTV2", "d2/dc3/classmup_t_vpp_w_z.html#a7f0edb4d575246460838d23f448e05c9", null ],
-      [ "sqrt_s", "d2/dc3/classmup_t_vpp_w_z.html#afc3f23c902a427b1f861a57037a9f68d", null ]
-    ] ],
     [ "Mw", "dc/dc7/class_mw.html", [
       [ "Mw", "dc/dc7/class_mw.html#a3ce452f39f02654a9df896875ebfc5e5", null ],
       [ "computeThValue", "dc/dc7/class_mw.html#a69392576c2bcf7ad17d9af2f9df4354e", null ]
@@ -326,13 +277,6 @@ var group___e_w =
     [ "Nneutrinos", "df/d81/class_nneutrinos.html", [
       [ "Nneutrinos", "df/d81/class_nneutrinos.html#a12636fafc6bfa59ab3395c060ad75b18", null ],
       [ "computeThValue", "df/d81/class_nneutrinos.html#a0bf39232939329df49e7bf0dac8462d1", null ]
-    ] ],
-    [ "NpTVppWZ", "d1/d44/class_np_t_vpp_w_z.html", null ],
-    [ "ppZHprobe", "dc/d82/classpp_z_hprobe.html", [
-      [ "ppZHprobe", "dc/d82/classpp_z_hprobe.html#a0eb4f7650ca392306ae296e6f14c3f7c", null ],
-      [ "computeThValue", "dc/d82/classpp_z_hprobe.html#a495d82b31e73807779b755bf872afa9a", null ],
-      [ "myNPbase", "dc/d82/classpp_z_hprobe.html#a6b3db52c796448f42cf2d3df7b3fbf2e", null ],
-      [ "sqrt_s", "dc/d82/classpp_z_hprobe.html#ae56e67c529a30f56bf72fb33445e6ef2", null ]
     ] ],
     [ "PtauPol", "d6/df6/class_ptau_pol.html", [
       [ "PtauPol", "d6/df6/class_ptau_pol.html#ab10edcfabc799717d5fe3c3ecc73df3b", null ],
@@ -362,6 +306,10 @@ var group___e_w =
       [ "Rmuon", "df/d13/class_rmuon.html#a7c745b0b76cac9cdc99d19699351e6da", null ],
       [ "computeThValue", "df/d13/class_rmuon.html#af71df50a4a9eb345c0cb739558e57c69", null ]
     ] ],
+    [ "Rneutrinos", "d6/dba/class_rneutrinos.html", [
+      [ "Rneutrinos", "d6/dba/class_rneutrinos.html#a620e738c86913dc89ddc1e5c2b7858a9", null ],
+      [ "computeThValue", "d6/dba/class_rneutrinos.html#a7448e3973a27a7927587de0e7306b163", null ]
+    ] ],
     [ "Rtau", "d9/d1d/class_rtau.html", [
       [ "Rtau", "d9/d1d/class_rtau.html#ab3a58c288c18f8fee7ee8f6e88658b23", null ],
       [ "computeThValue", "d9/d1d/class_rtau.html#a4138b0b688fc2c7df87721bf47ba0c77", null ]
@@ -389,11 +337,5 @@ var group___e_w =
     [ "sin2thetaEffmu", "de/d6f/classsin2theta_effmu.html", [
       [ "sin2thetaEffmu", "de/d6f/classsin2theta_effmu.html#a32e81688492d327b5d24e3a2971f9d1f", null ],
       [ "computeThValue", "de/d6f/classsin2theta_effmu.html#a29fbe6a8495d322a18ab01ca55e81022", null ]
-    ] ],
-    [ "xseeWW", "d8/db5/classxsee_w_w.html", [
-      [ "xseeWW", "d8/db5/classxsee_w_w.html#a9dd6a28377eeb98e1e4e9fce818ed03e", null ],
-      [ "computeThValue", "d8/db5/classxsee_w_w.html#ac0b44df4ff80c086b33e6760f6ed6d0f", null ],
-      [ "myNPbase", "d8/db5/classxsee_w_w.html#a4d13e1bcd515bd97f3641a028fa00c5b", null ],
-      [ "sqrt_s", "d8/db5/classxsee_w_w.html#a549dfea979b39858562d0b12165ceb67", null ]
     ] ]
 ];

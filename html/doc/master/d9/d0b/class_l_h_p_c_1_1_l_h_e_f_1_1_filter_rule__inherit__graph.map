@@ -1,6 +1,0 @@
-<map id="LHPC::LHEF::FilterRule" name="LHPC::LHEF::FilterRule">
-<area shape="rect" id="node2" href="$d1/d25/class_l_h_p_c_1_1_l_h_e_f_1_1_filter_rule_class_1_1_initial_or_intermediate_or_final_state.html" title="LHPC::LHEF::FilterRuleClass\l::InitialOrIntermediateOrFinalState" alt="" coords="188,5,372,41"/>
-<area shape="rect" id="node3" href="$d2/d92/class_l_h_p_c_1_1_l_h_e_f_1_1_filter_rule_class_1_1_particle_code.html" title="LHPC::LHEF::FilterRuleClass\l::ParticleCode" alt="" coords="199,65,361,101"/>
-<area shape="rect" id="node4" href="$d5/d31/class_l_h_p_c_1_1_l_h_e_f_1_1_filter_rule_class_1_1_pseudorapidity_cut.html" title="LHPC::LHEF::FilterRuleClass\l::PseudorapidityCut" alt="" coords="199,125,361,161"/>
-<area shape="rect" id="node5" href="$d4/d6c/class_l_h_p_c_1_1_l_h_e_f_1_1_filter_rule_class_1_1_transverse_momentum_cut.html" title="LHPC::LHEF::FilterRuleClass\l::TransverseMomentumCut" alt="" coords="199,185,361,221"/>
-</map>

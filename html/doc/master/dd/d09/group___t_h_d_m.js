@@ -182,12 +182,6 @@ var group___t_h_d_m =
       [ "computeThValue", "d1/d0c/class_gamma___hp___t_h_d_m.html#a23a89db9035f442aa4a14cde63a098ca", null ],
       [ "myTHDM", "d1/d0c/class_gamma___hp___t_h_d_m.html#ac5182062c91b4fa711237cefe311c483", null ]
     ] ],
-    [ "GeneralTHDMEDMcouplings", "dc/dd5/class_general_t_h_d_m_e_d_mcouplings.html", [
-      [ "GeneralTHDMEDMcouplings", "dc/dd5/class_general_t_h_d_m_e_d_mcouplings.html#a1ef5e00feb04e169eaeba677d2c727d7", null ],
-      [ "~GeneralTHDMEDMcouplings", "dc/dd5/class_general_t_h_d_m_e_d_mcouplings.html#a5c49875400e799094eb24a98e5d61ed4", null ],
-      [ "kappa_b", "dc/dd5/class_general_t_h_d_m_e_d_mcouplings.html#ace9541669b27851f36371ffac88ecb12", null ],
-      [ "kappa_t", "dc/dd5/class_general_t_h_d_m_e_d_mcouplings.html#ae3adedce87edea68057ec55026cfada5", null ]
-    ] ],
     [ "ggF_htobb", "d0/d5c/classgg_f__htobb.html", [
       [ "ggF_htobb", "d0/d5c/classgg_f__htobb.html#ac7d9001da8b50c759cda136b582ad431", null ],
       [ "computeThValue", "d0/d5c/classgg_f__htobb.html#ac207354767ead73911eeaaf5891e711a", null ],
@@ -414,11 +408,6 @@ var group___t_h_d_m =
       [ "Hobs_ggF_A_tautau_CMS13", "d2/df6/class_hobs__gg_f___a__tautau___c_m_s13.html#a341be7698f3f2a30ac8ac33f46ed4f0a", null ],
       [ "computeThValue", "d2/df6/class_hobs__gg_f___a__tautau___c_m_s13.html#abc97f9b5df8dea301a00805c111680a9", null ],
       [ "myTHDM", "d2/df6/class_hobs__gg_f___a__tautau___c_m_s13.html#af3e068af72a1ee5391853a9053ef745d", null ]
-    ] ],
-    [ "Hobs_ggF_A_tautau_CMS8", "d1/d90/class_hobs__gg_f___a__tautau___c_m_s8.html", [
-      [ "Hobs_ggF_A_tautau_CMS8", "d1/d90/class_hobs__gg_f___a__tautau___c_m_s8.html#ae26fce5b74e090c1a0e799688adeff1c", null ],
-      [ "computeThValue", "d1/d90/class_hobs__gg_f___a__tautau___c_m_s8.html#a2816f3abc15f3db7bcd706fa5d0ba09b", null ],
-      [ "myTHDM", "d1/d90/class_hobs__gg_f___a__tautau___c_m_s8.html#ae29fa43bd3cfb7a253482f56a3801608", null ]
     ] ],
     [ "Hobs_ggF_A_tt_ATLAS8", "da/d33/class_hobs__gg_f___a__tt___a_t_l_a_s8.html", [
       [ "Hobs_ggF_A_tt_ATLAS8", "da/d33/class_hobs__gg_f___a__tt___a_t_l_a_s8.html#a5d503990d614b40b3dd50870577dee18", null ],
@@ -900,7 +889,6 @@ var group___t_h_d_m =
       [ "computeThValue", "d0/de7/classlambda5at_q.html#a988401bdb1bdea0cdfa46ef79039ffb7", null ],
       [ "myTHDM", "d0/de7/classlambda5at_q.html#a305df40bf77081774a14c83e6d85cd37", null ]
     ] ],
-    [ "LIMITmLIMEST", "db/d53/class_l_i_m_i_tm_l_i_m_e_s_t.html", null ],
     [ "log10_bb_H_tt_TH13", "d2/d15/classlog10__bb___h__tt___t_h13.html", [
       [ "log10_bb_H_tt_TH13", "d2/d15/classlog10__bb___h__tt___t_h13.html#a58dbed1c05aa4b9c967021eece42fdb6", null ],
       [ "computeThValue", "d2/d15/classlog10__bb___h__tt___t_h13.html#ab1f44cc5b7d05ac2124a86f46305746d", null ],
@@ -1436,7 +1424,6 @@ var group___t_h_d_m =
       [ "computeThValue", "d5/d5e/class_q__st.html#ab1445b003e57fe7d133070153c989c2d", null ],
       [ "myTHDM", "d5/d5e/class_q__st.html#ac549c9995ef29087eb90524a5f5ee316", null ]
     ] ],
-    [ "rA_gaga_THDM", "d2/d6b/classr_a__gaga___t_h_d_m.html", null ],
     [ "rA_gg_THDM", "d0/d13/classr_a__gg___t_h_d_m.html", [
       [ "rA_gg_THDM", "d0/d13/classr_a__gg___t_h_d_m.html#a683024739d5ab2656d5fbdc753a3dd51", null ],
       [ "computeThValue", "d0/d13/classr_a__gg___t_h_d_m.html#af741c073dce38106af4b9d4a88db3506", null ],
@@ -1469,7 +1456,6 @@ var group___t_h_d_m =
       [ "computeThValue", "da/df2/classrh___zga___t_h_d_m.html#a3d02f877fb178496229770ad49a05e1e", null ],
       [ "myTHDM", "da/df2/classrh___zga___t_h_d_m.html#a13740218f14b52ea5cc650fa0b9a6707", null ]
     ] ],
-    [ "rHH_gaga_THDM", "dc/d7a/classr_h_h__gaga___t_h_d_m.html", null ],
     [ "rHH_gg_THDM", "da/d11/classr_h_h__gg___t_h_d_m.html", [
       [ "rHH_gg_THDM", "da/d11/classr_h_h__gg___t_h_d_m.html#a0b1c927bccd530c19e6b4a942a0bfe33", null ],
       [ "computeThValue", "da/d11/classr_h_h__gg___t_h_d_m.html#a6d9911e29945a3280a5bc8ffe05fdcd0", null ],
@@ -2090,9 +2076,9 @@ var group___t_h_d_m =
       [ "InitializeModel", "d0/d52/class_t_h_d_m.html#a69a0627982e57d54c7058d4d545900cd", null ],
       [ "PostUpdate", "d0/d52/class_t_h_d_m.html#abcffc3f073d7a9bcee440fdf6fcb37c7", null ],
       [ "PreUpdate", "d0/d52/class_t_h_d_m.html#a935f7199ee51fc97c32b6186ae4a6789", null ],
-      [ "setFlag", "d0/d52/class_t_h_d_m.html#a20cffb3be8c742e65bb6a6a53c4e6a9a", null ],
+      [ "setFlag", "d0/d52/class_t_h_d_m.html#a4a7f231c8f44f2c94f71cf5eac4a2e90", null ],
       [ "setFlagStr", "d0/d52/class_t_h_d_m.html#ac2fd00c022c3650a800ded1714de36f3", null ],
-      [ "setParameter", "d0/d52/class_t_h_d_m.html#a2f9235c46b78107caee135820a418ce7", null ],
+      [ "setParameter", "d0/d52/class_t_h_d_m.html#af869e79daedd189d47ada70b426af2c6", null ],
       [ "Update", "d0/d52/class_t_h_d_m.html#a9b3c6dc594e89dcdac1877b71d335b44", null ],
       [ "BDstartaunu_A", "d0/d52/class_t_h_d_m.html#a82f0e5c0f1bd633af03869a76004571b", null ],
       [ "BDstartaunu_B", "d0/d52/class_t_h_d_m.html#aad8f41ce603c7a00f3dac516941a26e4", null ],
@@ -2118,14 +2104,12 @@ var group___t_h_d_m =
       [ "mHp2", "d0/d52/class_t_h_d_m.html#aab32975137ae8e5ae45ec4d11fd4d78d", null ],
       [ "myTHDMcache", "d0/d52/class_t_h_d_m.html#a26742bf863324fa6ef929a30a833b1e3", null ],
       [ "NLOuniscale", "d0/d52/class_t_h_d_m.html#af4cbc9b8fcdaaacc153ebae9e81f8745", null ],
-      [ "NTHDMvars", "d0/d52/class_t_h_d_m.html#a5e74e6f5c655c5a3ab38e8c9636bf9f8", null ],
       [ "Q_THDM", "d0/d52/class_t_h_d_m.html#a43cbb97d978d2e73c36726877d0d1418", null ],
       [ "Rpeps", "d0/d52/class_t_h_d_m.html#ae4751f961fd49cc8cc7855a451a1de77", null ],
       [ "sin_ba", "d0/d52/class_t_h_d_m.html#a461604fed9616a8f8c53fb49550a7230", null ],
       [ "sinb", "d0/d52/class_t_h_d_m.html#a972ac0b8802ea3170dcb11f9520bc9c4", null ],
       [ "tanb", "d0/d52/class_t_h_d_m.html#a085d42e98267d48b66234860b23ff600", null ],
-      [ "THDMM", "d0/d52/class_t_h_d_m.html#a187a78fddb79da133dfea907c0013ada", null ],
-      [ "THDMvars", "d0/d52/class_t_h_d_m.html#a89f108942fdaa127177f1657177ad32b", null ]
+      [ "THDMM", "d0/d52/class_t_h_d_m.html#a187a78fddb79da133dfea907c0013ada", null ]
     ] ],
     [ "THDM_BR_h_bb", "de/d7f/class_t_h_d_m___b_r__h__bb.html", [
       [ "THDM_BR_h_bb", "de/d7f/class_t_h_d_m___b_r__h__bb.html#ac48839c9be1fd21983a5712c284ed743", null ],
@@ -2565,7 +2549,7 @@ var group___t_h_d_m =
       [ "KaellenFunction", "d5/df2/class_t_h_d_mcache.html#a066af633a9041efb0cd94bf13b79cdfe", null ],
       [ "MWTHDM", "d5/df2/class_t_h_d_mcache.html#ab80f621991368d132bb47b21d3a5373c", null ],
       [ "read", "d5/df2/class_t_h_d_mcache.html#a5c399dd05b26535da3956ea18721bf37", null ],
-      [ "readTable", "d5/df2/class_t_h_d_mcache.html#a9e31f89a87e2b2fc95fd8d6e784af1fd", null ],
+      [ "readTable", "d5/df2/class_t_h_d_mcache.html#a83103671c089613004481115becd6af6", null ],
       [ "runTHDMparameters", "d5/df2/class_t_h_d_mcache.html#a33a3b43096dcb11c35687ac03c1299e6", null ],
       [ "updateCache", "d5/df2/class_t_h_d_mcache.html#a2209fc9cd764827f63b79dd450449bba", null ],
       [ "A_A_D_cache", "d5/df2/class_t_h_d_mcache.html#a5543f235944c7e04aa46b4a52706a84f", null ],
@@ -2807,7 +2791,6 @@ var group___t_h_d_m =
       [ "BrSM_htobb", "d5/df2/class_t_h_d_mcache.html#aa994730204e9208c5e3a01daefd9c70f", null ],
       [ "BrSM_htogaga", "d5/df2/class_t_h_d_mcache.html#a5b72b0a5a6fb32b99f8ac4ae2885697c", null ],
       [ "BrSM_htotautau", "d5/df2/class_t_h_d_mcache.html#a3081f7e21440db09c830752ac184767c", null ],
-      [ "CacheSize", "d5/df2/class_t_h_d_mcache.html#a58f0fdd1f9f560eb80df661e4bf3a5d8", null ],
       [ "CMS13_bb_phi_tautau", "d5/df2/class_t_h_d_mcache.html#ac2d360130ceb5997b75e2e7439048330", null ],
       [ "CMS13_bb_phi_tautau_e", "d5/df2/class_t_h_d_mcache.html#a3590c92dafc48ff6728c75108a5d0111", null ],
       [ "CMS13_gg_H_ZZ_llnunu", "d5/df2/class_t_h_d_mcache.html#abd9ac4eb4d53dcc9db99378ca55987fe", null ],
@@ -3688,8 +3671,7 @@ var group___t_h_d_m =
     ] ],
     [ "THDMgminus2_mu", "d5/de5/class_t_h_d_mgminus2__mu.html", [
       [ "THDMgminus2_mu", "d5/de5/class_t_h_d_mgminus2__mu.html#a15af6ced8423fdac1fc3fb596e423f15", null ],
-      [ "computeThValue", "d5/de5/class_t_h_d_mgminus2__mu.html#aa969ac5c95d298b10ee6f44581de88b4", null ],
-      [ "mySM", "d5/de5/class_t_h_d_mgminus2__mu.html#a9e4df65e94611804dd6a9f8d57271832", null ]
+      [ "computeThValue", "d5/de5/class_t_h_d_mgminus2__mu.html#aa969ac5c95d298b10ee6f44581de88b4", null ]
     ] ],
     [ "THDMMatching", "dc/d38/class_t_h_d_m_matching.html", [
       [ "THDMMatching", "dc/d38/class_t_h_d_m_matching.html#a81efd652d9df5dd4c2f8425d18d8425f", null ],

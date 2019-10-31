@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['feynhiggswrapper',['FeynHiggsWrapper',['../dc/d6f/class_s_u_s_y.html#ad82d49667867bbb16a86a1d17276447b',1,'SUSY']]]
+  ['dilog_22624',['dilog',['../d7/d01/class_b_xqll.html#acfd9078837033de6407d3032ac4e07c1',1,'BXqll']]],
+  ['zeta_22625',['zeta',['../dd/d88/class_evol_d_f1.html#a8dfefc9a8fcbcec7e9369ef2b9fa39cf',1,'EvolDF1']]]
 ];

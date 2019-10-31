@@ -47,10 +47,8 @@ var class_higgs_kv_kfgen =
     [ "setKv", "d2/d27/class_higgs_kv_kfgen.html#a609d44fc8994d13938c2879e74555271", null ],
     [ "setParameter", "d2/d27/class_higgs_kv_kfgen.html#a1f279b037bf8e610665e93b4866d8813", null ],
     [ "BrHinv", "d2/d27/class_higgs_kv_kfgen.html#a6d7ec77b8e8c6c46b532369aa86b878e", null ],
-    [ "HKvKfgenvars", "d2/d27/class_higgs_kv_kfgen.html#aff96b821205478e35e27dc9def85a145", null ],
     [ "Kd", "d2/d27/class_higgs_kv_kfgen.html#a09880e2ca4ee4d2b5b82734a0609a102", null ],
     [ "Kl", "d2/d27/class_higgs_kv_kfgen.html#afef853e9904e6ce5f755fb71972ce302", null ],
     [ "Ku", "d2/d27/class_higgs_kv_kfgen.html#a3135d0b6e87262696e6f50dd7b196ed3", null ],
-    [ "Kv", "d2/d27/class_higgs_kv_kfgen.html#a7833919d7d609533a820565965f3679f", null ],
-    [ "NHKvKfgenvars", "d2/d27/class_higgs_kv_kfgen.html#ac7e9ac89df9fa57212534891b1069fbb", null ]
+    [ "Kv", "d2/d27/class_higgs_kv_kfgen.html#a7833919d7d609533a820565965f3679f", null ]
 ];

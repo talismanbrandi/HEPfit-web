@@ -309,7 +309,6 @@ var class_g_mcache =
     [ "br_WW", "d7/db7/class_g_mcache.html#a7f9e4f39ae54102aeb880b274e8ffb14", null ],
     [ "br_ZZ", "d7/db7/class_g_mcache.html#a72a830feb04609341018c1c07365868f", null ],
     [ "BrRatioVV5", "d7/db7/class_g_mcache.html#ab450615e75bd715d69c63068a2589491", null ],
-    [ "CacheSize", "d7/db7/class_g_mcache.html#afa0ede39e94ff9c8400a0e7a30ab86d4", null ],
     [ "CMS13_bb_A_Zh_Zbb_1", "d7/db7/class_g_mcache.html#a589fce0884109d6a53aa145d0d35d47a", null ],
     [ "CMS13_bb_A_Zh_Zbb_2", "d7/db7/class_g_mcache.html#a8ba3397618f9cad16239f78244855389", null ],
     [ "CMS13_bb_phi_bb", "d7/db7/class_g_mcache.html#a78c8b707bacb8c095f4214d184e33692", null ],

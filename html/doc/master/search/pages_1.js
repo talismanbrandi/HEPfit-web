@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['hepfit_20_2d_20a_20code_20for_20the_20combination_20of_20indirect_20and_20direct_20constraints_20on_20high_20energy_20physics_20models_2e',['HEPfit - a Code for the Combination of Indirect and Direct Constraints on High Energy Physics Models.',['../index.html',1,'']]],
-  ['hepfit_20_2d_20a_20code_20for_20the_20combination_20of_20indirect_20and_20direct_20constraints_20on_20high_20energy_20physics_20models_2e',['HEPfit - a Code for the Combination of Indirect and Direct Constraints on High Energy Physics Models.',['../d6/d68/md___users_ayanpaul__net_beans_projects__h_e_pfit__r_e_a_d_m_e.html',1,'']]]
+  ['installation_22661',['Installation',['../d4/d0d/md___users_ayanpaul__net_beans_projects__h_e_pfit__packaging__h_e_pfit-master-3157ef3__i_n_s_t_a_l_l.html',1,'']]],
+  ['installation_22662',['Installation',['../d6/d57/_page_installation.html',1,'']]]
 ];

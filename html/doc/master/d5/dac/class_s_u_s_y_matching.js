@@ -39,7 +39,6 @@ var class_s_u_s_y_matching =
     [ "CMbsg", "d5/dac/class_s_u_s_y_matching.html#aad518aeb2ee18e8ca6c903a47a0f3a28", null ],
     [ "CMdbd2", "d5/dac/class_s_u_s_y_matching.html#aa34bd62e52fb12666fb3420b6a6aacfc", null ],
     [ "CMdbs2", "d5/dac/class_s_u_s_y_matching.html#a3ccbd9dc6ee7081b9519898f732b9477", null ],
-    [ "CMdd2", "d5/dac/class_s_u_s_y_matching.html#aa4e109c318ce14f7a40600ee0f2c79c3", null ],
     [ "CMdk2", "d5/dac/class_s_u_s_y_matching.html#a55f7a5aed77b0da3935562bb8f3aba11", null ],
     [ "CMDLi3j", "d5/dac/class_s_u_s_y_matching.html#a1b69a917db02a16c3fb712e88a92ab2e", null ],
     [ "CMDLij", "d5/dac/class_s_u_s_y_matching.html#aa9827ba4854030301f02e391cdd66f2d", null ],

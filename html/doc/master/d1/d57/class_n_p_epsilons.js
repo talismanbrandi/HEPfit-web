@@ -29,7 +29,6 @@ var class_n_p_epsilons =
     [ "setParameter", "d1/d57/class_n_p_epsilons.html#a0d2372b6262cb499d96750b56d04674b", null ],
     [ "sigma0_had", "d1/d57/class_n_p_epsilons.html#aa50f09cec581ce8449e451bc703f17b2", null ],
     [ "sin2thetaEff", "d1/d57/class_n_p_epsilons.html#a993585060a221f7cb5be9c8bfd1bd2ba", null ],
-    [ "EPSILONvars", "d1/d57/class_n_p_epsilons.html#a1fa4984a1e0ba9b16a8ce475df973f4a", null ],
     [ "FlagEpsilon1SM", "d1/d57/class_n_p_epsilons.html#af083f19bb1546c8bf774ff1493933f17", null ],
     [ "FlagEpsilon2SM", "d1/d57/class_n_p_epsilons.html#a9f2fd43c6d25f5ddac5dc22712dda222", null ],
     [ "FlagEpsilon3SM", "d1/d57/class_n_p_epsilons.html#a70049eef593916676d68013f24bcbb21", null ],
@@ -37,6 +36,5 @@ var class_n_p_epsilons =
     [ "myEpsilon_1", "d1/d57/class_n_p_epsilons.html#a3405cf09ddea77639c2af00f70148a46", null ],
     [ "myEpsilon_2", "d1/d57/class_n_p_epsilons.html#a1a5a7fed0855bf5373077ba2a2ca0a5d", null ],
     [ "myEpsilon_3", "d1/d57/class_n_p_epsilons.html#a3bd8f28507385c7eb7ec70238276e65d", null ],
-    [ "myEpsilon_b", "d1/d57/class_n_p_epsilons.html#ac33f8de115f035b90095f3dabe06f140", null ],
-    [ "NEPSILONvars", "d1/d57/class_n_p_epsilons.html#a0d7b2a45a7ad8179c59c70ca77f1b08e", null ]
+    [ "myEpsilon_b", "d1/d57/class_n_p_epsilons.html#ac33f8de115f035b90095f3dabe06f140", null ]
 ];

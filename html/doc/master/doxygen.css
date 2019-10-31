@@ -1,4 +1,4 @@
-/* The standard CSS for doxygen 1.8.14 */
+/* The standard CSS for doxygen 1.8.16 */
 
 body, table, div, p, dl {
 	font: 400 14px/22px Roboto,sans-serif;
@@ -22,8 +22,8 @@ h1.groupheader {
 }
 
 h2.groupheader {
-	border-bottom: 1px solid #3436B7;
-	color: #0F0F35;
+	border-bottom: 1px solid #66A9AD;
+	color: #244243;
 	font-size: 150%;
 	font-weight: normal;
 	margin-top: 1.75em;
@@ -53,11 +53,13 @@ dt {
 	font-weight: bold;
 }
 
-div.multicol {
+ul.multicol {
 	-moz-column-gap: 1em;
 	-webkit-column-gap: 1em;
+	column-gap: 1em;
 	-moz-column-count: 3;
 	-webkit-column-count: 3;
+	column-count: 3;
 }
 
 p.startli, p.startdd {
@@ -80,6 +82,15 @@ p.endtd {
 	margin-bottom: 2px;
 }
 
+p.interli {
+}
+
+p.interdd {
+}
+
+p.intertd {
+}
+
 /* @end */
 
 caption {
@@ -97,8 +108,8 @@ h3.version {
 }
 
 div.qindex, div.navtab{
-	background-color: #D7D8F3;
-	border: 1px solid #5456CE;
+	background-color: #E4F0F0;
+	border: 1px solid #87BCBF;
 	text-align: center;
 }
 
@@ -114,13 +125,13 @@ div.navtab {
 /* @group Link Styling */
 
 a {
-	color: #131444;
+	color: #2C5052;
 	font-weight: normal;
 	text-decoration: none;
 }
 
 .contents a:visited {
-	color: #191A5A;
+	color: #376466;
 }
 
 a:hover {
@@ -133,13 +144,13 @@ a.qindex {
 
 a.qindexHL {
 	font-weight: bold;
-	background-color: #494BCB;
-	color: #ffffff;
-	border: 1px double #3335B5;
+	background-color: #7FB7BA;
+	color: #FFFFFF;
+	border: 1px double #65A9AC;
 }
 
 .contents a.qindexHL:visited {
-        color: #ffffff;
+        color: #FFFFFF;
 }
 
 a.el {
@@ -150,11 +161,11 @@ a.elRef {
 }
 
 a.code, a.code:visited, a.line, a.line:visited {
-	color: #4665A2; 
+	color: #376466; 
 }
 
 a.codeRef, a.codeRef:visited, a.lineRef, a.lineRef:visited {
-	color: #4665A2; 
+	color: #376466; 
 }
 
 /* @end */
@@ -163,9 +174,28 @@ dl.el {
 	margin-left: -1cm;
 }
 
+ul {
+  overflow: hidden; /*Fixed: list item bullets overlap floating elements*/
+}
+
+#side-nav ul {
+  overflow: visible; /* reset ul rule for scroll bar in GENERATE_TREEVIEW window */
+}
+
+#main-nav ul {
+  overflow: visible; /* reset ul rule for the navigation bar drop down lists */
+}
+
+.fragment {
+  text-align: left;
+  direction: ltr;
+  overflow-x: auto; /*Fixed: fragment lines overlap floating elements*/
+  overflow-y: hidden;
+}
+
 pre.fragment {
-        border: 1px solid #C4CFE5;
-        background-color: #FBFCFD;
+        border: 1px solid #B1D3D5;
+        background-color: #FAFCFC;
         padding: 4px 6px;
         margin: 4px 8px 4px 2px;
         overflow: auto;
@@ -177,10 +207,10 @@ pre.fragment {
 }
 
 div.fragment {
-        padding: 0px;
-        margin: 4px 8px 4px 2px;
-	background-color: #F7F8FC;
-	border: 1px solid #8D8EDE;
+  padding: 0 0 1px 0; /*Fixed: last line underline overlap border*/
+  margin: 4px 8px 4px 2px;
+	background-color: #FAFCFC;
+	border: 1px solid #B1D3D5;
 }
 
 div.line {
@@ -248,7 +278,7 @@ span.lineno a:hover {
 div.ah, span.ah {
 	background-color: black;
 	font-weight: bold;
-	color: #ffffff;
+	color: #FFFFFF;
 	margin-bottom: 3px;
 	margin-top: 3px;
 	padding: 0.2em;
@@ -296,9 +326,9 @@ div.contents {
 }
 
 td.indexkey {
-	background-color: #D7D8F3;
+	background-color: #E4F0F0;
 	font-weight: bold;
-	border: 1px solid #8D8EDE;
+	border: 1px solid #B1D3D5;
 	margin: 2px 0px 2px 0;
 	padding: 2px 10px;
         white-space: nowrap;
@@ -306,14 +336,14 @@ td.indexkey {
 }
 
 td.indexvalue {
-	background-color: #D7D8F3;
-	border: 1px solid #8D8EDE;
+	background-color: #E4F0F0;
+	border: 1px solid #B1D3D5;
 	padding: 2px 10px;
 	margin: 2px 0px;
 }
 
 tr.memlist {
-	background-color: #DCDCF5;
+	background-color: #E7F1F2;
 }
 
 p.formulaDsp {
@@ -324,7 +354,7 @@ img.formulaDsp {
 	
 }
 
-img.formulaInl {
+img.formulaInl, img.inline {
 	vertical-align: middle;
 }
 
@@ -396,10 +426,17 @@ span.vhdllogic {
 }
 
 blockquote {
-        background-color: #EEEEFA;
-        border-left: 2px solid #494BCB;
+        background-color: #F4F8F9;
+        border-left: 2px solid #7FB7BA;
         margin: 0 24px 0 4px;
         padding: 0 12px 0 16px;
+}
+
+blockquote.DocNodeRTL {
+   border-left: 0;
+   border-right: 2px solid #7FB7BA;
+   margin: 0 4px 0 24px;
+   padding: 0 16px 0 12px;
 }
 
 /* @end */
@@ -430,18 +467,18 @@ td.tiny {
 .dirtab {
 	padding: 4px;
 	border-collapse: collapse;
-	border: 1px solid #5456CE;
+	border: 1px solid #87BCBF;
 }
 
 th.dirtab {
-	background: #D7D8F3;
+	background: #E4F0F0;
 	font-weight: bold;
 }
 
 hr {
 	height: 0px;
 	border: none;
-	border-top: 1px solid #1C1D63;
+	border-top: 1px solid #3B6B6E;
 }
 
 hr.footer {
@@ -476,7 +513,7 @@ table.memberdecls {
 .mdescLeft, .mdescRight,
 .memItemLeft, .memItemRight,
 .memTemplItemLeft, .memTemplItemRight, .memTemplParams {
-	background-color: #F3F3FB;
+	background-color: #F7FAFA;
 	border: none;
 	margin: 4px;
 	padding: 1px 0 0 8px;
@@ -488,7 +525,7 @@ table.memberdecls {
 }
 
 .memSeparator {
-        border-bottom: 1px solid #DEE4F0;
+        border-bottom: 1px solid #D2E5E6;
         line-height: 1px;
         margin: 0px;
         padding: 0px;
@@ -503,7 +540,7 @@ table.memberdecls {
 }
 
 .memTemplParams {
-	color: #191A5A;
+	color: #376466;
         white-space: nowrap;
 	font-size: 80%;
 }
@@ -516,15 +553,15 @@ table.memberdecls {
 
 .memtitle {
 	padding: 8px;
-	border-top: 1px solid #5C5ED0;
-	border-left: 1px solid #5C5ED0;
-	border-right: 1px solid #5C5ED0;
+	border-top: 1px solid #8DBFC2;
+	border-left: 1px solid #8DBFC2;
+	border-right: 1px solid #8DBFC2;
 	border-top-right-radius: 4px;
 	border-top-left-radius: 4px;
 	margin-bottom: -1px;
 	background-image: url('nav_f.png');
 	background-repeat: repeat-x;
-	background-color: #C5C6EE;
+	background-color: #D8E9EA;
 	line-height: 1.25;
 	font-weight: 300;
 	float:left;
@@ -539,14 +576,14 @@ table.memberdecls {
 
 .memtemplate {
 	font-size: 80%;
-	color: #191A5A;
+	color: #376466;
 	font-weight: normal;
 	margin-left: 9px;
 }
 
 .memnav {
-	background-color: #D7D8F3;
-	border: 1px solid #5456CE;
+	background-color: #E4F0F0;
+	border: 1px solid #87BCBF;
 	text-align: center;
 	margin: 2px;
 	margin-right: 15px;
@@ -584,14 +621,14 @@ table.memberdecls {
 }
 
 .memproto, dl.reflist dt {
-        border-top: 1px solid #5C5ED0;
-        border-left: 1px solid #5C5ED0;
-        border-right: 1px solid #5C5ED0;
+        border-top: 1px solid #8DBFC2;
+        border-left: 1px solid #8DBFC2;
+        border-right: 1px solid #8DBFC2;
         padding: 6px 0px 6px 0px;
-        color: #07081B;
+        color: #152627;
         font-weight: bold;
         text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
-        background-color: #BFBFEC;
+        background-color: #D3E6E7;
         /* opera specific markup */
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
         border-top-right-radius: 4px;
@@ -610,11 +647,11 @@ table.memberdecls {
 }
 
 .memdoc, dl.reflist dd {
-        border-bottom: 1px solid #5C5ED0;      
-        border-left: 1px solid #5C5ED0;      
-        border-right: 1px solid #5C5ED0; 
+        border-bottom: 1px solid #8DBFC2;      
+        border-left: 1px solid #8DBFC2;      
+        border-right: 1px solid #8DBFC2; 
         padding: 6px 10px 2px 10px;
-        background-color: #F7F8FC;
+        background-color: #FAFCFC;
         border-top-width: 0;
         background-image:url('nav_g.png');
         background-repeat:repeat-x;
@@ -666,17 +703,17 @@ dl.reflist dd {
         padding-left: 0px;
 }       
 
-.params .paramname, .retval .paramname {
+.params .paramname, .retval .paramname, .tparams .paramname, .exception .paramname {
         font-weight: bold;
         vertical-align: top;
 }
         
-.params .paramtype {
+.params .paramtype, .tparams .paramtype {
         font-style: italic;
         vertical-align: top;
 }       
         
-.params .paramdir {
+.params .paramdir, .tparams .paramdir {
         font-family: "courier new",courier,monospace;
         vertical-align: top;
 }
@@ -701,11 +738,11 @@ span.mlabels {
 }
 
 span.mlabel {
-        background-color: #2B2D99;
-        border-top:1px solid #202172;
-        border-left:1px solid #202172;
-        border-right:1px solid #8D8EDE;
-        border-bottom:1px solid #8D8EDE;
+        background-color: #53989C;
+        border-top:1px solid #42787B;
+        border-left:1px solid #42787B;
+        border-right:1px solid #B1D3D5;
+        border-bottom:1px solid #B1D3D5;
 	text-shadow: none;
 	color: white;
 	margin-right: 4px;
@@ -724,8 +761,8 @@ span.mlabel {
 
 div.directory {
         margin: 10px 0px;
-        border-top: 1px solid #494BCB;
-        border-bottom: 1px solid #494BCB;
+        border-top: 1px solid #7FB7BA;
+        border-bottom: 1px solid #7FB7BA;
         width: 100%;
 }
 
@@ -763,7 +800,7 @@ div.directory {
 
 .directory tr.even {
 	padding-left: 6px;
-	background-color: #EEEEFA;
+	background-color: #F4F8F9;
 }
 
 .directory img {
@@ -781,11 +818,11 @@ div.directory {
         cursor: pointer;
         padding-left: 2px;
         padding-right: 2px;
-	color: #131444;
+	color: #2C5052;
 }
 
 .arrow {
-    color: #494BCB;
+    color: #7FB7BA;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -805,7 +842,7 @@ div.directory {
     height: 14px;
     width: 16px;
     display: inline-block;
-    background-color: #2B2D99;
+    background-color: #53989C;
     color: white;
     text-align: center;
     border-radius: 4px;
@@ -870,7 +907,7 @@ div.dynheader {
 
 address {
 	font-style: normal;
-	color: #090A22;
+	color: #192F30;
 }
 
 table.doxtable caption {
@@ -884,12 +921,12 @@ table.doxtable {
 }
 
 table.doxtable td, table.doxtable th {
-	border: 1px solid #0B0B27;
+	border: 1px solid #1C3334;
 	padding: 3px 7px 2px;
 }
 
 table.doxtable th {
-	background-color: #101139;
+	background-color: #264547;
 	color: #FFFFFF;
 	font-size: 110%;
 	padding-bottom: 4px;
@@ -899,7 +936,7 @@ table.doxtable th {
 table.fieldtable {
         /*width: 100%;*/
         margin-bottom: 10px;
-        border: 1px solid #5C5ED0;
+        border: 1px solid #8DBFC2;
         border-spacing: 0px;
         -moz-border-radius: 4px;
         -webkit-border-radius: 4px;
@@ -915,8 +952,8 @@ table.fieldtable {
 
 .fieldtable td.fieldtype, .fieldtable td.fieldname {
         white-space: nowrap;
-        border-right: 1px solid #5C5ED0;
-        border-bottom: 1px solid #5C5ED0;
+        border-right: 1px solid #8DBFC2;
+        border-bottom: 1px solid #8DBFC2;
         vertical-align: top;
 }
 
@@ -925,7 +962,7 @@ table.fieldtable {
 }
 
 .fieldtable td.fielddoc {
-        border-bottom: 1px solid #5C5ED0;
+        border-bottom: 1px solid #8DBFC2;
         /*width: 100%;*/
 }
 
@@ -944,9 +981,9 @@ table.fieldtable {
 .fieldtable th {
         background-image:url('nav_f.png');
         background-repeat:repeat-x;
-        background-color: #C5C6EE;
+        background-color: #D8E9EA;
         font-size: 90%;
-        color: #07081B;
+        color: #152627;
         padding-bottom: 4px;
         padding-top: 5px;
         text-align:left;
@@ -957,7 +994,7 @@ table.fieldtable {
         -webkit-border-top-right-radius: 4px;
         border-top-left-radius: 4px;
         border-top-right-radius: 4px;
-        border-bottom: 1px solid #5C5ED0;
+        border-bottom: 1px solid #8DBFC2;
 }
 
 
@@ -979,8 +1016,8 @@ table.fieldtable {
 	background-position: 0 -5px;
 	height:30px;
 	line-height:30px;
-	color:#3537BB;
-	border:solid 1px #898ADD;
+	color:#69ABAE;
+	border:solid 1px #AED1D3;
 	overflow:hidden;
 	margin:0px;
 	padding:0px;
@@ -995,7 +1032,7 @@ table.fieldtable {
 	background-image:url('bc_s.png');
 	background-repeat:no-repeat;
 	background-position:right;
-	color:#0F1037;
+	color:#254345;
 }
 
 .navpath li.navelem a
@@ -1004,7 +1041,7 @@ table.fieldtable {
 	display:block;
 	text-decoration: none;
 	outline: none;
-	color: #09091F;
+	color: #172B2C;
 	font-family: 'Lucida Grande',Geneva,Helvetica,Arial,sans-serif;
 	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
 	text-decoration: none;        
@@ -1012,7 +1049,7 @@ table.fieldtable {
 
 .navpath li.navelem a:hover
 {
-	color:#27298C;
+	color:#4D8D91;
 }
 
 .navpath li.footer
@@ -1024,7 +1061,7 @@ table.fieldtable {
         background-image:none;
         background-repeat:no-repeat;
         background-position:right;
-        color:#0F1037;
+        color:#254345;
         font-size: 8pt;
 }
 
@@ -1071,9 +1108,9 @@ div.header
 {
         background-image:url('nav_h.png');
         background-repeat:repeat-x;
-	background-color: #F3F3FB;
+	background-color: #F7FAFA;
 	margin:  0px;
-	border-bottom: 1px solid #8D8EDE;
+	border-bottom: 1px solid #B1D3D5;
 }
 
 div.headertitle
@@ -1081,72 +1118,143 @@ div.headertitle
 	padding: 5px 5px 5px 10px;
 }
 
-dl
-{
-        padding: 0 0 0 10px;
+.PageDocRTL-title div.headertitle {
+  text-align: right;
+  direction: rtl;
 }
 
-/* dl.note, dl.warning, dl.attention, dl.pre, dl.post, dl.invariant, dl.deprecated, dl.todo, dl.test, dl.bug */
-dl.section
-{
+dl {
+        padding: 0 0 0 0;
+}
+
+/* dl.note, dl.warning, dl.attention, dl.pre, dl.post, dl.invariant, dl.deprecated, dl.todo, dl.test, dl.bug, dl.examples */
+dl.section {
 	margin-left: 0px;
 	padding-left: 0px;
 }
 
-dl.note
-{
-        margin-left:-7px;
-        padding-left: 3px;
-        border-left:4px solid;
-        border-color: #D0C000;
+dl.section.DocNodeRTL {
+  margin-right: 0px;
+  padding-right: 0px;
 }
 
-dl.warning, dl.attention
-{
-        margin-left:-7px;
-        padding-left: 3px;
-        border-left:4px solid;
-        border-color: #FF0000;
+dl.note {
+  margin-left: -7px;
+  padding-left: 3px;
+  border-left: 4px solid;
+  border-color: #D0C000;
 }
 
-dl.pre, dl.post, dl.invariant
-{
-        margin-left:-7px;
-        padding-left: 3px;
-        border-left:4px solid;
-        border-color: #00D000;
+dl.note.DocNodeRTL {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: 0;
+  margin-right: -7px;
+  padding-right: 3px;
+  border-right: 4px solid;
+  border-color: #D0C000;
 }
 
-dl.deprecated
-{
-        margin-left:-7px;
-        padding-left: 3px;
-        border-left:4px solid;
-        border-color: #505050;
+dl.warning, dl.attention {
+  margin-left: -7px;
+  padding-left: 3px;
+  border-left: 4px solid;
+  border-color: #FF0000;
 }
 
-dl.todo
-{
-        margin-left:-7px;
-        padding-left: 3px;
-        border-left:4px solid;
-        border-color: #00C0E0;
+dl.warning.DocNodeRTL, dl.attention.DocNodeRTL {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: 0;
+  margin-right: -7px;
+  padding-right: 3px;
+  border-right: 4px solid;
+  border-color: #FF0000;
 }
 
-dl.test
-{
-        margin-left:-7px;
-        padding-left: 3px;
-        border-left:4px solid;
-        border-color: #3030E0;
+dl.pre, dl.post, dl.invariant {
+  margin-left: -7px;
+  padding-left: 3px;
+  border-left: 4px solid;
+  border-color: #00D000;
 }
 
-dl.bug
-{
-        margin-left:-7px;
-        padding-left: 3px;
-        border-left:4px solid;
-        border-color: #C08050;
+dl.pre.DocNodeRTL, dl.post.DocNodeRTL, dl.invariant.DocNodeRTL {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: 0;
+  margin-right: -7px;
+  padding-right: 3px;
+  border-right: 4px solid;
+  border-color: #00D000;
+}
+
+dl.deprecated {
+  margin-left: -7px;
+  padding-left: 3px;
+  border-left: 4px solid;
+  border-color: #505050;
+}
+
+dl.deprecated.DocNodeRTL {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: 0;
+  margin-right: -7px;
+  padding-right: 3px;
+  border-right: 4px solid;
+  border-color: #505050;
+}
+
+dl.todo {
+  margin-left: -7px;
+  padding-left: 3px;
+  border-left: 4px solid;
+  border-color: #00C0E0;
+}
+
+dl.todo.DocNodeRTL {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: 0;
+  margin-right: -7px;
+  padding-right: 3px;
+  border-right: 4px solid;
+  border-color: #00C0E0;
+}
+
+dl.test {
+  margin-left: -7px;
+  padding-left: 3px;
+  border-left: 4px solid;
+  border-color: #3030E0;
+}
+
+dl.test.DocNodeRTL {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: 0;
+  margin-right: -7px;
+  padding-right: 3px;
+  border-right: 4px solid;
+  border-color: #3030E0;
+}
+
+dl.bug {
+  margin-left: -7px;
+  padding-left: 3px;
+  border-left: 4px solid;
+  border-color: #C08050;
+}
+
+dl.bug.DocNodeRTL {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: 0;
+  margin-right: -7px;
+  padding-right: 3px;
+  border-right: 4px solid;
+  border-color: #C08050;
 }
 
 dl.section dd {
@@ -1197,7 +1305,7 @@ dl.section dd {
 	padding: 0px;
 	margin: 0px;
 	width: 100%;
-	border-bottom: 1px solid #202172;
+	border-bottom: 1px solid #42787B;
 }
 
 .image
@@ -1232,7 +1340,7 @@ dl.section dd {
 
 div.zoom
 {
-	border: 1px solid #373AC4;
+	border: 1px solid #70AFB2;
 }
 
 dl.citelist {
@@ -1240,7 +1348,7 @@ dl.citelist {
 }
 
 dl.citelist dt {
-        color:#0E0E31;
+        color:#213D3F;
         float:left;
         font-weight:bold;
         margin-right:10px;
@@ -1254,13 +1362,18 @@ dl.citelist dd {
 
 div.toc {
         padding: 14px 25px;
-        background-color: #EAEAF9;
-        border: 1px solid #B1B2E9;
+        background-color: #F0F7F7;
+        border: 1px solid #CAE1E2;
         border-radius: 7px 7px 7px 7px;
         float: right;
         height: auto;
         margin: 0 8px 10px 10px;
         width: 200px;
+}
+
+.PageDocRTL-title div.toc {
+  float: left !important;
+  text-align: right;
 }
 
 div.toc li {
@@ -1271,9 +1384,15 @@ div.toc li {
         padding-top: 2px;
 }
 
+.PageDocRTL-title div.toc li {
+  background-position-x: right !important;
+  padding-left: 0 !important;
+  padding-right: 10px;
+}
+
 div.toc h3 {
         font: bold 12px/1.2 Arial,FreeSans,sans-serif;
-	color: #191A5A;
+	color: #376466;
         border-bottom: 0 none;
         margin: 0;
 }
@@ -1298,6 +1417,26 @@ div.toc li.level3 {
 
 div.toc li.level4 {
         margin-left: 45px;
+}
+
+.PageDocRTL-title div.toc li.level1 {
+  margin-left: 0 !important;
+  margin-right: 0;
+}
+
+.PageDocRTL-title div.toc li.level2 {
+  margin-left: 0 !important;
+  margin-right: 15px;
+}
+
+.PageDocRTL-title div.toc li.level3 {
+  margin-left: 0 !important;
+  margin-right: 30px;
+}
+
+.PageDocRTL-title div.toc li.level4 {
+  margin-left: 0 !important;
+  margin-right: 45px;
 }
 
 .inherit_header {
@@ -1413,7 +1552,7 @@ tr.heading h2 {
 }
 
 #powerTip.n:after, #powerTip.ne:after, #powerTip.nw:after {
-	border-top-color: #ffffff;
+	border-top-color: #FFFFFF;
 	border-width: 10px;
 	margin: 0px -10px;
 }
@@ -1441,7 +1580,7 @@ tr.heading h2 {
 }
 
 #powerTip.s:after, #powerTip.se:after, #powerTip.sw:after {
-	border-bottom-color: #ffffff;
+	border-bottom-color: #FFFFFF;
 	border-width: 10px;
 	margin: 0px -10px;
 }
@@ -1468,7 +1607,7 @@ tr.heading h2 {
 	left: 100%;
 }
 #powerTip.e:after {
-	border-left-color: #ffffff;
+	border-left-color: #FFFFFF;
 	border-width: 10px;
 	top: 50%;
 	margin-top: -10px;
@@ -1484,7 +1623,7 @@ tr.heading h2 {
 	right: 100%;
 }
 #powerTip.w:after {
-	border-right-color: #ffffff;
+	border-right-color: #FFFFFF;
 	border-width: 10px;
 	top: 50%;
 	margin-top: -10px;
@@ -1525,7 +1664,7 @@ table.markdownTable {
 }
 
 table.markdownTable td, table.markdownTable th {
-	border: 1px solid #0B0B27;
+	border: 1px solid #1C3334;
 	padding: 3px 7px 2px;
 }
 
@@ -1533,12 +1672,12 @@ table.markdownTableHead tr {
 }
 
 table.markdownTableBodyLeft td, table.markdownTable th {
-	border: 1px solid #0B0B27;
+	border: 1px solid #1C3334;
 	padding: 3px 7px 2px;
 }
 
 th.markdownTableHeadLeft th.markdownTableHeadRight th.markdownTableHeadCenter th.markdownTableHeadNone {
-	background-color: #101139;
+	background-color: #264547;
 	color: #FFFFFF;
 	font-size: 110%;
 	padding-bottom: 4px;
@@ -1565,7 +1704,7 @@ table.markdownTable {
 }
 
 table.markdownTable td, table.markdownTable th {
-	border: 1px solid #0B0B27;
+	border: 1px solid #1C3334;
 	padding: 3px 7px 2px;
 }
 
@@ -1573,7 +1712,7 @@ table.markdownTable tr {
 }
 
 th.markdownTableHeadLeft, th.markdownTableHeadRight, th.markdownTableHeadCenter, th.markdownTableHeadNone {
-	background-color: #374F7F;
+	background-color: #264547;
 	color: #FFFFFF;
 	font-size: 110%;
 	padding-bottom: 4px;
@@ -1592,5 +1731,36 @@ th.markdownTableHeadCenter, td.markdownTableBodyCenter {
 	text-align: center
 }
 
+.DocNodeRTL {
+  text-align: right;
+  direction: rtl;
+}
 
+.DocNodeLTR {
+  text-align: left;
+  direction: ltr;
+}
+
+table.DocNodeRTL {
+   width: auto;
+   margin-right: 0;
+   margin-left: auto;
+}
+
+table.DocNodeLTR {
+   width: auto;
+   margin-right: auto;
+   margin-left: 0;
+}
+
+tt, code, kbd, samp
+{
+  display: inline-block;
+  direction:ltr; 
+}
 /* @end */
+
+u {
+	text-decoration: underline;
+}
+

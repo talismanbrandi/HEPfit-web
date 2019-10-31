@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['justificationstyle',['JustificationStyle',['../d6/d60/class_l_h_p_c_1_1_s_l_h_a_1_1_spectrum_plotting_1_1_line_data.html#ae9ad4b97e4cb543431c7a7f997367183',1,'LHPC::SLHA::SpectrumPlotting::LineData']]]
+  ['meson_22503',['meson',['../dd/dfa/class_q_c_d.html#a18ab2f6f6e5a803af54771626281044b',1,'QCD']]]
 ];

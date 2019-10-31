@@ -11,7 +11,6 @@ var class_find_action =
     [ "ExactSolution", "d1/dcb/class_find_action.html#a70558f4e1662a046b17366e6cc1b199e", null ],
     [ "fPS", "d1/dcb/class_find_action.html#abd2610e23870a0f2ea6ff0073ae03152", null ],
     [ "func", "d1/dcb/class_find_action.html#ad987dfaeedbb3a48cbc25cf570df34c7", null ],
-    [ "gslFunctionAdapterS", "d1/dcb/class_find_action.html#a17f435f1f82c66a3a6cbe372260506f7", null ],
     [ "InitialConditions", "d1/dcb/class_find_action.html#a93bff24d3e730c6a7a89428cf527b46d", null ],
     [ "integrateProfile", "d1/dcb/class_find_action.html#ae082acc1be55d9ffee321fddff493fdc", null ],
     [ "invertedpotential", "d1/dcb/class_find_action.html#a18341941d5f7c7788dbce39896c620a2", null ],

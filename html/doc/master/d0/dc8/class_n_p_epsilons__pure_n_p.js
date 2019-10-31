@@ -14,7 +14,5 @@ var class_n_p_epsilons__pure_n_p =
     [ "deltaEps_1", "d0/dc8/class_n_p_epsilons__pure_n_p.html#ac121a054a8ebbcf97fea022d1e4eca3c", null ],
     [ "deltaEps_2", "d0/dc8/class_n_p_epsilons__pure_n_p.html#a13e257414e40c2a433dde36ce1be9b78", null ],
     [ "deltaEps_3", "d0/dc8/class_n_p_epsilons__pure_n_p.html#ac0a22fe0de775f34f66d271e0feef659", null ],
-    [ "deltaEps_b", "d0/dc8/class_n_p_epsilons__pure_n_p.html#a3dfff011545bd300b42b8256fc47fc7f", null ],
-    [ "EPSILONpureNPvars", "d0/dc8/class_n_p_epsilons__pure_n_p.html#ad1d87618dca3eeb04970f5c6b2fa652c", null ],
-    [ "NEPSILONpureNPvars", "d0/dc8/class_n_p_epsilons__pure_n_p.html#a4b5a6ee0364ec92b335795fbef841625", null ]
+    [ "deltaEps_b", "d0/dc8/class_n_p_epsilons__pure_n_p.html#a3dfff011545bd300b42b8256fc47fc7f", null ]
 ];

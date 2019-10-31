@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['eventgeneration',['EventGeneration',['../d5/def/group___event_generation.html',1,'']]],
-  ['ew',['EW',['../d5/d0c/group___e_w.html',1,'']]]
+  ['flavour_22646',['Flavour',['../d2/d35/group___flavour.html',1,'']]],
+  ['flavourwilsoncoefficent_22647',['FlavourWilsonCoefficent',['../d1/d8c/group___flavour_wilson_coefficent.html',1,'']]]
 ];

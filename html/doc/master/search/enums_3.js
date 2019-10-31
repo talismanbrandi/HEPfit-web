@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['meson',['meson',['../dd/dfa/class_q_c_d.html#a18ab2f6f6e5a803af54771626281044b',1,'QCD']]]
+  ['param_22508',['Param',['../dc/d6a/class_l_e_p2_g_i_m_r.html#af343753320fddbae5128223b9d4305c8',1,'LEP2GIMR']]]
 ];

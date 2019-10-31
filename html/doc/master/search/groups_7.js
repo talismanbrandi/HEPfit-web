@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['leptonflavour',['LeptonFlavour',['../d4/d3d/group___lepton_flavour.html',1,'']]],
-  ['loopfunctions',['LoopFunctions',['../d2/d70/group___loop_functions.html',1,'']]]
+  ['newphysics_22655',['NewPhysics',['../d1/d05/group___new_physics.html',1,'']]]
 ];

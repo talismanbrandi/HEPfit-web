@@ -479,10 +479,6 @@ var class_n_p_effective_g_i_m_r =
     [ "LambdaNP2", "de/d04/class_n_p_effective_g_i_m_r.html#adb5071117159ca96df23eaf8d60a82ff", null ],
     [ "MwInput", "de/d04/class_n_p_effective_g_i_m_r.html#ae93442ba1b0c551d3254b2019156f62f", null ],
     [ "myLEP2GIMR", "de/d04/class_n_p_effective_g_i_m_r.html#afe967760477244e6312251236e310298", null ],
-    [ "NNPEffectiveGIMRVars", "de/d04/class_n_p_effective_g_i_m_r.html#ac0eeacae366326f42bd9a3ba92fa4595", null ],
-    [ "NNPEffectiveGIMRVars_LFU_QFU", "de/d04/class_n_p_effective_g_i_m_r.html#a80a3aa1e6846c5f5ed06bcb09d09284a", null ],
-    [ "NPEffectiveGIMRVars", "de/d04/class_n_p_effective_g_i_m_r.html#abcf2782345a14c3b7c4ba7fc1f14d697", null ],
-    [ "NPEffectiveGIMRVars_LFU_QFU", "de/d04/class_n_p_effective_g_i_m_r.html#aff9895aa93bd536815d8812dcf9491c7", null ],
     [ "sW2_tree", "de/d04/class_n_p_effective_g_i_m_r.html#ae73834640a4a3b9727d9f1b993b70543", null ],
     [ "sW_tree", "de/d04/class_n_p_effective_g_i_m_r.html#a2a3a0932df0da60ac6de054755c4d718", null ],
     [ "v2_over_LambdaNP2", "de/d04/class_n_p_effective_g_i_m_r.html#af34ee776f605a2211c2c2a787c3b1633", null ]

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['bol',['BOL',['../db/d78/namespace_b_o_l.html',1,'']]]
+  ['gslpp_12223',['gslpp',['../dd/d39/namespacegslpp.html',1,'']]],
+  ['gslpp_5fspecial_5ffunctions_12224',['gslpp_special_functions',['../d8/df7/namespacegslpp__special__functions.html',1,'']]]
 ];

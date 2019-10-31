@@ -26,6 +26,7 @@ var class_m_plnu =
     [ "mplnuParameters", "da/d48/class_m_plnu.html#a54c0a5ed54718ef5f9bd2d952a371f0b", null ],
     [ "mu_b", "da/d48/class_m_plnu.html#aa4686d0cab127017b483e2ef3987ea56", null ],
     [ "mySM", "da/d48/class_m_plnu.html#ad1b08606cd13fd005141ff9dbe810475", null ],
+    [ "NPanalysis", "da/d48/class_m_plnu.html#a0fcbd583c845dba39ceb48b2c5fb9423", null ],
     [ "pseudoscalarM", "da/d48/class_m_plnu.html#a657cfe5491926f0d21db696d5cce8abb", null ],
     [ "RV", "da/d48/class_m_plnu.html#aff8df6c1e077ddedd88a94bfcf9a6a2a", null ],
     [ "w0", "da/d48/class_m_plnu.html#ac81ebfc7c54dabec4d59d3d76339557f", null ],
