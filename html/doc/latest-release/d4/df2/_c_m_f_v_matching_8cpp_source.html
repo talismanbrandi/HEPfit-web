@@ -139,8 +139,8 @@ $(document).ready(function(){initNavTree('d4/df2/_c_m_f_v_matching_8cpp_source.h
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d4/dfa/class_c_m_f_v_matching.html#add6416c6f6d10931fb916f6a82247765">   15</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d4/dfa/class_c_m_f_v_matching.html#add6416c6f6d10931fb916f6a82247765">CMFVMatching::S0</a>(<span class="keywordtype">double</span> x1, <span class="keywordtype">double</span> x2)<span class="keyword"> const </span>{</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">if</span> (x1 &gt; .02 &amp;&amp; x2 &gt; .02)</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordflow">return</span> (<a class="code" href="../../d4/dfa/class_c_m_f_v_matching.html#a92c94f6723eb805f6ab36948b83fa905">myCMFV</a>.<a class="code" href="../../d1/d6a/class_c_m_f_v.html#a6a2bfa2f7dd25002d2d9d6438503e7ee">getFtt</a>() + <a class="code" href="../../d6/d2e/class_standard_model_matching.html#a2246ffc90323b7fe26dadce49b7de143">StandardModelMatching::S0</a>(x1, x2));</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/d2e/class_standard_model_matching.html#a2246ffc90323b7fe26dadce49b7de143">StandardModelMatching::S0</a>(x1,x2);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordflow">return</span> (<a class="code" href="../../d4/dfa/class_c_m_f_v_matching.html#a92c94f6723eb805f6ab36948b83fa905">myCMFV</a>.<a class="code" href="../../d1/d6a/class_c_m_f_v.html#a6a2bfa2f7dd25002d2d9d6438503e7ee">getFtt</a>() + StandardModelMatching::S0(x1, x2));</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">return</span> StandardModelMatching::S0(x1,x2);</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -151,13 +151,12 @@ $(document).ready(function(){initNavTree('d4/df2/_c_m_f_v_matching_8cpp_source.h
 <div class="ttc" id="a_c_m_f_v_8h_html"><div class="ttname"><a href="../../d7/db0/_c_m_f_v_8h.html">CMFV.h</a></div></div>
 <div class="ttc" id="a_c_m_f_v_matching_8h_html"><div class="ttname"><a href="../../d3/d6c/_c_m_f_v_matching_8h.html">CMFVMatching.h</a></div></div>
 <div class="ttc" id="aclass_c_m_f_v_matching_html_add6416c6f6d10931fb916f6a82247765"><div class="ttname"><a href="../../d4/dfa/class_c_m_f_v_matching.html#add6416c6f6d10931fb916f6a82247765">CMFVMatching::S0</a></div><div class="ttdeci">double S0(double, double) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df2/_c_m_f_v_matching_8cpp_source.html#l00015">CMFVMatching.cpp:15</a></div></div>
-<div class="ttc" id="aclass_standard_model_matching_html_a2246ffc90323b7fe26dadce49b7de143"><div class="ttname"><a href="../../d6/d2e/class_standard_model_matching.html#a2246ffc90323b7fe26dadce49b7de143">StandardModelMatching::S0</a></div><div class="ttdeci">virtual double S0(double, double) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/db6/_standard_model_matching_8cpp_source.html#l00173">StandardModelMatching.cpp:173</a></div></div>
 <div class="ttc" id="aclass_c_m_f_v_matching_html_ab6d453edae4555f5f6044c583de8514e"><div class="ttname"><a href="../../d4/dfa/class_c_m_f_v_matching.html#ab6d453edae4555f5f6044c583de8514e">CMFVMatching::CMFVMatching</a></div><div class="ttdeci">CMFVMatching(const CMFV &amp;CMFV_i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df2/_c_m_f_v_matching_8cpp_source.html#l00011">CMFVMatching.cpp:11</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_852eda2efd0a10ea26fad7b4598e8628.html">FlavourWilsonCoefficient</a></li><li class="navelem"><a class="el" href="../../dir_4eabd9f6ff1687e35aef1a29804662e8.html">src</a></li><li class="navelem"><a class="el" href="../../d4/df2/_c_m_f_v_matching_8cpp.html">CMFVMatching.cpp</a></li>
-    <li class="footer">Generated on Tue Oct 29 2019 for $\texttt{HEPfit}$ using
+    <li class="footer">Generated on Thu Oct 31 2019 for $\texttt{HEPfit}$ using
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

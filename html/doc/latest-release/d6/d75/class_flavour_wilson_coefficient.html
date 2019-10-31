@@ -176,7 +176,7 @@ $(document).ready(function(){initNavTree('d6/d75/class_flavour_wilson_coefficien
 <td class="mod_name">WCscale </td><td class="mod_symb">\( \mu_{matching} \) </td><td class="mod_desc">The <a class="el" href="../../d5/d76/class_matching.html">Matching</a> scale of the Wilson coefficients  </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00093">93</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00094">94</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -287,6 +287,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4e23486324333e30199e0c5fb0f218b6 inherit pub_methods_class_standard_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af61ea6b97114972577ee2ab14d0fee42 inherit pub_methods_class_standard_model"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd5/class_standard_model.html#af61ea6b97114972577ee2ab14d0fee42">AlsByOrder</a> (double mu, <a class="el" href="../../d9/d8f/group___standard_model.html#ga5f038b5aa5a392661ff3a8494829bd9e">orders</a> order=<a class="el" href="../../d4/d36/_order_scheme_8h.html#ga5f038b5aa5a392661ff3a8494829bd9eae6dc0f0c826210b378587ac3877673a9">FULLNLO</a>, bool qed_flag=false, bool Nf_thr=true) const</td></tr>
 <tr class="separator:af61ea6b97114972577ee2ab14d0fee42 inherit pub_methods_class_standard_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ddb7d0b0cd21b43f869c76aadad290d inherit pub_methods_class_standard_model"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd5/class_standard_model.html#a3ddb7d0b0cd21b43f869c76aadad290d">Alstilde5</a> (const double mu) const</td></tr>
+<tr class="memdesc:a3ddb7d0b0cd21b43f869c76aadad290d inherit pub_methods_class_standard_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">The value of \(\frac{\alpha_s^{\mathrm{FULLNLO}}}{4\pi}\) at any scale \(\mu\) with the number of flavours \(n_f = 4\) and full EW corrections.  <a href="../../dc/dd5/class_standard_model.html#a3ddb7d0b0cd21b43f869c76aadad290d">More...</a><br /></td></tr>
+<tr class="separator:a3ddb7d0b0cd21b43f869c76aadad290d inherit pub_methods_class_standard_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5b9edb722a3add2a7fb86f8e1e646cc inherit pub_methods_class_standard_model"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd5/class_standard_model.html#ad5b9edb722a3add2a7fb86f8e1e646cc">Beta_e</a> (int nm, unsigned int nf) const</td></tr>
 <tr class="memdesc:ad5b9edb722a3add2a7fb86f8e1e646cc inherit pub_methods_class_standard_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">QED beta function coefficients - eq. (36) hep-ph/0512066.  <a href="../../dc/dd5/class_standard_model.html#ad5b9edb722a3add2a7fb86f8e1e646cc">More...</a><br /></td></tr>
 <tr class="separator:ad5b9edb722a3add2a7fb86f8e1e646cc inherit pub_methods_class_standard_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -478,6 +481,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac5f9315113760ee045a12803e80706a2 inherit pub_methods_class_standard_model"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd5/class_standard_model.html#ac5f9315113760ee045a12803e80706a2">getCBs</a> () const</td></tr>
 <tr class="memdesc:ac5f9315113760ee045a12803e80706a2 inherit pub_methods_class_standard_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ratio of the absolute value of the $B_s$ mixing amplitude over the Standard <a class="el" href="../../d0/de3/class_model.html" title="A class for the template of models.">Model</a> value.  <a href="../../dc/dd5/class_standard_model.html#ac5f9315113760ee045a12803e80706a2">More...</a><br /></td></tr>
 <tr class="separator:ac5f9315113760ee045a12803e80706a2 inherit pub_methods_class_standard_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a389f9b28fb5961aee2d06fdce4a05bd7 inherit pub_methods_class_standard_model"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd5/class_standard_model.html#a389f9b28fb5961aee2d06fdce4a05bd7">getCCC1</a> () const</td></tr>
+<tr class="memdesc:a389f9b28fb5961aee2d06fdce4a05bd7 inherit pub_methods_class_standard_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual implementation for the <a class="el" href="../../dc/d79/class_real_weak_e_f_t_c_c.html" title="Model for NP contributions to charged current processes like  decays.">RealWeakEFTCC</a> class.  <a href="../../dc/dd5/class_standard_model.html#a389f9b28fb5961aee2d06fdce4a05bd7">More...</a><br /></td></tr>
+<tr class="separator:a389f9b28fb5961aee2d06fdce4a05bd7 inherit pub_methods_class_standard_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a189255988f7b607c770fedb812a364f0 inherit pub_methods_class_standard_model"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd5/class_standard_model.html#a189255988f7b607c770fedb812a364f0">getCCC2</a> () const</td></tr>
+<tr class="memdesc:a189255988f7b607c770fedb812a364f0 inherit pub_methods_class_standard_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual implementation for the <a class="el" href="../../dc/d79/class_real_weak_e_f_t_c_c.html" title="Model for NP contributions to charged current processes like  decays.">RealWeakEFTCC</a> class.  <a href="../../dc/dd5/class_standard_model.html#a189255988f7b607c770fedb812a364f0">More...</a><br /></td></tr>
+<tr class="separator:a189255988f7b607c770fedb812a364f0 inherit pub_methods_class_standard_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cd910c9815cd85ff778dc604424c305 inherit pub_methods_class_standard_model"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd5/class_standard_model.html#a6cd910c9815cd85ff778dc604424c305">getCCC3</a> () const</td></tr>
+<tr class="memdesc:a6cd910c9815cd85ff778dc604424c305 inherit pub_methods_class_standard_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual implementation for the <a class="el" href="../../dc/d79/class_real_weak_e_f_t_c_c.html" title="Model for NP contributions to charged current processes like  decays.">RealWeakEFTCC</a> class.  <a href="../../dc/dd5/class_standard_model.html#a6cd910c9815cd85ff778dc604424c305">More...</a><br /></td></tr>
+<tr class="separator:a6cd910c9815cd85ff778dc604424c305 inherit pub_methods_class_standard_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74f0d66624fc6dfc1b94d8edcae42c61 inherit pub_methods_class_standard_model"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd5/class_standard_model.html#a74f0d66624fc6dfc1b94d8edcae42c61">getCCC4</a> () const</td></tr>
+<tr class="memdesc:a74f0d66624fc6dfc1b94d8edcae42c61 inherit pub_methods_class_standard_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual implementation for the <a class="el" href="../../dc/d79/class_real_weak_e_f_t_c_c.html" title="Model for NP contributions to charged current processes like  decays.">RealWeakEFTCC</a> class.  <a href="../../dc/dd5/class_standard_model.html#a74f0d66624fc6dfc1b94d8edcae42c61">More...</a><br /></td></tr>
+<tr class="separator:a74f0d66624fc6dfc1b94d8edcae42c61 inherit pub_methods_class_standard_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75d23352099ffad9c71235ae50008d1d inherit pub_methods_class_standard_model"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd5/class_standard_model.html#a75d23352099ffad9c71235ae50008d1d">getCCC5</a> () const</td></tr>
+<tr class="memdesc:a75d23352099ffad9c71235ae50008d1d inherit pub_methods_class_standard_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual implementation for the <a class="el" href="../../dc/d79/class_real_weak_e_f_t_c_c.html" title="Model for NP contributions to charged current processes like  decays.">RealWeakEFTCC</a> class.  <a href="../../dc/dd5/class_standard_model.html#a75d23352099ffad9c71235ae50008d1d">More...</a><br /></td></tr>
+<tr class="separator:a75d23352099ffad9c71235ae50008d1d inherit pub_methods_class_standard_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a176f0f56b362d03cea9a6c3284126c5e inherit pub_methods_class_standard_model"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd5/class_standard_model.html#a176f0f56b362d03cea9a6c3284126c5e">getCDMK</a> () const</td></tr>
 <tr class="memdesc:a176f0f56b362d03cea9a6c3284126c5e inherit pub_methods_class_standard_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ratio of the real part of the $K$ mixing amplitude over the Standard <a class="el" href="../../d0/de3/class_model.html" title="A class for the template of models.">Model</a> value.  <a href="../../dc/dd5/class_standard_model.html#a176f0f56b362d03cea9a6c3284126c5e">More...</a><br /></td></tr>
 <tr class="separator:a176f0f56b362d03cea9a6c3284126c5e inherit pub_methods_class_standard_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -662,7 +680,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a272d4c0ff77db6472b9506026abc1e8f inherit pub_methods_class_standard_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">The square of the sine of the weak mixing angle in the on-shell scheme, denoted as \(s_W^2\).  <a href="../../dc/dd5/class_standard_model.html#a272d4c0ff77db6472b9506026abc1e8f">More...</a><br /></td></tr>
 <tr class="separator:a272d4c0ff77db6472b9506026abc1e8f inherit pub_methods_class_standard_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f1105bdeed45cf77064443f85f3bcab inherit pub_methods_class_standard_model"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd5/class_standard_model.html#a4f1105bdeed45cf77064443f85f3bcab">v</a> () const</td></tr>
-<tr class="memdesc:a4f1105bdeed45cf77064443f85f3bcab inherit pub_methods_class_standard_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">The value of \(\frac{\alpha_s^{\mathrm{FULLNLO}}}{4\pi}\) at any scale \(\mu\) with the number of flavours \(n_f = 4\) and full EW corrections.  <a href="../../dc/dd5/class_standard_model.html#a4f1105bdeed45cf77064443f85f3bcab">More...</a><br /></td></tr>
+<tr class="memdesc:a4f1105bdeed45cf77064443f85f3bcab inherit pub_methods_class_standard_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Higgs vacuum expectation value.  <a href="../../dc/dd5/class_standard_model.html#a4f1105bdeed45cf77064443f85f3bcab">More...</a><br /></td></tr>
 <tr class="separator:a4f1105bdeed45cf77064443f85f3bcab inherit pub_methods_class_standard_model"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a247e2884794dbdf8d5094383f3575a48 inherit pub_methods_class_standard_model"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd5/class_standard_model.html#a247e2884794dbdf8d5094383f3575a48">~StandardModel</a> ()</td></tr>
 <tr class="memdesc:a247e2884794dbdf8d5094383f3575a48 inherit pub_methods_class_standard_model"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default destructor.  <a href="../../dc/dd5/class_standard_model.html#a247e2884794dbdf8d5094383f3575a48">More...</a><br /></td></tr>
@@ -1504,10 +1522,10 @@ Additional Inherited Members</h2></td></tr>
 <p>A getter for the complex Wilson coefficient \(\Delta C_1\). </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers.">gslpp::complex</a> \(\Delta C_1\) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00177">177</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                                {</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a1820ef3a497dfbe08aa5c5a06c1f6572">DC1</a>;</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00178">178</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                                {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a1820ef3a497dfbe08aa5c5a06c1f6572">DC1</a>;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1537,10 +1555,10 @@ Additional Inherited Members</h2></td></tr>
 <p>A getter for the complex Wilson coefficient \(\Delta C_10\). </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers.">gslpp::complex</a> \(\Delta C_10\) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00257">257</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                                 {</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a8fb8a3d3f397b52ac20b07c15fcb9f7a">DC10</a>;</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00258">258</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;                                 {</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a8fb8a3d3f397b52ac20b07c15fcb9f7a">DC10</a>;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1570,10 +1588,10 @@ Additional Inherited Members</h2></td></tr>
 <p>A getter for the complex Wilson coefficient \(\Delta C&#39;_10\). </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers.">gslpp::complex</a> \(\Delta C&#39;_10\) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00311">311</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;                                  {</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a48bd26b4a572d9206d0cf415587e364f">DC10p</a>;</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00312">312</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;                                  {</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a48bd26b4a572d9206d0cf415587e364f">DC10p</a>;</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1603,10 +1621,10 @@ Additional Inherited Members</h2></td></tr>
 <p>A getter for the complex Wilson coefficient \(\Delta C_2\). </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers.">gslpp::complex</a> \(\Delta C_2\) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00185">185</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                                {</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a46598ec21a15e14ed213f889532fba48">DC2</a>;</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00186">186</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                                {</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a46598ec21a15e14ed213f889532fba48">DC2</a>;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1636,10 +1654,10 @@ Additional Inherited Members</h2></td></tr>
 <p>A getter for the complex Wilson coefficient \(\Delta C_3\). </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers.">gslpp::complex</a> \(\Delta C_3\) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00194">194</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                                {</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#acdb5232f01dedd55202a13030752e1ea">DC3</a>;</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00195">195</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;                                {</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#acdb5232f01dedd55202a13030752e1ea">DC3</a>;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1669,10 +1687,10 @@ Additional Inherited Members</h2></td></tr>
 <p>A getter for the complex Wilson coefficient \(\Delta C_4\). </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers.">gslpp::complex</a> \(\Delta C_4\) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00203">203</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                                {</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a96b9b424d456dc5b132d3163f7d2ca43">DC4</a>;</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00204">204</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                                {</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a96b9b424d456dc5b132d3163f7d2ca43">DC4</a>;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1702,10 +1720,10 @@ Additional Inherited Members</h2></td></tr>
 <p>A getter for the complex Wilson coefficient \(\Delta C_5\). </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers.">gslpp::complex</a> \(\Delta C_5\) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00212">212</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;                                {</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a1c34f1ebf2aa05072bdd565b7cb94443">DC5</a>;</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00213">213</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;                                {</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a1c34f1ebf2aa05072bdd565b7cb94443">DC5</a>;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1735,10 +1753,10 @@ Additional Inherited Members</h2></td></tr>
 <p>A getter for the complex Wilson coefficient \(\Delta C_6\). </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers.">gslpp::complex</a> \(\Delta C_6\) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00221">221</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                                {</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#afdb2adf1d01296077ef5b95928e02aef">DC6</a>;</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00222">222</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                                {</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#afdb2adf1d01296077ef5b95928e02aef">DC6</a>;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1768,10 +1786,10 @@ Additional Inherited Members</h2></td></tr>
 <p>A getter for the complex Wilson coefficient \(\Delta C_7\). </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers.">gslpp::complex</a> \(\Delta C_7\) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00230">230</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                                {</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a7d818264e520627d2e74557d2982a55d">DC7</a>;</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00231">231</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                                {</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a7d818264e520627d2e74557d2982a55d">DC7</a>;</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1801,10 +1819,10 @@ Additional Inherited Members</h2></td></tr>
 <p>A getter for the complex Wilson coefficient \(\Delta C_{7\gamma}\). </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers.">gslpp::complex</a> \(\Delta C_{7\gamma}\) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00266">266</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                                 {</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#aca06b80fe8a4a3de71836004328b9303">DC7g</a>;</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00267">267</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                                 {</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#aca06b80fe8a4a3de71836004328b9303">DC7g</a>;</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1834,10 +1852,10 @@ Additional Inherited Members</h2></td></tr>
 <p>A getter for the complex Wilson coefficient \(\Delta C&#39;_{7\gamma}\). </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers.">gslpp::complex</a> \(\Delta C&#39;_{7\gamma}\) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00320">320</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;                                  {</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#adaeb6ec8ef09e3e7f1e7fe35386df317">DC7gp</a>;</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00321">321</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;                                  {</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#adaeb6ec8ef09e3e7f1e7fe35386df317">DC7gp</a>;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1867,10 +1885,10 @@ Additional Inherited Members</h2></td></tr>
 <p>A getter for the complex Wilson coefficient \(\Delta C&#39;_7\). </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers.">gslpp::complex</a> \(\Delta C&#39;_7\) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00284">284</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                                 {</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#ab4eb04cc79a0cb6a55c6091829871d07">DC7p</a>;</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00285">285</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                                 {</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#ab4eb04cc79a0cb6a55c6091829871d07">DC7p</a>;</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1900,10 +1918,10 @@ Additional Inherited Members</h2></td></tr>
 <p>A getter for the complex Wilson coefficient \(\Delta C_8\). </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers.">gslpp::complex</a> \(\Delta C_8\) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00239">239</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                                {</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a085af7710e89b9a51edffa6a94178992">DC8</a>;</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00240">240</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                                {</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a085af7710e89b9a51edffa6a94178992">DC8</a>;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1933,10 +1951,10 @@ Additional Inherited Members</h2></td></tr>
 <p>A getter for the complex Wilson coefficient \(\Delta C_{8g}\). </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers.">gslpp::complex</a> \(\Delta C_{8g}\) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00275">275</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                                 {</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#ae6ca72a8c01891e98afee6d79cf2f7ce">DC8g</a>;</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00276">276</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;                                 {</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#ae6ca72a8c01891e98afee6d79cf2f7ce">DC8g</a>;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1966,10 +1984,10 @@ Additional Inherited Members</h2></td></tr>
 <p>A getter for the complex Wilson coefficient \(\Delta C&#39;_{8g}\). </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers.">gslpp::complex</a> \(\Delta C&#39;_{8g}\) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00329">329</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;                                  {</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#af2bf11665ba0156fc998b81346372eb3">DC8gp</a>;</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00330">330</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;                                  {</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#af2bf11665ba0156fc998b81346372eb3">DC8gp</a>;</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1999,10 +2017,10 @@ Additional Inherited Members</h2></td></tr>
 <p>A getter for the complex Wilson coefficient \(\Delta C&#39;_8\). </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers.">gslpp::complex</a> \(\Delta C&#39;_8\) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00293">293</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                                 {</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a5b657da7748d9ed02035caa0973708df">DC8p</a>;</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00294">294</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                                 {</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a5b657da7748d9ed02035caa0973708df">DC8p</a>;</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2032,10 +2050,10 @@ Additional Inherited Members</h2></td></tr>
 <p>A getter for the complex Wilson coefficient \(\Delta C_9\). </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers.">gslpp::complex</a> \(\Delta C_9\) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00248">248</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                                {</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a9ce55a4527c27a20774e2de5f4d624b7">DC9</a>;</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00249">249</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                                {</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a9ce55a4527c27a20774e2de5f4d624b7">DC9</a>;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2065,10 +2083,10 @@ Additional Inherited Members</h2></td></tr>
 <p>A getter for the complex Wilson coefficient \(\Delta C&#39;_9\). </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="../../dd/d9b/classgslpp_1_1complex.html" title="A class for defining operations on and functions of complex numbers.">gslpp::complex</a> \(\Delta C&#39;_9\) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00302">302</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;                                 {</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a9ce55a4527c27a20774e2de5f4d624b7">DC9</a>;</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00303">303</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                                 {</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a9ce55a4527c27a20774e2de5f4d624b7">DC9</a>;</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2100,10 +2118,10 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../dc/dd5/class_standard_model.html#a456aa95d1283c90c21b6287c2ad3f13b">StandardModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00167">167</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    {</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#af55deadbb473ffae8343f8811a90b78d">FWCM</a>.<a class="code" href="../../d5/d76/class_matching.html#aee18ec9cdbd632ecec9cd6728938c65f">getObj</a>();</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00168">168</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#af55deadbb473ffae8343f8811a90b78d">FWCM</a>.<a class="code" href="../../d5/d76/class_matching.html#aee18ec9cdbd632ecec9cd6728938c65f">getObj</a>();</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2133,10 +2151,10 @@ Additional Inherited Members</h2></td></tr>
 <p>A getter for the scale of the Wilson coefficients. </p>
 <dl class="section return"><dt>Returns</dt><dd>the matching scale of the Wilson coefficients </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00338">338</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                              {</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a517e6d57b4320feed6a3aa867edcf515">WCscale</a>;</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00339">339</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;                              {</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d75/class_flavour_wilson_coefficient.html#a517e6d57b4320feed6a3aa867edcf515">WCscale</a>;</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2574,7 +2592,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">355</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">356</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -2598,7 +2616,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">355</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">356</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -2622,7 +2640,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">356</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">357</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -2646,7 +2664,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">355</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">356</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -2670,7 +2688,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">355</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">356</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -2694,7 +2712,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">355</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">356</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -2718,7 +2736,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">355</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">356</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -2742,7 +2760,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">355</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">356</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -2766,7 +2784,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">355</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">356</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -2790,7 +2808,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">355</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">356</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -2814,7 +2832,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">356</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">357</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -2838,7 +2856,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">356</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">357</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -2862,7 +2880,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">355</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">356</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -2888,7 +2906,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The complex Wilson Coefficients. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">355</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">356</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -2914,7 +2932,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The complex Wilson Coefficients. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">356</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">357</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -2938,7 +2956,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">356</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">357</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -2962,7 +2980,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">355</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">356</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -2986,7 +3004,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">356</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">357</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3015,7 +3033,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line">                                                                                                           <span class="stringliteral">&quot;imDC7p&quot;</span>,<span class="stringliteral">&quot;imDC8p&quot;</span>,<span class="stringliteral">&quot;imDC9p&quot;</span>,<span class="stringliteral">&quot;imDC10p&quot;</span>,<span class="stringliteral">&quot;imDC7gp&quot;</span>,<span class="stringliteral">&quot;imDC8gp&quot;</span>,</div>
 <div class="line">                                                                                                           <span class="stringliteral">&quot;WCscale&quot;</span>}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00098">98</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00099">99</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3041,7 +3059,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The <a class="el" href="../../d2/d0a/class_flavour_wilson_coefficient_matching.html" title="A class for the matching in the FlavourWilsonCoefficient.">FlavourWilsonCoefficientMatching</a> object. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00350">350</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00351">351</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3065,7 +3083,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">359</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3089,7 +3107,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">359</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3113,7 +3131,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">360</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00361">361</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3137,7 +3155,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">359</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3161,7 +3179,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">359</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3185,7 +3203,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">359</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3209,7 +3227,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">359</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3233,7 +3251,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">359</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3257,7 +3275,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">359</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3281,7 +3299,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">359</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3305,7 +3323,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">360</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00361">361</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3329,7 +3347,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">360</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00361">361</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3353,7 +3371,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">359</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3379,7 +3397,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The imaginary parts of the Wilson Coefficients. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">359</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3405,7 +3423,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The imaginary parts of the Wilson Coefficients. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">360</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00361">361</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3429,7 +3447,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">360</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00361">361</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3453,7 +3471,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">359</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3477,7 +3495,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">360</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00361">361</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3501,7 +3519,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00096">96</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00097">97</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3525,7 +3543,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">357</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3549,7 +3567,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">357</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3573,7 +3591,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">359</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">360</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3597,7 +3615,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">357</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3621,7 +3639,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">357</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3645,7 +3663,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">357</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3669,7 +3687,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">357</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3693,7 +3711,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">357</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3717,7 +3735,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">357</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3741,7 +3759,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">357</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3765,7 +3783,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">359</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">360</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3789,7 +3807,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">359</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">360</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3813,7 +3831,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">357</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3839,7 +3857,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The real parts of the Wilson Coefficients. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">357</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3865,7 +3883,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The real parts of the Wilson Coefficients. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">359</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">360</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3889,7 +3907,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">359</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">360</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3913,7 +3931,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">357</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">358</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3937,7 +3955,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">359</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">360</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3963,7 +3981,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The scale of the Wilson Coefficients. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00361">361</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00362">362</a> of file <a class="el" href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html">FlavourWilsonCoefficient.h</a>.</p>
 
 </div>
 </div>
@@ -3973,93 +3991,93 @@ Additional Inherited Members</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a1c34f1ebf2aa05072bdd565b7cb94443"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a1c34f1ebf2aa05072bdd565b7cb94443">FlavourWilsonCoefficient::DC5</a></div><div class="ttdeci">gslpp::complex DC5</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">FlavourWilsonCoefficient.h:355</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a493a98463a769e10c860663c36bf9786"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a493a98463a769e10c860663c36bf9786">FlavourWilsonCoefficient::imDC8g</a></div><div class="ttdeci">double imDC8g</div><div class="ttdoc">The imaginary parts of the Wilson Coefficients.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a1c34f1ebf2aa05072bdd565b7cb94443"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a1c34f1ebf2aa05072bdd565b7cb94443">FlavourWilsonCoefficient::DC5</a></div><div class="ttdeci">gslpp::complex DC5</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">FlavourWilsonCoefficient.h:356</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a493a98463a769e10c860663c36bf9786"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a493a98463a769e10c860663c36bf9786">FlavourWilsonCoefficient::imDC8g</a></div><div class="ttdeci">double imDC8g</div><div class="ttdoc">The imaginary parts of the Wilson Coefficients.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">FlavourWilsonCoefficient.h:359</a></div></div>
 <div class="ttc" id="aclass_standard_model_html_ad968f6005fb550935952c1de845c6637"><div class="ttname"><a href="../../dc/dd5/class_standard_model.html#ad968f6005fb550935952c1de845c6637">StandardModel::setParameter</a></div><div class="ttdeci">virtual void setParameter(const std::string name, const double &amp;value)</div><div class="ttdoc">A method to set the value of a parameter of StandardModel.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d2b/_standard_model_8cpp_source.html#l00231">StandardModel.cpp:231</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a1c898b3f4246d3946d9a0579a2dc6ff6"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a1c898b3f4246d3946d9a0579a2dc6ff6">FlavourWilsonCoefficient::DC9p</a></div><div class="ttdeci">gslpp::complex DC9p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">FlavourWilsonCoefficient.h:356</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a5b657da7748d9ed02035caa0973708df"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a5b657da7748d9ed02035caa0973708df">FlavourWilsonCoefficient::DC8p</a></div><div class="ttdeci">gslpp::complex DC8p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">FlavourWilsonCoefficient.h:356</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a2080c9a8e85be3508c5945ea003d9704"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a2080c9a8e85be3508c5945ea003d9704">FlavourWilsonCoefficient::imDC7gp</a></div><div class="ttdeci">double imDC7gp</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">FlavourWilsonCoefficient.h:360</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_adaeb6ec8ef09e3e7f1e7fe35386df317"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#adaeb6ec8ef09e3e7f1e7fe35386df317">FlavourWilsonCoefficient::DC7gp</a></div><div class="ttdeci">gslpp::complex DC7gp</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">FlavourWilsonCoefficient.h:356</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_ae5977fea9d31760d9694b44d15484bb3"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#ae5977fea9d31760d9694b44d15484bb3">FlavourWilsonCoefficient::reDC7gp</a></div><div class="ttdeci">double reDC7gp</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">FlavourWilsonCoefficient.h:359</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a4706131d6cb34e7d762be15f8b5b3c7c"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a4706131d6cb34e7d762be15f8b5b3c7c">FlavourWilsonCoefficient::reDC2</a></div><div class="ttdeci">double reDC2</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">FlavourWilsonCoefficient.h:357</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a1820ef3a497dfbe08aa5c5a06c1f6572"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a1820ef3a497dfbe08aa5c5a06c1f6572">FlavourWilsonCoefficient::DC1</a></div><div class="ttdeci">gslpp::complex DC1</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">FlavourWilsonCoefficient.h:355</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_abfd65562457242462929e1a8a033d9f2"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#abfd65562457242462929e1a8a033d9f2">FlavourWilsonCoefficient::reDC3</a></div><div class="ttdeci">double reDC3</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">FlavourWilsonCoefficient.h:357</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a0f2e77d69631dca0c103379a5b6595a4"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a0f2e77d69631dca0c103379a5b6595a4">FlavourWilsonCoefficient::imDC9</a></div><div class="ttdeci">double imDC9</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a1c898b3f4246d3946d9a0579a2dc6ff6"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a1c898b3f4246d3946d9a0579a2dc6ff6">FlavourWilsonCoefficient::DC9p</a></div><div class="ttdeci">gslpp::complex DC9p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">FlavourWilsonCoefficient.h:357</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a5b657da7748d9ed02035caa0973708df"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a5b657da7748d9ed02035caa0973708df">FlavourWilsonCoefficient::DC8p</a></div><div class="ttdeci">gslpp::complex DC8p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">FlavourWilsonCoefficient.h:357</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a2080c9a8e85be3508c5945ea003d9704"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a2080c9a8e85be3508c5945ea003d9704">FlavourWilsonCoefficient::imDC7gp</a></div><div class="ttdeci">double imDC7gp</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00361">FlavourWilsonCoefficient.h:361</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_adaeb6ec8ef09e3e7f1e7fe35386df317"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#adaeb6ec8ef09e3e7f1e7fe35386df317">FlavourWilsonCoefficient::DC7gp</a></div><div class="ttdeci">gslpp::complex DC7gp</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">FlavourWilsonCoefficient.h:357</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_ae5977fea9d31760d9694b44d15484bb3"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#ae5977fea9d31760d9694b44d15484bb3">FlavourWilsonCoefficient::reDC7gp</a></div><div class="ttdeci">double reDC7gp</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">FlavourWilsonCoefficient.h:360</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a4706131d6cb34e7d762be15f8b5b3c7c"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a4706131d6cb34e7d762be15f8b5b3c7c">FlavourWilsonCoefficient::reDC2</a></div><div class="ttdeci">double reDC2</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a1820ef3a497dfbe08aa5c5a06c1f6572"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a1820ef3a497dfbe08aa5c5a06c1f6572">FlavourWilsonCoefficient::DC1</a></div><div class="ttdeci">gslpp::complex DC1</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">FlavourWilsonCoefficient.h:356</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_abfd65562457242462929e1a8a033d9f2"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#abfd65562457242462929e1a8a033d9f2">FlavourWilsonCoefficient::reDC3</a></div><div class="ttdeci">double reDC3</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a0f2e77d69631dca0c103379a5b6595a4"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a0f2e77d69631dca0c103379a5b6595a4">FlavourWilsonCoefficient::imDC9</a></div><div class="ttdeci">double imDC9</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">FlavourWilsonCoefficient.h:359</a></div></div>
 <div class="ttc" id="aclass_matching_html_aee18ec9cdbd632ecec9cd6728938c65f"><div class="ttname"><a href="../../d5/d76/class_matching.html#aee18ec9cdbd632ecec9cd6728938c65f">Matching::getObj</a></div><div class="ttdeci">T &amp; getObj()</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d38/_matching_8h_source.html#l00014">Matching.h:14</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_ae3150470dc7c6da2b4b47c04b1aa1968"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#ae3150470dc7c6da2b4b47c04b1aa1968">FlavourWilsonCoefficient::imDC7p</a></div><div class="ttdeci">double imDC7p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">FlavourWilsonCoefficient.h:360</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a881e1c95a21ee4a4c3fc5c27fc835518"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a881e1c95a21ee4a4c3fc5c27fc835518">FlavourWilsonCoefficient::reDC9p</a></div><div class="ttdeci">double reDC9p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">FlavourWilsonCoefficient.h:359</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_ac47b84e8745789ac52707711798a5ccb"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#ac47b84e8745789ac52707711798a5ccb">FlavourWilsonCoefficient::reDC5</a></div><div class="ttdeci">double reDC5</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">FlavourWilsonCoefficient.h:357</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_ae3150470dc7c6da2b4b47c04b1aa1968"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#ae3150470dc7c6da2b4b47c04b1aa1968">FlavourWilsonCoefficient::imDC7p</a></div><div class="ttdeci">double imDC7p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00361">FlavourWilsonCoefficient.h:361</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a881e1c95a21ee4a4c3fc5c27fc835518"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a881e1c95a21ee4a4c3fc5c27fc835518">FlavourWilsonCoefficient::reDC9p</a></div><div class="ttdeci">double reDC9p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">FlavourWilsonCoefficient.h:360</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_ac47b84e8745789ac52707711798a5ccb"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#ac47b84e8745789ac52707711798a5ccb">FlavourWilsonCoefficient::reDC5</a></div><div class="ttdeci">double reDC5</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
 <div class="ttc" id="aclass_flavour_wilson_coefficient_matching_html_a1c865612f5e41ce6ffdca9d2aa61fef7"><div class="ttname"><a href="../../d2/d0a/class_flavour_wilson_coefficient_matching.html#a1c865612f5e41ce6ffdca9d2aa61fef7">FlavourWilsonCoefficientMatching::updateFlavourWilsonCoefficientParameters</a></div><div class="ttdeci">void updateFlavourWilsonCoefficientParameters()</div><div class="ttdoc">Updates to new FlavourWilsonCoefficient parameter sets.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d4d/_flavour_wilson_coefficient_matching_8cpp_source.html#l00025">FlavourWilsonCoefficientMatching.cpp:25</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a24fdef1369a90f629a94622ffc8cef4e"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a24fdef1369a90f629a94622ffc8cef4e">FlavourWilsonCoefficient::reDC10</a></div><div class="ttdeci">double reDC10</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">FlavourWilsonCoefficient.h:357</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a854793626b0a8d08bd2aa586e4b11b0e"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a854793626b0a8d08bd2aa586e4b11b0e">FlavourWilsonCoefficient::imDC7g</a></div><div class="ttdeci">double imDC7g</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_ac9e52b6264e6d21f1632e9495a1550ea"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#ac9e52b6264e6d21f1632e9495a1550ea">FlavourWilsonCoefficient::imDC10</a></div><div class="ttdeci">double imDC10</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_acda219956d42d7aecc7cafe7215711fa"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#acda219956d42d7aecc7cafe7215711fa">FlavourWilsonCoefficient::reDC6</a></div><div class="ttdeci">double reDC6</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">FlavourWilsonCoefficient.h:357</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a24fdef1369a90f629a94622ffc8cef4e"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a24fdef1369a90f629a94622ffc8cef4e">FlavourWilsonCoefficient::reDC10</a></div><div class="ttdeci">double reDC10</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a854793626b0a8d08bd2aa586e4b11b0e"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a854793626b0a8d08bd2aa586e4b11b0e">FlavourWilsonCoefficient::imDC7g</a></div><div class="ttdeci">double imDC7g</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">FlavourWilsonCoefficient.h:359</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_ac9e52b6264e6d21f1632e9495a1550ea"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#ac9e52b6264e6d21f1632e9495a1550ea">FlavourWilsonCoefficient::imDC10</a></div><div class="ttdeci">double imDC10</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">FlavourWilsonCoefficient.h:359</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_acda219956d42d7aecc7cafe7215711fa"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#acda219956d42d7aecc7cafe7215711fa">FlavourWilsonCoefficient::reDC6</a></div><div class="ttdeci">double reDC6</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
 <div class="ttc" id="aclass_model_html_a3a7216228be1ebc1bccc0169893d7e24"><div class="ttname"><a href="../../d0/de3/class_model.html#a3a7216228be1ebc1bccc0169893d7e24">Model::addMissingModelParameter</a></div><div class="ttdeci">void addMissingModelParameter(const std::string &amp;missingParameterName)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/ded/_model_8h_source.html#l00232">Model.h:232</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a7051b14b2c4289c225b423d723d5aad3"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a7051b14b2c4289c225b423d723d5aad3">FlavourWilsonCoefficient::imDC3</a></div><div class="ttdeci">double imDC3</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a7051b14b2c4289c225b423d723d5aad3"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a7051b14b2c4289c225b423d723d5aad3">FlavourWilsonCoefficient::imDC3</a></div><div class="ttdeci">double imDC3</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">FlavourWilsonCoefficient.h:359</a></div></div>
 <div class="ttc" id="aclass_standard_model_html_a44a146aceda81f491ba027a2ee940ca1"><div class="ttname"><a href="../../dc/dd5/class_standard_model.html#a44a146aceda81f491ba027a2ee940ca1">StandardModel::CheckParameters</a></div><div class="ttdeci">virtual bool CheckParameters(const std::map&lt; std::string, double &gt; &amp;DPars)</div><div class="ttdoc">A method to check if all the mandatory parameters for StandardModel have been provided in model initi...</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d2b/_standard_model_8cpp_source.html#l00313">StandardModel.cpp:313</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a46598ec21a15e14ed213f889532fba48"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a46598ec21a15e14ed213f889532fba48">FlavourWilsonCoefficient::DC2</a></div><div class="ttdeci">gslpp::complex DC2</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">FlavourWilsonCoefficient.h:355</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a46598ec21a15e14ed213f889532fba48"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a46598ec21a15e14ed213f889532fba48">FlavourWilsonCoefficient::DC2</a></div><div class="ttdeci">gslpp::complex DC2</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">FlavourWilsonCoefficient.h:356</a></div></div>
 <div class="ttc" id="aclassgslpp_1_1complex_html"><div class="ttname"><a href="../../dd/d9b/classgslpp_1_1complex.html">gslpp::complex</a></div><div class="ttdoc">A class for defining operations on and functions of complex numbers.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc2/gslpp__complex_8h_source.html#l00035">gslpp_complex.h:35</a></div></div>
 <div class="ttc" id="aclass_matching_html_ae6aa4fb1d09df91a904fc91b1febe496"><div class="ttname"><a href="../../d5/d76/class_matching.html#ae6aa4fb1d09df91a904fc91b1febe496">Matching::setObj</a></div><div class="ttdeci">void setObj(T &amp;obji)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d38/_matching_8h_source.html#l00015">Matching.h:15</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_af9cc6cd5eee752df53a5c362e4d8d082"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#af9cc6cd5eee752df53a5c362e4d8d082">FlavourWilsonCoefficient::imDC9p</a></div><div class="ttdeci">double imDC9p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">FlavourWilsonCoefficient.h:360</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_aca06b80fe8a4a3de71836004328b9303"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#aca06b80fe8a4a3de71836004328b9303">FlavourWilsonCoefficient::DC7g</a></div><div class="ttdeci">gslpp::complex DC7g</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">FlavourWilsonCoefficient.h:355</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a88956a547430b2c4d9bccfbbf81a46c9"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a88956a547430b2c4d9bccfbbf81a46c9">FlavourWilsonCoefficient::reDC10p</a></div><div class="ttdeci">double reDC10p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">FlavourWilsonCoefficient.h:359</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a1980eca1bae4fbf0ac1d16b67d4edb09"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a1980eca1bae4fbf0ac1d16b67d4edb09">FlavourWilsonCoefficient::reDC7</a></div><div class="ttdeci">double reDC7</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">FlavourWilsonCoefficient.h:357</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a517e6d57b4320feed6a3aa867edcf515"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a517e6d57b4320feed6a3aa867edcf515">FlavourWilsonCoefficient::WCscale</a></div><div class="ttdeci">double WCscale</div><div class="ttdoc">The scale of the Wilson Coefficients.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00361">FlavourWilsonCoefficient.h:361</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_af9cc6cd5eee752df53a5c362e4d8d082"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#af9cc6cd5eee752df53a5c362e4d8d082">FlavourWilsonCoefficient::imDC9p</a></div><div class="ttdeci">double imDC9p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00361">FlavourWilsonCoefficient.h:361</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_aca06b80fe8a4a3de71836004328b9303"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#aca06b80fe8a4a3de71836004328b9303">FlavourWilsonCoefficient::DC7g</a></div><div class="ttdeci">gslpp::complex DC7g</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">FlavourWilsonCoefficient.h:356</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a88956a547430b2c4d9bccfbbf81a46c9"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a88956a547430b2c4d9bccfbbf81a46c9">FlavourWilsonCoefficient::reDC10p</a></div><div class="ttdeci">double reDC10p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">FlavourWilsonCoefficient.h:360</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a1980eca1bae4fbf0ac1d16b67d4edb09"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a1980eca1bae4fbf0ac1d16b67d4edb09">FlavourWilsonCoefficient::reDC7</a></div><div class="ttdeci">double reDC7</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a517e6d57b4320feed6a3aa867edcf515"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a517e6d57b4320feed6a3aa867edcf515">FlavourWilsonCoefficient::WCscale</a></div><div class="ttdeci">double WCscale</div><div class="ttdoc">The scale of the Wilson Coefficients.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00362">FlavourWilsonCoefficient.h:362</a></div></div>
 <div class="ttc" id="aclass_model_html_ab8f934941f91e2b741307d751e28bde7"><div class="ttname"><a href="../../d0/de3/class_model.html#ab8f934941f91e2b741307d751e28bde7">Model::UpdateError</a></div><div class="ttdeci">bool UpdateError</div><div class="ttdoc">A boolean set to false if update is successful.</div><div class="ttdef"><b>Definition:</b> <a href="../../da/ded/_model_8h_source.html#l00254">Model.h:254</a></div></div>
 <div class="ttc" id="aclass_standard_model_html_a620dd9d00fc9ecd67545e565b86fff1d"><div class="ttname"><a href="../../dc/dd5/class_standard_model.html#a620dd9d00fc9ecd67545e565b86fff1d">StandardModel::SMM</a></div><div class="ttdeci">Matching&lt; StandardModelMatching, StandardModel &gt; SMM</div><div class="ttdoc">An object of type Matching.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d0a/_standard_model_8h_source.html#l02506">StandardModel.h:2506</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a8b538b5f8f1045f789dcb78a1c99d9c9"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a8b538b5f8f1045f789dcb78a1c99d9c9">FlavourWilsonCoefficient::reDC4</a></div><div class="ttdeci">double reDC4</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">FlavourWilsonCoefficient.h:357</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a8b538b5f8f1045f789dcb78a1c99d9c9"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a8b538b5f8f1045f789dcb78a1c99d9c9">FlavourWilsonCoefficient::reDC4</a></div><div class="ttdeci">double reDC4</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
 <div class="ttc" id="aclass_standard_model_html_a93a9ea641aee81a24ca592a94c29cc26"><div class="ttname"><a href="../../dc/dd5/class_standard_model.html#a93a9ea641aee81a24ca592a94c29cc26">StandardModel::setFlag</a></div><div class="ttdeci">virtual bool setFlag(const std::string name, const bool value)</div><div class="ttdoc">A method to set a flag of StandardModel.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d2b/_standard_model_8cpp_source.html#l00378">StandardModel.cpp:378</a></div></div>
 <div class="ttc" id="aclass_model_html_a87b1d145d7d27e5ad3f5ac52d233822f"><div class="ttname"><a href="../../d0/de3/class_model.html#a87b1d145d7d27e5ad3f5ac52d233822f">Model::ModelParamMap</a></div><div class="ttdeci">std::map&lt; std::string, std::reference_wrapper&lt; const double &gt; &gt; ModelParamMap</div><div class="ttdef"><b>Definition:</b> <a href="../../da/ded/_model_8h_source.html#l00262">Model.h:262</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a62f5f76d944cc6e244b1276560c6c5c2"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a62f5f76d944cc6e244b1276560c6c5c2">FlavourWilsonCoefficient::imDC2</a></div><div class="ttdeci">double imDC2</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_afdb2adf1d01296077ef5b95928e02aef"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#afdb2adf1d01296077ef5b95928e02aef">FlavourWilsonCoefficient::DC6</a></div><div class="ttdeci">gslpp::complex DC6</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">FlavourWilsonCoefficient.h:355</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_af55deadbb473ffae8343f8811a90b78d"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#af55deadbb473ffae8343f8811a90b78d">FlavourWilsonCoefficient::FWCM</a></div><div class="ttdeci">Matching&lt; FlavourWilsonCoefficientMatching, FlavourWilsonCoefficient &gt; FWCM</div><div class="ttdoc">The FlavourWilsonCoefficientMatching object.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00350">FlavourWilsonCoefficient.h:350</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a62f5f76d944cc6e244b1276560c6c5c2"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a62f5f76d944cc6e244b1276560c6c5c2">FlavourWilsonCoefficient::imDC2</a></div><div class="ttdeci">double imDC2</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">FlavourWilsonCoefficient.h:359</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_afdb2adf1d01296077ef5b95928e02aef"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#afdb2adf1d01296077ef5b95928e02aef">FlavourWilsonCoefficient::DC6</a></div><div class="ttdeci">gslpp::complex DC6</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">FlavourWilsonCoefficient.h:356</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_af55deadbb473ffae8343f8811a90b78d"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#af55deadbb473ffae8343f8811a90b78d">FlavourWilsonCoefficient::FWCM</a></div><div class="ttdeci">Matching&lt; FlavourWilsonCoefficientMatching, FlavourWilsonCoefficient &gt; FWCM</div><div class="ttdoc">The FlavourWilsonCoefficientMatching object.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00351">FlavourWilsonCoefficient.h:351</a></div></div>
 <div class="ttc" id="aclass_standard_model_html_a3e259254b66d4905ac0e1b921af697d0"><div class="ttname"><a href="../../dc/dd5/class_standard_model.html#a3e259254b66d4905ac0e1b921af697d0">StandardModel::StandardModel</a></div><div class="ttdeci">StandardModel()</div><div class="ttdoc">The default constructor.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d2b/_standard_model_8cpp_source.html#l00035">StandardModel.cpp:35</a></div></div>
 <div class="ttc" id="aclass_flavour_wilson_coefficient_html_a87871f255ac057fa3a9248035fd4d3af"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a87871f255ac057fa3a9248035fd4d3af">FlavourWilsonCoefficient::setParameter</a></div><div class="ttdeci">virtual void setParameter(const std::string, const double &amp;)</div><div class="ttdoc">A method to set the value of a parameter of FlavourWilsonCoefficient.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d24/_flavour_wilson_coefficient_8cpp_source.html#l00134">FlavourWilsonCoefficient.cpp:134</a></div></div>
 <div class="ttc" id="aclass_standard_model_html_a52ba65b54859053ab41ca9430d7b56ef"><div class="ttname"><a href="../../dc/dd5/class_standard_model.html#a52ba65b54859053ab41ca9430d7b56ef">StandardModel::Init</a></div><div class="ttdeci">virtual bool Init(const std::map&lt; std::string, double &gt; &amp;DPars)</div><div class="ttdoc">A method to initialize the model parameters.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d2b/_standard_model_8cpp_source.html#l00159">StandardModel.cpp:159</a></div></div>
 <div class="ttc" id="aclass_standard_model_matching_html"><div class="ttname"><a href="../../d6/d2e/class_standard_model_matching.html">StandardModelMatching</a></div><div class="ttdoc">A class for the matching in the Standard Model.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d16/_standard_model_matching_8h_source.html#l00026">StandardModelMatching.h:26</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a1f692a1d3c6cb4a25269ee7d4a282dbe"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a1f692a1d3c6cb4a25269ee7d4a282dbe">FlavourWilsonCoefficient::reDC8p</a></div><div class="ttdeci">double reDC8p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">FlavourWilsonCoefficient.h:359</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_afb5748c65c00192d8749f800b9bcc9c6"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#afb5748c65c00192d8749f800b9bcc9c6">FlavourWilsonCoefficient::imDC8</a></div><div class="ttdeci">double imDC8</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_aa43444e92c344210d825c084dba29d8c"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#aa43444e92c344210d825c084dba29d8c">FlavourWilsonCoefficient::imDC10p</a></div><div class="ttdeci">double imDC10p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">FlavourWilsonCoefficient.h:360</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a1f692a1d3c6cb4a25269ee7d4a282dbe"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a1f692a1d3c6cb4a25269ee7d4a282dbe">FlavourWilsonCoefficient::reDC8p</a></div><div class="ttdeci">double reDC8p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">FlavourWilsonCoefficient.h:360</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_afb5748c65c00192d8749f800b9bcc9c6"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#afb5748c65c00192d8749f800b9bcc9c6">FlavourWilsonCoefficient::imDC8</a></div><div class="ttdeci">double imDC8</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">FlavourWilsonCoefficient.h:359</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_aa43444e92c344210d825c084dba29d8c"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#aa43444e92c344210d825c084dba29d8c">FlavourWilsonCoefficient::imDC10p</a></div><div class="ttdeci">double imDC10p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00361">FlavourWilsonCoefficient.h:361</a></div></div>
 <div class="ttc" id="aclass_standard_model_html_a1ac34dfd0ccb2e02be66e1ad5d848ea6"><div class="ttname"><a href="../../dc/dd5/class_standard_model.html#a1ac34dfd0ccb2e02be66e1ad5d848ea6">StandardModel::PreUpdate</a></div><div class="ttdeci">virtual bool PreUpdate()</div><div class="ttdoc">The pre-update method for StandardModel.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d2b/_standard_model_8cpp_source.html#l00172">StandardModel.cpp:172</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a48bd26b4a572d9206d0cf415587e364f"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a48bd26b4a572d9206d0cf415587e364f">FlavourWilsonCoefficient::DC10p</a></div><div class="ttdeci">gslpp::complex DC10p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">FlavourWilsonCoefficient.h:356</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a3a4842295891f406acb4bf1a912e2dbe"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a3a4842295891f406acb4bf1a912e2dbe">FlavourWilsonCoefficient::imDC4</a></div><div class="ttdeci">double imDC4</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_acc4d074562f4aefd69f97bd5641fe903"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#acc4d074562f4aefd69f97bd5641fe903">FlavourWilsonCoefficient::imDC6</a></div><div class="ttdeci">double imDC6</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_ae744679dc7ffbfc6cff5fea90d3a13fa"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#ae744679dc7ffbfc6cff5fea90d3a13fa">FlavourWilsonCoefficient::reDC8</a></div><div class="ttdeci">double reDC8</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">FlavourWilsonCoefficient.h:357</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a48bd26b4a572d9206d0cf415587e364f"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a48bd26b4a572d9206d0cf415587e364f">FlavourWilsonCoefficient::DC10p</a></div><div class="ttdeci">gslpp::complex DC10p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">FlavourWilsonCoefficient.h:357</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a3a4842295891f406acb4bf1a912e2dbe"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a3a4842295891f406acb4bf1a912e2dbe">FlavourWilsonCoefficient::imDC4</a></div><div class="ttdeci">double imDC4</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">FlavourWilsonCoefficient.h:359</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_acc4d074562f4aefd69f97bd5641fe903"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#acc4d074562f4aefd69f97bd5641fe903">FlavourWilsonCoefficient::imDC6</a></div><div class="ttdeci">double imDC6</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">FlavourWilsonCoefficient.h:359</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_ae744679dc7ffbfc6cff5fea90d3a13fa"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#ae744679dc7ffbfc6cff5fea90d3a13fa">FlavourWilsonCoefficient::reDC8</a></div><div class="ttdeci">double reDC8</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
 <div class="ttc" id="aclass_model_html_ada2ff49246d4800156d23aa8366ebddf"><div class="ttname"><a href="../../d0/de3/class_model.html#ada2ff49246d4800156d23aa8366ebddf">Model::raiseMissingModelParameterCount</a></div><div class="ttdeci">void raiseMissingModelParameterCount()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/ded/_model_8h_source.html#l00242">Model.h:242</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a5e33e77bce935c71ea6cc7506bb75fc9"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a5e33e77bce935c71ea6cc7506bb75fc9">FlavourWilsonCoefficient::imDC1</a></div><div class="ttdeci">double imDC1</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a96b9b424d456dc5b132d3163f7d2ca43"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a96b9b424d456dc5b132d3163f7d2ca43">FlavourWilsonCoefficient::DC4</a></div><div class="ttdeci">gslpp::complex DC4</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">FlavourWilsonCoefficient.h:355</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a5e33e77bce935c71ea6cc7506bb75fc9"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a5e33e77bce935c71ea6cc7506bb75fc9">FlavourWilsonCoefficient::imDC1</a></div><div class="ttdeci">double imDC1</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">FlavourWilsonCoefficient.h:359</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a96b9b424d456dc5b132d3163f7d2ca43"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a96b9b424d456dc5b132d3163f7d2ca43">FlavourWilsonCoefficient::DC4</a></div><div class="ttdeci">gslpp::complex DC4</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">FlavourWilsonCoefficient.h:356</a></div></div>
 <div class="ttc" id="aclass_flavour_wilson_coefficient_html_a857d7359a2efddb3a5a11c7511caada7"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a857d7359a2efddb3a5a11c7511caada7">FlavourWilsonCoefficient::PreUpdate</a></div><div class="ttdeci">virtual bool PreUpdate()</div><div class="ttdoc">The pre-update method for FlavourWilsonCoefficient.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d24/_flavour_wilson_coefficient_8cpp_source.html#l00080">FlavourWilsonCoefficient.cpp:80</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a06134cb267c4d47111f8f03898bcd826"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a06134cb267c4d47111f8f03898bcd826">FlavourWilsonCoefficient::FlavourWilsonCoefficientvars</a></div><div class="ttdeci">static const std::string FlavourWilsonCoefficientvars[NFlavourWilsonCoefficientvars]</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00098">FlavourWilsonCoefficient.h:98</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a06134cb267c4d47111f8f03898bcd826"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a06134cb267c4d47111f8f03898bcd826">FlavourWilsonCoefficient::FlavourWilsonCoefficientvars</a></div><div class="ttdeci">static const std::string FlavourWilsonCoefficientvars[NFlavourWilsonCoefficientvars]</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00099">FlavourWilsonCoefficient.h:99</a></div></div>
 <div class="ttc" id="aclass_standard_model_html_ad3f85c83108fddcca06d247fbcc35fa6"><div class="ttname"><a href="../../dc/dd5/class_standard_model.html#ad3f85c83108fddcca06d247fbcc35fa6">StandardModel::PostUpdate</a></div><div class="ttdeci">virtual bool PostUpdate()</div><div class="ttdoc">The post-update method for StandardModel.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d2b/_standard_model_8cpp_source.html#l00199">StandardModel.cpp:199</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a14975df9b7bacc3b3f3103fc79daee0e"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a14975df9b7bacc3b3f3103fc79daee0e">FlavourWilsonCoefficient::imDC5</a></div><div class="ttdeci">double imDC5</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a14975df9b7bacc3b3f3103fc79daee0e"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a14975df9b7bacc3b3f3103fc79daee0e">FlavourWilsonCoefficient::imDC5</a></div><div class="ttdeci">double imDC5</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">FlavourWilsonCoefficient.h:359</a></div></div>
 <div class="ttc" id="aclass_model_html_a8e4ebd01a74abd4a0770b47cdc8d1a5c"><div class="ttname"><a href="../../d0/de3/class_model.html#a8e4ebd01a74abd4a0770b47cdc8d1a5c">Model::IsModelInitialized</a></div><div class="ttdeci">bool IsModelInitialized() const</div><div class="ttdoc">A method to check if the model is initialized.</div><div class="ttdef"><b>Definition:</b> <a href="../../da/ded/_model_8h_source.html#l00136">Model.h:136</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_afcce96a5ed0b80131f4c42c9bafe0f59"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#afcce96a5ed0b80131f4c42c9bafe0f59">FlavourWilsonCoefficient::NFlavourWilsonCoefficientvars</a></div><div class="ttdeci">static const int NFlavourWilsonCoefficientvars</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00096">FlavourWilsonCoefficient.h:96</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_ab3013d078085539f6ef495dda4c34f44"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#ab3013d078085539f6ef495dda4c34f44">FlavourWilsonCoefficient::reDC7p</a></div><div class="ttdeci">double reDC7p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">FlavourWilsonCoefficient.h:359</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_ae6ca72a8c01891e98afee6d79cf2f7ce"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#ae6ca72a8c01891e98afee6d79cf2f7ce">FlavourWilsonCoefficient::DC8g</a></div><div class="ttdeci">gslpp::complex DC8g</div><div class="ttdoc">The complex Wilson Coefficients.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">FlavourWilsonCoefficient.h:355</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a337affc30b4fd514fb946d50e432c15b"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a337affc30b4fd514fb946d50e432c15b">FlavourWilsonCoefficient::reDC8g</a></div><div class="ttdeci">double reDC8g</div><div class="ttdoc">The real parts of the Wilson Coefficients.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">FlavourWilsonCoefficient.h:357</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_afcce96a5ed0b80131f4c42c9bafe0f59"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#afcce96a5ed0b80131f4c42c9bafe0f59">FlavourWilsonCoefficient::NFlavourWilsonCoefficientvars</a></div><div class="ttdeci">static const int NFlavourWilsonCoefficientvars</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00097">FlavourWilsonCoefficient.h:97</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_ab3013d078085539f6ef495dda4c34f44"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#ab3013d078085539f6ef495dda4c34f44">FlavourWilsonCoefficient::reDC7p</a></div><div class="ttdeci">double reDC7p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">FlavourWilsonCoefficient.h:360</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_ae6ca72a8c01891e98afee6d79cf2f7ce"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#ae6ca72a8c01891e98afee6d79cf2f7ce">FlavourWilsonCoefficient::DC8g</a></div><div class="ttdeci">gslpp::complex DC8g</div><div class="ttdoc">The complex Wilson Coefficients.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">FlavourWilsonCoefficient.h:356</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a337affc30b4fd514fb946d50e432c15b"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a337affc30b4fd514fb946d50e432c15b">FlavourWilsonCoefficient::reDC8g</a></div><div class="ttdeci">double reDC8g</div><div class="ttdoc">The real parts of the Wilson Coefficients.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
 <div class="ttc" id="aclass_standard_model_html_af9ea160a84bc8546bac66cdac635cb98"><div class="ttname"><a href="../../dc/dd5/class_standard_model.html#af9ea160a84bc8546bac66cdac635cb98">StandardModel::InitializeModel</a></div><div class="ttdeci">virtual bool InitializeModel()</div><div class="ttdoc">A method to initialize the model.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d2b/_standard_model_8cpp_source.html#l00140">StandardModel.cpp:140</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a95d663107adbcd9e04272022a769dd58"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a95d663107adbcd9e04272022a769dd58">FlavourWilsonCoefficient::reDC7g</a></div><div class="ttdeci">double reDC7g</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">FlavourWilsonCoefficient.h:357</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_acdb5232f01dedd55202a13030752e1ea"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#acdb5232f01dedd55202a13030752e1ea">FlavourWilsonCoefficient::DC3</a></div><div class="ttdeci">gslpp::complex DC3</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">FlavourWilsonCoefficient.h:355</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_aa1b0be57156e9a04e5ca30afc08fc628"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#aa1b0be57156e9a04e5ca30afc08fc628">FlavourWilsonCoefficient::reDC8gp</a></div><div class="ttdeci">double reDC8gp</div><div class="ttdoc">The real parts of the Wilson Coefficients.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">FlavourWilsonCoefficient.h:359</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_ab5391b3a74523260cd770274f8afd66e"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#ab5391b3a74523260cd770274f8afd66e">FlavourWilsonCoefficient::imDC8p</a></div><div class="ttdeci">double imDC8p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">FlavourWilsonCoefficient.h:360</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a7d818264e520627d2e74557d2982a55d"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a7d818264e520627d2e74557d2982a55d">FlavourWilsonCoefficient::DC7</a></div><div class="ttdeci">gslpp::complex DC7</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">FlavourWilsonCoefficient.h:355</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_ab4eb04cc79a0cb6a55c6091829871d07"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#ab4eb04cc79a0cb6a55c6091829871d07">FlavourWilsonCoefficient::DC7p</a></div><div class="ttdeci">gslpp::complex DC7p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">FlavourWilsonCoefficient.h:356</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a42a2107d488aeb15f276121148e56d36"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a42a2107d488aeb15f276121148e56d36">FlavourWilsonCoefficient::imDC8gp</a></div><div class="ttdeci">double imDC8gp</div><div class="ttdoc">The imaginary parts of the Wilson Coefficients.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">FlavourWilsonCoefficient.h:360</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a8fb8a3d3f397b52ac20b07c15fcb9f7a"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a8fb8a3d3f397b52ac20b07c15fcb9f7a">FlavourWilsonCoefficient::DC10</a></div><div class="ttdeci">gslpp::complex DC10</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">FlavourWilsonCoefficient.h:355</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a95d663107adbcd9e04272022a769dd58"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a95d663107adbcd9e04272022a769dd58">FlavourWilsonCoefficient::reDC7g</a></div><div class="ttdeci">double reDC7g</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_acdb5232f01dedd55202a13030752e1ea"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#acdb5232f01dedd55202a13030752e1ea">FlavourWilsonCoefficient::DC3</a></div><div class="ttdeci">gslpp::complex DC3</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">FlavourWilsonCoefficient.h:356</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_aa1b0be57156e9a04e5ca30afc08fc628"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#aa1b0be57156e9a04e5ca30afc08fc628">FlavourWilsonCoefficient::reDC8gp</a></div><div class="ttdeci">double reDC8gp</div><div class="ttdoc">The real parts of the Wilson Coefficients.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00360">FlavourWilsonCoefficient.h:360</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_ab5391b3a74523260cd770274f8afd66e"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#ab5391b3a74523260cd770274f8afd66e">FlavourWilsonCoefficient::imDC8p</a></div><div class="ttdeci">double imDC8p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00361">FlavourWilsonCoefficient.h:361</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a7d818264e520627d2e74557d2982a55d"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a7d818264e520627d2e74557d2982a55d">FlavourWilsonCoefficient::DC7</a></div><div class="ttdeci">gslpp::complex DC7</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">FlavourWilsonCoefficient.h:356</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_ab4eb04cc79a0cb6a55c6091829871d07"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#ab4eb04cc79a0cb6a55c6091829871d07">FlavourWilsonCoefficient::DC7p</a></div><div class="ttdeci">gslpp::complex DC7p</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">FlavourWilsonCoefficient.h:357</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a42a2107d488aeb15f276121148e56d36"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a42a2107d488aeb15f276121148e56d36">FlavourWilsonCoefficient::imDC8gp</a></div><div class="ttdeci">double imDC8gp</div><div class="ttdoc">The imaginary parts of the Wilson Coefficients.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00361">FlavourWilsonCoefficient.h:361</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a8fb8a3d3f397b52ac20b07c15fcb9f7a"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a8fb8a3d3f397b52ac20b07c15fcb9f7a">FlavourWilsonCoefficient::DC10</a></div><div class="ttdeci">gslpp::complex DC10</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">FlavourWilsonCoefficient.h:356</a></div></div>
 <div class="ttc" id="aclass_model_html_a90fe59cc0709dd732cf5f180064db6fe"><div class="ttname"><a href="../../d0/de3/class_model.html#a90fe59cc0709dd732cf5f180064db6fe">Model::name</a></div><div class="ttdeci">std::string name</div><div class="ttdoc">The name of the model.</div><div class="ttdef"><b>Definition:</b> <a href="../../da/ded/_model_8h_source.html#l00267">Model.h:267</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a9ce55a4527c27a20774e2de5f4d624b7"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a9ce55a4527c27a20774e2de5f4d624b7">FlavourWilsonCoefficient::DC9</a></div><div class="ttdeci">gslpp::complex DC9</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">FlavourWilsonCoefficient.h:355</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a8a3f7a93fb56b2dcd2f149074ff2e5fb"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a8a3f7a93fb56b2dcd2f149074ff2e5fb">FlavourWilsonCoefficient::reDC1</a></div><div class="ttdeci">double reDC1</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">FlavourWilsonCoefficient.h:357</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a517a217076d5e265dbc593276d5c4261"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a517a217076d5e265dbc593276d5c4261">FlavourWilsonCoefficient::imDC7</a></div><div class="ttdeci">double imDC7</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a9ce55a4527c27a20774e2de5f4d624b7"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a9ce55a4527c27a20774e2de5f4d624b7">FlavourWilsonCoefficient::DC9</a></div><div class="ttdeci">gslpp::complex DC9</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">FlavourWilsonCoefficient.h:356</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a8a3f7a93fb56b2dcd2f149074ff2e5fb"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a8a3f7a93fb56b2dcd2f149074ff2e5fb">FlavourWilsonCoefficient::reDC1</a></div><div class="ttdeci">double reDC1</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a517a217076d5e265dbc593276d5c4261"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a517a217076d5e265dbc593276d5c4261">FlavourWilsonCoefficient::imDC7</a></div><div class="ttdeci">double imDC7</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00359">FlavourWilsonCoefficient.h:359</a></div></div>
 <div class="ttc" id="aclass_flavour_wilson_coefficient_html_a10b2717ecc66b77c661150ae1c15fc5f"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a10b2717ecc66b77c661150ae1c15fc5f">FlavourWilsonCoefficient::PostUpdate</a></div><div class="ttdeci">virtual bool PostUpdate()</div><div class="ttdoc">The post-update method for FlavourWilsonCoefficient.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d24/_flavour_wilson_coefficient_8cpp_source.html#l00103">FlavourWilsonCoefficient.cpp:103</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a085af7710e89b9a51edffa6a94178992"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a085af7710e89b9a51edffa6a94178992">FlavourWilsonCoefficient::DC8</a></div><div class="ttdeci">gslpp::complex DC8</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00355">FlavourWilsonCoefficient.h:355</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_af2bf11665ba0156fc998b81346372eb3"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#af2bf11665ba0156fc998b81346372eb3">FlavourWilsonCoefficient::DC8gp</a></div><div class="ttdeci">gslpp::complex DC8gp</div><div class="ttdoc">The complex Wilson Coefficients.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">FlavourWilsonCoefficient.h:356</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_a085af7710e89b9a51edffa6a94178992"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#a085af7710e89b9a51edffa6a94178992">FlavourWilsonCoefficient::DC8</a></div><div class="ttdeci">gslpp::complex DC8</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00356">FlavourWilsonCoefficient.h:356</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_af2bf11665ba0156fc998b81346372eb3"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#af2bf11665ba0156fc998b81346372eb3">FlavourWilsonCoefficient::DC8gp</a></div><div class="ttdeci">gslpp::complex DC8gp</div><div class="ttdoc">The complex Wilson Coefficients.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">FlavourWilsonCoefficient.h:357</a></div></div>
 <div class="ttc" id="aclass_model_html_a88786662b6933874a1b3aee990438266"><div class="ttname"><a href="../../d0/de3/class_model.html#a88786662b6933874a1b3aee990438266">Model::setModelInitialized</a></div><div class="ttdeci">void setModelInitialized(bool ModelInitialized)</div><div class="ttdoc">A set method to fix the failure or success of the initialization of the model.</div><div class="ttdef"><b>Definition:</b> <a href="../../da/ded/_model_8h_source.html#l00145">Model.h:145</a></div></div>
-<div class="ttc" id="aclass_flavour_wilson_coefficient_html_afb9fec51c5f6ef5feead9499604fcbf7"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#afb9fec51c5f6ef5feead9499604fcbf7">FlavourWilsonCoefficient::reDC9</a></div><div class="ttdeci">double reDC9</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00357">FlavourWilsonCoefficient.h:357</a></div></div>
+<div class="ttc" id="aclass_flavour_wilson_coefficient_html_afb9fec51c5f6ef5feead9499604fcbf7"><div class="ttname"><a href="../../d6/d75/class_flavour_wilson_coefficient.html#afb9fec51c5f6ef5feead9499604fcbf7">FlavourWilsonCoefficient::reDC9</a></div><div class="ttdeci">double reDC9</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbd/_flavour_wilson_coefficient_8h_source.html#l00358">FlavourWilsonCoefficient.h:358</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d75/class_flavour_wilson_coefficient.html">FlavourWilsonCoefficient</a></li>
-    <li class="footer">Generated on Tue Oct 29 2019 for $\texttt{HEPfit}$ using
+    <li class="footer">Generated on Thu Oct 31 2019 for $\texttt{HEPfit}$ using
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

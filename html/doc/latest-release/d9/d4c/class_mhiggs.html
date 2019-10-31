@@ -192,7 +192,7 @@ Public Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:af91b2808e016a9f8d9ed0c6905dc8a49"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4c/class_mhiggs.html#af91b2808e016a9f8d9ed0c6905dc8a49">index</a></td></tr>
 <tr class="separator:af91b2808e016a9f8d9ed0c6905dc8a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a213f50492e975290d844a8f44bada0fa"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dc/d6f/class_s_u_s_y.html">SUSY</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4c/class_mhiggs.html#a213f50492e975290d844a8f44bada0fa">mySUSY</a></td></tr>
+<tr class="memitem:a213f50492e975290d844a8f44bada0fa"><td class="memItemLeft" align="right" valign="top">const SUSY *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4c/class_mhiggs.html#a213f50492e975290d844a8f44bada0fa">mySUSY</a></td></tr>
 <tr class="separator:a213f50492e975290d844a8f44bada0fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
@@ -249,7 +249,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d8/dc2/_mhiggs_8h_source.html#l00026">26</a> of file <a class="el" href="../../d8/dc2/_mhiggs_8h_source.html">Mhiggs.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    : <a class="code" href="../../dc/d1f/class_th_observable.html#a61df653abc411fb5b5ccd090f735a0c4">ThObservable</a>(SM_i), <a class="code" href="../../d9/d4c/class_mhiggs.html#af91b2808e016a9f8d9ed0c6905dc8a49">index</a>(ind), <a class="code" href="../../d9/d4c/class_mhiggs.html#a213f50492e975290d844a8f44bada0fa">mySUSY</a>(static_cast&lt;const SUSY*&gt; (&amp;SM_i))</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    {</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d9/d4c/class_mhiggs.html#a213f50492e975290d844a8f44bada0fa">mySUSY</a>-&gt;<a class="code" href="../../d0/de3/class_model.html#a5675a2377197dad9ce561bcef621fdf8">isModelSUSY</a>() == <span class="keyword">false</span>)</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d9/d4c/class_mhiggs.html#a213f50492e975290d844a8f44bada0fa">mySUSY</a>-&gt;isModelSUSY() == <span class="keyword">false</span>)</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;\nERROR: The Higgs mass spectrum can only be computed in a SUSY model. Please check your observables list.\n&quot;</span>);</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    };</div>
 </div><!-- fragment -->
@@ -285,13 +285,13 @@ Additional Inherited Members</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">switch</span>(<a class="code" href="../../d9/d4c/class_mhiggs.html#af91b2808e016a9f8d9ed0c6905dc8a49">index</a>) {</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <span class="keywordflow">case</span> 0:</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d9/d4c/class_mhiggs.html#a213f50492e975290d844a8f44bada0fa">mySUSY</a>-&gt;<a class="code" href="../../dc/d6f/class_s_u_s_y.html#a7bfcf1e081512f39d5b733e9a4cdf3e3">getMHl</a>();</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d9/d4c/class_mhiggs.html#a213f50492e975290d844a8f44bada0fa">mySUSY</a>-&gt;getMHl();</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="keywordflow">case</span> 1:</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d9/d4c/class_mhiggs.html#a213f50492e975290d844a8f44bada0fa">mySUSY</a>-&gt;<a class="code" href="../../dc/d6f/class_s_u_s_y.html#a1f19bdd23520fef48045278a2d1f2b82">getMHh</a>();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d9/d4c/class_mhiggs.html#a213f50492e975290d844a8f44bada0fa">mySUSY</a>-&gt;getMHh();</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <span class="keywordflow">case</span> 2:</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d9/d4c/class_mhiggs.html#a213f50492e975290d844a8f44bada0fa">mySUSY</a>-&gt;<a class="code" href="../../dc/d6f/class_s_u_s_y.html#acf3a82f7f89d29c9a10b2c786ed9457f">getMHa</a>();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d9/d4c/class_mhiggs.html#a213f50492e975290d844a8f44bada0fa">mySUSY</a>-&gt;getMHa();</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <span class="keywordflow">case</span> 3:</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d9/d4c/class_mhiggs.html#a213f50492e975290d844a8f44bada0fa">mySUSY</a>-&gt;<a class="code" href="../../dc/d6f/class_s_u_s_y.html#a17f4a9a5ad5e39cbf3debf61037e75df">getMHp</a>();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d9/d4c/class_mhiggs.html#a213f50492e975290d844a8f44bada0fa">mySUSY</a>-&gt;getMHp();</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Mhiggs::computeThValue(): undefined index&quot;</span>);</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        }</div>
@@ -334,7 +334,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../dc/d6f/class_s_u_s_y.html">SUSY</a>* Mhiggs::mySUSY</td>
+          <td class="memname">const SUSY* Mhiggs::mySUSY</td>
         </tr>
       </table>
   </td>
@@ -353,19 +353,14 @@ Additional Inherited Members</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclass_s_u_s_y_html_a17f4a9a5ad5e39cbf3debf61037e75df"><div class="ttname"><a href="../../dc/d6f/class_s_u_s_y.html#a17f4a9a5ad5e39cbf3debf61037e75df">SUSY::getMHp</a></div><div class="ttdeci">double getMHp() const</div><div class="ttdoc">Gets the charged Higgs mass.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d37/_s_u_s_y_8h_source.html#l00239">SUSY.h:239</a></div></div>
-<div class="ttc" id="aclass_s_u_s_y_html_a1f19bdd23520fef48045278a2d1f2b82"><div class="ttname"><a href="../../dc/d6f/class_s_u_s_y.html#a1f19bdd23520fef48045278a2d1f2b82">SUSY::getMHh</a></div><div class="ttdeci">double getMHh() const</div><div class="ttdoc">Gets the heavy Higgs mass.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d37/_s_u_s_y_8h_source.html#l00221">SUSY.h:221</a></div></div>
 <div class="ttc" id="aclass_th_observable_html_a61df653abc411fb5b5ccd090f735a0c4"><div class="ttname"><a href="../../dc/d1f/class_th_observable.html#a61df653abc411fb5b5ccd090f735a0c4">ThObservable::ThObservable</a></div><div class="ttdeci">ThObservable(const StandardModel &amp;SM_i)</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dcd/_th_observable_8h_source.html#l00032">ThObservable.h:32</a></div></div>
 <div class="ttc" id="aclass_mhiggs_html_a213f50492e975290d844a8f44bada0fa"><div class="ttname"><a href="../../d9/d4c/class_mhiggs.html#a213f50492e975290d844a8f44bada0fa">Mhiggs::mySUSY</a></div><div class="ttdeci">const SUSY * mySUSY</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc2/_mhiggs_8h_source.html#l00051">Mhiggs.h:51</a></div></div>
 <div class="ttc" id="aclass_mhiggs_html_af91b2808e016a9f8d9ed0c6905dc8a49"><div class="ttname"><a href="../../d9/d4c/class_mhiggs.html#af91b2808e016a9f8d9ed0c6905dc8a49">Mhiggs::index</a></div><div class="ttdeci">const int index</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc2/_mhiggs_8h_source.html#l00047">Mhiggs.h:47</a></div></div>
-<div class="ttc" id="aclass_s_u_s_y_html_a7bfcf1e081512f39d5b733e9a4cdf3e3"><div class="ttname"><a href="../../dc/d6f/class_s_u_s_y.html#a7bfcf1e081512f39d5b733e9a4cdf3e3">SUSY::getMHl</a></div><div class="ttdeci">virtual double getMHl() const</div><div class="ttdoc">Gets the light Higgs mass.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d37/_s_u_s_y_8h_source.html#l00212">SUSY.h:212</a></div></div>
-<div class="ttc" id="aclass_model_html_a5675a2377197dad9ce561bcef621fdf8"><div class="ttname"><a href="../../d0/de3/class_model.html#a5675a2377197dad9ce561bcef621fdf8">Model::isModelSUSY</a></div><div class="ttdeci">bool isModelSUSY() const</div><div class="ttdef"><b>Definition:</b> <a href="../../da/ded/_model_8h_source.html#l00182">Model.h:182</a></div></div>
-<div class="ttc" id="aclass_s_u_s_y_html_acf3a82f7f89d29c9a10b2c786ed9457f"><div class="ttname"><a href="../../dc/d6f/class_s_u_s_y.html#acf3a82f7f89d29c9a10b2c786ed9457f">SUSY::getMHa</a></div><div class="ttdeci">double getMHa() const</div><div class="ttdoc">Gets the pseudo-scalar Higgs mass.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d37/_s_u_s_y_8h_source.html#l00230">SUSY.h:230</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/d4c/class_mhiggs.html">Mhiggs</a></li>
-    <li class="footer">Generated on Tue Oct 29 2019 for $\texttt{HEPfit}$ using
+    <li class="footer">Generated on Thu Oct 31 2019 for $\texttt{HEPfit}$ using
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

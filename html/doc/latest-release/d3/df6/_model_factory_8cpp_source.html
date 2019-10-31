@@ -150,10 +150,10 @@ $(document).ready(function(){initNavTree('d3/df6/_model_factory_8cpp_source.html
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/d81/_flavour_wilson_coefficient___d_f2_8h.html">FlavourWilsonCoefficient_DF2.h</a>&quot;</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/d36/_real_weak_e_f_t_l_f_v_8h.html">RealWeakEFTLFV.h</a>&quot;</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/db9/_real_weak_e_f_t_c_c_8h.html">RealWeakEFTCC.h</a>&quot;</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dc/d43/_loop_mediators_8h.html">LoopMediators.h</a>&quot;</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/dc0/_n_p_d_f2_8h.html">NPDF2.h</a>&quot;</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/db0/_c_m_f_v_8h.html">CMFV.h</a>&quot;</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/d3e/_georgi_machacek_8h.html">GeorgiMachacek.h</a>&quot;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/dc0/_n_p_d_f2_8h.html">NPDF2.h</a>&quot;</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/db0/_c_m_f_v_8h.html">CMFV.h</a>&quot;</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/d3e/_georgi_machacek_8h.html">GeorgiMachacek.h</a>&quot;</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d6/d78/_general_s_u_s_y_8h.html">GeneralSUSY.h</a>&quot;</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/d9a/_general_t_h_d_m_8h.html">GeneralTHDM.h</a>&quot;</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/dfb/_t_h_d_m_w_8h.html">THDMW.h</a>&quot;</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#include &lt;boost/bind.hpp&gt;</span></div>
@@ -184,9 +184,9 @@ $(document).ready(function(){initNavTree('d3/df6/_model_factory_8cpp_source.html
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="../../db/da7/class_model_factory.html#a72a177f61a2879bdf7721f513ae62d93">modelFactory</a>[<span class="stringliteral">&quot;RealWeakEFTLFV&quot;</span>] = boost::factory&lt;RealWeakEFTLFV*&gt;();</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="../../db/da7/class_model_factory.html#a72a177f61a2879bdf7721f513ae62d93">modelFactory</a>[<span class="stringliteral">&quot;RealWeakEFTCC&quot;</span>] = boost::bind(boost::factory&lt;RealWeakEFTCC*&gt;(), 0);</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="../../db/da7/class_model_factory.html#a72a177f61a2879bdf7721f513ae62d93">modelFactory</a>[<span class="stringliteral">&quot;RealWeakEFTCCPM&quot;</span>] = boost::bind(boost::factory&lt;RealWeakEFTCC*&gt;(), 1);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="../../db/da7/class_model_factory.html#a72a177f61a2879bdf7721f513ae62d93">modelFactory</a>[<span class="stringliteral">&quot;LoopMediators&quot;</span>] = boost::factory&lt;LoopMediators*&gt;();</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="../../db/da7/class_model_factory.html#a72a177f61a2879bdf7721f513ae62d93">modelFactory</a>[<span class="stringliteral">&quot;THDM&quot;</span>] = boost::factory&lt;THDM*&gt;();</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="../../db/da7/class_model_factory.html#a72a177f61a2879bdf7721f513ae62d93">modelFactory</a>[<span class="stringliteral">&quot;GeorgiMachacek&quot;</span>] = boost::factory&lt;GeorgiMachacek*&gt;();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="../../db/da7/class_model_factory.html#a72a177f61a2879bdf7721f513ae62d93">modelFactory</a>[<span class="stringliteral">&quot;THDM&quot;</span>] = boost::factory&lt;THDM*&gt;();</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="../../db/da7/class_model_factory.html#a72a177f61a2879bdf7721f513ae62d93">modelFactory</a>[<span class="stringliteral">&quot;GeorgiMachacek&quot;</span>] = boost::factory&lt;GeorgiMachacek*&gt;();</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="../../db/da7/class_model_factory.html#a72a177f61a2879bdf7721f513ae62d93">modelFactory</a>[<span class="stringliteral">&quot;GeneralSUSY&quot;</span>] = boost::factory&lt;GeneralSUSY*&gt;();</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <a class="code" href="../../db/da7/class_model_factory.html#a72a177f61a2879bdf7721f513ae62d93">modelFactory</a>[<span class="stringliteral">&quot;GeneralTHDM&quot;</span>] = boost::factory&lt;GeneralTHDM*&gt;();</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="code" href="../../db/da7/class_model_factory.html#a72a177f61a2879bdf7721f513ae62d93">modelFactory</a>[<span class="stringliteral">&quot;THDMW&quot;</span>] = boost::factory&lt;THDMW*&gt;();</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
@@ -223,11 +223,11 @@ $(document).ready(function(){initNavTree('d3/df6/_model_factory_8cpp_source.html
 <div class="ttc" id="a_higgs_kigen_8h_html"><div class="ttname"><a href="../../d7/d7c/_higgs_kigen_8h.html">HiggsKigen.h</a></div></div>
 <div class="ttc" id="a_higgs_chiral_8h_html"><div class="ttname"><a href="../../de/da9/_higgs_chiral_8h.html">HiggsChiral.h</a></div></div>
 <div class="ttc" id="a_real_weak_e_f_t_l_f_v_8h_html"><div class="ttname"><a href="../../de/d36/_real_weak_e_f_t_l_f_v_8h.html">RealWeakEFTLFV.h</a></div></div>
+<div class="ttc" id="a_general_s_u_s_y_8h_html"><div class="ttname"><a href="../../d6/d78/_general_s_u_s_y_8h.html">GeneralSUSY.h</a></div></div>
 <div class="ttc" id="aclass_model_factory_html_ab9ed2e92cf0d6ec4cfaa528b2a1d78da"><div class="ttname"><a href="../../db/da7/class_model_factory.html#ab9ed2e92cf0d6ec4cfaa528b2a1d78da">ModelFactory::CreateModel</a></div><div class="ttdeci">StandardModel * CreateModel(const std::string &amp;ModelName)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/df6/_model_factory_8cpp_source.html#l00074">ModelFactory.cpp:74</a></div></div>
 <div class="ttc" id="a_higgs_kv_kf_8h_html"><div class="ttname"><a href="../../d8/d61/_higgs_kv_kf_8h.html">HiggsKvKf.h</a></div></div>
 <div class="ttc" id="a_n_p_epsilons_8h_html"><div class="ttname"><a href="../../d1/d81/_n_p_epsilons_8h.html">NPEpsilons.h</a></div></div>
 <div class="ttc" id="a_real_weak_e_f_t_c_c_8h_html"><div class="ttname"><a href="../../d8/db9/_real_weak_e_f_t_c_c_8h.html">RealWeakEFTCC.h</a></div></div>
-<div class="ttc" id="a_loop_mediators_8h_html"><div class="ttname"><a href="../../dc/d43/_loop_mediators_8h.html">LoopMediators.h</a></div></div>
 <div class="ttc" id="a_n_p_d_f2_8h_html"><div class="ttname"><a href="../../d3/dc0/_n_p_d_f2_8h.html">NPDF2.h</a></div></div>
 <div class="ttc" id="a_flavour_wilson_coefficient_8h_html"><div class="ttname"><a href="../../dc/dbd/_flavour_wilson_coefficient_8h.html">FlavourWilsonCoefficient.h</a></div></div>
 <div class="ttc" id="a_t_h_d_m_8h_html"><div class="ttname"><a href="../../de/de8/_t_h_d_m_8h.html">THDM.h</a></div></div>
@@ -239,7 +239,7 @@ $(document).ready(function(){initNavTree('d3/df6/_model_factory_8cpp_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_6cc8451fad81479d5e8112c416332322.html">InputParser</a></li><li class="navelem"><a class="el" href="../../dir_0476eed390318da84a06e0b7d3b239e8.html">src</a></li><li class="navelem"><a class="el" href="../../d3/df6/_model_factory_8cpp.html">ModelFactory.cpp</a></li>
-    <li class="footer">Generated on Tue Oct 29 2019 for $\texttt{HEPfit}$ using
+    <li class="footer">Generated on Thu Oct 31 2019 for $\texttt{HEPfit}$ using
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

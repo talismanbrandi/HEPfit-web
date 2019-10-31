@@ -775,7 +775,7 @@ $(document).ready(function(){initNavTree('d4/d0a/_monte_carlo_8cpp_source.html',
 <div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;            <span class="keywordflow">if</span> (beg-&gt;compare(<span class="stringliteral">&quot;true&quot;</span>) == 0 || beg-&gt;compare(<span class="stringliteral">&quot;false&quot;</span>) == 0) <a class="code" href="../../d1/d58/class_monte_carlo.html#a2b79c025c9f7af2c087b5c7fae78400a">MCEngine</a>.<a class="code" href="../../d6/dc9/class_monte_carlo_engine.html#af4e2349f108d47e4feb6f87d0dabe2b3">setWriteLogLikelihoodChain</a>((beg-&gt;compare(<span class="stringliteral">&quot;true&quot;</span>) == 0));</div>
 <div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;            <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;                <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;\nERROR: WriteLogLikelihoodChain in the MonteCarlo configuration file: &quot;</span> + <a class="code" href="../../d1/d58/class_monte_carlo.html#a55c219d98f84aa8310ea7ef9cb028b75">MCMCConf</a> + <span class="stringliteral">&quot; can only be &#39;true&#39; or &#39;false&#39;.\n&quot;</span>);</div>
-<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (beg-&gt;compare(<span class="stringliteral">&quot;WriteParametersChain&quot;</span>) == 0) {</div>
+<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (beg-&gt;compare(<span class="stringliteral">&quot;WriteParametersChains&quot;</span>) == 0) {</div>
 <div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;            ++beg;</div>
 <div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;            <span class="keywordflow">if</span> (beg-&gt;compare(<span class="stringliteral">&quot;true&quot;</span>) == 0 || beg-&gt;compare(<span class="stringliteral">&quot;false&quot;</span>) == 0) <a class="code" href="../../d1/d58/class_monte_carlo.html#a2b79c025c9f7af2c087b5c7fae78400a">MCEngine</a>.<a class="code" href="../../d6/dc9/class_monte_carlo_engine.html#a44da5a41c40265a3aabbbcdda2916ace">setWriteParametersChain</a>((beg-&gt;compare(<span class="stringliteral">&quot;true&quot;</span>) == 0));</div>
 <div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;            <span class="keywordflow">else</span></div>
@@ -942,7 +942,7 @@ $(document).ready(function(){initNavTree('d4/d0a/_monte_carlo_8cpp_source.html',
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_7a429e43a1d7add08404145e4d55a28a.html">MonteCarlo</a></li><li class="navelem"><a class="el" href="../../dir_13570b7b75c06b6447116fbc6288351a.html">src</a></li><li class="navelem"><a class="el" href="../../d4/d0a/_monte_carlo_8cpp.html">MonteCarlo.cpp</a></li>
-    <li class="footer">Generated on Tue Oct 29 2019 for $\texttt{HEPfit}$ using
+    <li class="footer">Generated on Thu Oct 31 2019 for $\texttt{HEPfit}$ using
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

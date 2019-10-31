@@ -85,7 +85,6 @@ var hierarchy =
     [ "Matching< GMMatching, GeorgiMachacek >", "d5/d76/class_matching.html", null ],
     [ "Matching< NPSMEFTd6Matching, NPSMEFTd6 >", "d5/d76/class_matching.html", null ],
     [ "Matching< StandardModelMatching, StandardModel >", "d5/d76/class_matching.html", null ],
-    [ "Matching< SUSYMatching, SUSY >", "d5/d76/class_matching.html", null ],
     [ "Matching< THDMMatching, THDM >", "d5/d76/class_matching.html", null ],
     [ "Matching< THDMWMatching, THDMW >", "d5/d76/class_matching.html", null ],
     [ "gslpp::matrix< T >", "d1/d3c/classgslpp_1_1matrix.html", null ],
@@ -99,7 +98,6 @@ var hierarchy =
           [ "EWSM_Output", "d4/d27/class_e_w_s_m___output.html", null ],
           [ "FlavourWilsonCoefficient", "d6/d75/class_flavour_wilson_coefficient.html", null ],
           [ "FlavourWilsonCoefficient_DF2", "d8/d7d/class_flavour_wilson_coefficient___d_f2.html", null ],
-          [ "LoopMediators", "d5/d69/class_loop_mediators.html", null ],
           [ "myModel", "dc/d20/classmy_model.html", null ],
           [ "myModel", "dc/d20/classmy_model.html", null ],
           [ "NPbase", "d2/df3/class_n_pbase.html", [
@@ -125,7 +123,6 @@ var hierarchy =
           [ "NPDF2", "d5/d71/class_n_p_d_f2.html", null ],
           [ "RealWeakEFTCC", "dc/d79/class_real_weak_e_f_t_c_c.html", null ],
           [ "RealWeakEFTLFV", "d5/d7c/class_real_weak_e_f_t_l_f_v.html", null ],
-          [ "SUSY", "dc/d6f/class_s_u_s_y.html", null ],
           [ "THDM", "d0/d52/class_t_h_d_m.html", null ]
         ] ]
       ] ]
@@ -138,7 +135,6 @@ var hierarchy =
         [ "FlavourWilsonCoefficientMatching", "d2/d0a/class_flavour_wilson_coefficient_matching.html", null ],
         [ "GeneralTHDMMatching", "df/d2f/class_general_t_h_d_m_matching.html", null ],
         [ "GMMatching", "d0/dbd/class_g_m_matching.html", null ],
-        [ "LoopMediatorsMatching", "dd/df3/class_loop_mediators_matching.html", null ],
         [ "NPSMEFTd6Matching", "de/d13/class_n_p_s_m_e_f_td6_matching.html", null ],
         [ "RealWeakEFTLFVMatching", "d8/dce/class_real_weak_e_f_t_l_f_v_matching.html", null ],
         [ "SUSYMatching", "d5/dac/class_s_u_s_y_matching.html", null ],
@@ -166,6 +162,9 @@ var hierarchy =
     [ "Rb0", "d5/d38/class_rb0.html", null ],
     [ "RunnerTHDMW", "dd/df9/class_runner_t_h_d_m_w.html", null ],
     [ "stability_GTHDM", "d2/d24/classstability___g_t_h_d_m.html", null ],
+    [ "SUSY", null, [
+      [ "GeneralSUSY", "d5/dfb/class_general_s_u_s_y.html", null ]
+    ] ],
     [ "SUSYScalarPotential", "d2/d4e/class_s_u_s_y_scalar_potential.html", null ],
     [ "SUSYSpectrum", "d4/d6e/class_s_u_s_y_spectrum.html", null ],
     [ "THDMcache", "d5/df2/class_t_h_d_mcache.html", null ],
@@ -437,7 +436,6 @@ var hierarchy =
       [ "delgZlR", "d6/dae/classdelg_zl_r.html", null ],
       [ "delgZqL", "d3/d3a/classdelg_zq_l.html", null ],
       [ "delgZqR", "d4/d59/classdelg_zq_r.html", null ],
-      [ "Deltaamu", "d4/de7/class_deltaamu.html", null ],
       [ "deltacZHB", "d0/d2f/classdeltac_z_h_b.html", null ],
       [ "deltag1Z", "da/db7/classdeltag1_z.html", null ],
       [ "deltag1ZEff", "da/d89/classdeltag1_z_eff.html", null ],

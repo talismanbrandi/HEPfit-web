@@ -189,7 +189,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:af347b73c7d038dbcbf0716cc907062ba"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dc/d6f/class_s_u_s_y.html">SUSY</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d23/classdelta_r_r3__u.html#af347b73c7d038dbcbf0716cc907062ba">mySUSY</a></td></tr>
+<tr class="memitem:af347b73c7d038dbcbf0716cc907062ba"><td class="memItemLeft" align="right" valign="top">const SUSY &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d23/classdelta_r_r3__u.html#af347b73c7d038dbcbf0716cc907062ba">mySUSY</a></td></tr>
 <tr class="separator:af347b73c7d038dbcbf0716cc907062ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
@@ -262,7 +262,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d04/_s_fermiondeltas_8cpp_source.html#l00074">74</a> of file <a class="el" href="../../d4/d04/_s_fermiondeltas_8cpp_source.html">SFermiondeltas.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;{</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="../../d1/d3c/classgslpp_1_1matrix.html">gslpp::matrix&lt;gslpp::complex&gt;</a> msUhat2( <a class="code" href="../../d2/d23/classdelta_r_r3__u.html#af347b73c7d038dbcbf0716cc907062ba">mySUSY</a>.<a class="code" href="../../dc/d6f/class_s_u_s_y.html#ab94da7c8a70be5162070cb90a4fcdd81">getMsUhat2</a>() );</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="../../d1/d3c/classgslpp_1_1matrix.html">gslpp::matrix&lt;gslpp::complex&gt;</a> msUhat2( <a class="code" href="../../d2/d23/classdelta_r_r3__u.html#af347b73c7d038dbcbf0716cc907062ba">mySUSY</a>.getMsUhat2() );</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">double</span> m2sq=msUhat2(1,1).abs();</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordtype">double</span> m3sq=msUhat2(2,2).abs();</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">return</span> (m3sq-m2sq)/<a class="code" href="../../dd/d39/namespacegslpp.html#a93400e94a451fb30fcb88e4eaddff83b">sqrt</a>(m3sq*m2sq);</div>
@@ -281,7 +281,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../dc/d6f/class_s_u_s_y.html">SUSY</a>&amp; deltaRR3_u::mySUSY</td>
+          <td class="memname">const SUSY&amp; deltaRR3_u::mySUSY</td>
         </tr>
       </table>
   </td>
@@ -301,7 +301,6 @@ Additional Inherited Members</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclass_s_u_s_y_html_ab94da7c8a70be5162070cb90a4fcdd81"><div class="ttname"><a href="../../dc/d6f/class_s_u_s_y.html#ab94da7c8a70be5162070cb90a4fcdd81">SUSY::getMsUhat2</a></div><div class="ttdeci">gslpp::matrix&lt; gslpp::complex &gt; getMsUhat2() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d37/_s_u_s_y_8h_source.html#l00316">SUSY.h:316</a></div></div>
 <div class="ttc" id="aclassgslpp_1_1matrix_html"><div class="ttname"><a href="../../d1/d3c/classgslpp_1_1matrix.html">gslpp::matrix&lt; gslpp::complex &gt;</a></div></div>
 <div class="ttc" id="aclass_th_observable_html_a61df653abc411fb5b5ccd090f735a0c4"><div class="ttname"><a href="../../dc/d1f/class_th_observable.html#a61df653abc411fb5b5ccd090f735a0c4">ThObservable::ThObservable</a></div><div class="ttdeci">ThObservable(const StandardModel &amp;SM_i)</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dcd/_th_observable_8h_source.html#l00032">ThObservable.h:32</a></div></div>
 <div class="ttc" id="anamespacegslpp_html_a93400e94a451fb30fcb88e4eaddff83b"><div class="ttname"><a href="../../dd/d39/namespacegslpp.html#a93400e94a451fb30fcb88e4eaddff83b">gslpp::sqrt</a></div><div class="ttdeci">complex sqrt(const complex &amp;z)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d58/gslpp__complex_8cpp_source.html#l00385">gslpp_complex.cpp:385</a></div></div>
@@ -310,7 +309,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d23/classdelta_r_r3__u.html">deltaRR3_u</a></li>
-    <li class="footer">Generated on Tue Oct 29 2019 for $\texttt{HEPfit}$ using
+    <li class="footer">Generated on Thu Oct 31 2019 for $\texttt{HEPfit}$ using
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

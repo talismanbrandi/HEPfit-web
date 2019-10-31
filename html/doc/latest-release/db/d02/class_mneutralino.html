@@ -192,7 +192,7 @@ Public Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:aad470fe21c743d00148d0c95f0e6c271"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d02/class_mneutralino.html#aad470fe21c743d00148d0c95f0e6c271">index</a></td></tr>
 <tr class="separator:aad470fe21c743d00148d0c95f0e6c271"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9565b2f0e424bffe4724a32f50da460a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dc/d6f/class_s_u_s_y.html">SUSY</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d02/class_mneutralino.html#a9565b2f0e424bffe4724a32f50da460a">mySUSY</a></td></tr>
+<tr class="memitem:a9565b2f0e424bffe4724a32f50da460a"><td class="memItemLeft" align="right" valign="top">const SUSY *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d02/class_mneutralino.html#a9565b2f0e424bffe4724a32f50da460a">mySUSY</a></td></tr>
 <tr class="separator:a9565b2f0e424bffe4724a32f50da460a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
@@ -249,7 +249,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../dc/db9/_mneutralino_8h_source.html#l00027">27</a> of file <a class="el" href="../../dc/db9/_mneutralino_8h_source.html">Mneutralino.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    : <a class="code" href="../../dc/d1f/class_th_observable.html#a61df653abc411fb5b5ccd090f735a0c4">ThObservable</a>(SM_i), <a class="code" href="../../db/d02/class_mneutralino.html#aad470fe21c743d00148d0c95f0e6c271">index</a>(ind), <a class="code" href="../../db/d02/class_mneutralino.html#a9565b2f0e424bffe4724a32f50da460a">mySUSY</a>(static_cast&lt;const SUSY*&gt; (&amp;SM_i))</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../db/d02/class_mneutralino.html#a9565b2f0e424bffe4724a32f50da460a">mySUSY</a>-&gt;<a class="code" href="../../d0/de3/class_model.html#a5675a2377197dad9ce561bcef621fdf8">isModelSUSY</a>() == <span class="keyword">false</span>)</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../db/d02/class_mneutralino.html#a9565b2f0e424bffe4724a32f50da460a">mySUSY</a>-&gt;isModelSUSY() == <span class="keyword">false</span>)</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;\nERROR: The neutralino mass spectrum can only be computed in a SUSY model. Please check your observables list.\n&quot;</span>);</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    };</div>
 </div><!-- fragment -->
@@ -283,7 +283,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/db9/_mneutralino_8h_source.html#l00034">34</a> of file <a class="el" href="../../dc/db9/_mneutralino_8h_source.html">Mneutralino.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    {</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">return</span> (<a class="code" href="../../db/d02/class_mneutralino.html#a9565b2f0e424bffe4724a32f50da460a">mySUSY</a>-&gt;<a class="code" href="../../dc/d6f/class_s_u_s_y.html#ad84d6cf2fadaa143a4e405ba208e3dcf">getMneu</a>()(<a class="code" href="../../db/d02/class_mneutralino.html#aad470fe21c743d00148d0c95f0e6c271">index</a>));</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">return</span> (<a class="code" href="../../db/d02/class_mneutralino.html#a9565b2f0e424bffe4724a32f50da460a">mySUSY</a>-&gt;getMneu()(<a class="code" href="../../db/d02/class_mneutralino.html#aad470fe21c743d00148d0c95f0e6c271">index</a>));</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    };</div>
 </div><!-- fragment -->
 </div>
@@ -323,7 +323,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../dc/d6f/class_s_u_s_y.html">SUSY</a>* Mneutralino::mySUSY</td>
+          <td class="memname">const SUSY* Mneutralino::mySUSY</td>
         </tr>
       </table>
   </td>
@@ -345,13 +345,11 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aclass_th_observable_html_a61df653abc411fb5b5ccd090f735a0c4"><div class="ttname"><a href="../../dc/d1f/class_th_observable.html#a61df653abc411fb5b5ccd090f735a0c4">ThObservable::ThObservable</a></div><div class="ttdeci">ThObservable(const StandardModel &amp;SM_i)</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dcd/_th_observable_8h_source.html#l00032">ThObservable.h:32</a></div></div>
 <div class="ttc" id="aclass_mneutralino_html_aad470fe21c743d00148d0c95f0e6c271"><div class="ttname"><a href="../../db/d02/class_mneutralino.html#aad470fe21c743d00148d0c95f0e6c271">Mneutralino::index</a></div><div class="ttdeci">const int index</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/db9/_mneutralino_8h_source.html#l00037">Mneutralino.h:37</a></div></div>
 <div class="ttc" id="aclass_mneutralino_html_a9565b2f0e424bffe4724a32f50da460a"><div class="ttname"><a href="../../db/d02/class_mneutralino.html#a9565b2f0e424bffe4724a32f50da460a">Mneutralino::mySUSY</a></div><div class="ttdeci">const SUSY * mySUSY</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/db9/_mneutralino_8h_source.html#l00041">Mneutralino.h:41</a></div></div>
-<div class="ttc" id="aclass_model_html_a5675a2377197dad9ce561bcef621fdf8"><div class="ttname"><a href="../../d0/de3/class_model.html#a5675a2377197dad9ce561bcef621fdf8">Model::isModelSUSY</a></div><div class="ttdeci">bool isModelSUSY() const</div><div class="ttdef"><b>Definition:</b> <a href="../../da/ded/_model_8h_source.html#l00182">Model.h:182</a></div></div>
-<div class="ttc" id="aclass_s_u_s_y_html_ad84d6cf2fadaa143a4e405ba208e3dcf"><div class="ttname"><a href="../../dc/d6f/class_s_u_s_y.html#ad84d6cf2fadaa143a4e405ba208e3dcf">SUSY::getMneu</a></div><div class="ttdeci">gslpp::vector&lt; double &gt; getMneu() const</div><div class="ttdoc">Gets the neutralino masses.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d37/_s_u_s_y_8h_source.html#l00293">SUSY.h:293</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d02/class_mneutralino.html">Mneutralino</a></li>
-    <li class="footer">Generated on Tue Oct 29 2019 for $\texttt{HEPfit}$ using
+    <li class="footer">Generated on Thu Oct 31 2019 for $\texttt{HEPfit}$ using
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

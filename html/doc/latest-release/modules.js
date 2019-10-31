@@ -5,6 +5,7 @@ var modules =
     [ "EventGeneration", "d5/def/group___event_generation.html", "d5/def/group___event_generation" ],
     [ "Flavour", "d2/d35/group___flavour.html", "d2/d35/group___flavour" ],
     [ "FlavourWilsonCoefficent", "d1/d8c/group___flavour_wilson_coefficent.html", "d1/d8c/group___flavour_wilson_coefficent" ],
+    [ "GeneralSUSY", "da/d5b/group___general_s_u_s_y.html", null ],
     [ "GeneralTHDM", "d9/dd2/group___general_t_h_d_m.html", "d9/dd2/group___general_t_h_d_m" ],
     [ "GeorgiMachacek", "d7/d3e/group___georgi_machacek.html", "d7/d3e/group___georgi_machacek" ],
     [ "Gslpp", "db/d19/group__gslpp.html", "db/d19/group__gslpp" ],

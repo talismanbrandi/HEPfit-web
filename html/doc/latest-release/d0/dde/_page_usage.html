@@ -124,45 +124,59 @@ $(document).ready(function(){initNavTree('d0/dde/_page_usage.html','../../');});
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md33">Monte Carlo mode</a><ul><li class="level2"><a href="#autotoc_md34">Step 1: %Model configuration file:</a></li>
-<li class="level2"><a href="#autotoc_md35">Step 2: %Monte Carlo configuration file:</a></li>
-<li class="level2"><a href="#autotoc_md36">Step 3: Run:</a></li>
+<ul><li class="level1"><a href="#autotoc_md36">Monte Carlo mode</a><ul><li class="level2"><a href="#autotoc_md37">Step 1: Model configuration file:</a></li>
+<li class="level2"><a href="#autotoc_md38">Step 2: Monte Carlo configuration file:</a></li>
+<li class="level2"><a href="#autotoc_md39">Step 3: Run:</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md37">Library mode with MCMC</a><ul><li class="level2"><a href="#autotoc_md38">Alternative: Run with MPI.</a></li>
-<li class="level2"><a href="#autotoc_md39">Output Files:</a></li>
+<li class="level1"><a href="#autotoc_md40">Library mode with MCMC</a><ul><li class="level2"><a href="#autotoc_md41">Alternative: Run with MPI.</a></li>
+<li class="level2"><a href="#autotoc_md42">Output Files:</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md40">Single event mode</a></li>
-<li class="level1"><a href="#autotoc_md41">Library mode without MCMC</a><ul><li class="level2"><a href="#autotoc_md42">Non-Minimal Mode:</a></li>
-<li class="level2"><a href="#autotoc_md43">Minimal Mode:</a></li>
-<li class="level2"><a href="#autotoc_md44">Use of hepfit-config:</a></li>
+<li class="level1"><a href="#autotoc_md43">Single event mode</a></li>
+<li class="level1"><a href="#autotoc_md44">Even Generation Mode</a><ul><li class="level2"><a href="#autotoc_md45">Output folder structure:</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md57">Monte Carlo mode</a><ul><li class="level2"><a href="#autotoc_md58">Step 1: %Model configuration file:</a></li>
-<li class="level2"><a href="#autotoc_md59">Step 2: %Monte Carlo configuration file:</a></li>
-<li class="level2"><a href="#autotoc_md60">Step 3: Run:</a></li>
+<li class="level1"><a href="#autotoc_md46">Library mode without MCMC</a><ul><li class="level2"><a href="#autotoc_md47">Non-Minimal Mode:</a></li>
+<li class="level2"><a href="#autotoc_md48">Minimal Mode:</a></li>
+<li class="level2"><a href="#autotoc_md49">Use of hepfit-config:</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md61">Library mode with MCMC</a><ul><li class="level2"><a href="#autotoc_md62">Alternative: Run with MPI.</a></li>
-<li class="level2"><a href="#autotoc_md63">Output Files:</a></li>
+<li class="level1"><a href="#autotoc_md50">Custom models and observables</a><ul><li class="level2"><a href="#autotoc_md51">Custom Models:</a></li>
+<li class="level2"><a href="#autotoc_md52">Custom Observables</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md64">Single event mode</a></li>
-<li class="level1"><a href="#autotoc_md65">Library mode without MCMC</a><ul><li class="level2"><a href="#autotoc_md66">Non-Minimal Mode:</a></li>
-<li class="level2"><a href="#autotoc_md67">Minimal Mode:</a></li>
-<li class="level2"><a href="#autotoc_md68">Use of hepfit-config:</a></li>
+<li class="level1"><a href="#autotoc_md65">Monte Carlo mode</a><ul><li class="level2"><a href="#autotoc_md66">Step 1: Model configuration file:</a></li>
+<li class="level2"><a href="#autotoc_md67">Step 2: Monte Carlo configuration file:</a></li>
+<li class="level2"><a href="#autotoc_md68">Step 3: Run:</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#autotoc_md69">Library mode with MCMC</a><ul><li class="level2"><a href="#autotoc_md70">Alternative: Run with MPI.</a></li>
+<li class="level2"><a href="#autotoc_md71">Output Files:</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#autotoc_md72">Single event mode</a></li>
+<li class="level1"><a href="#autotoc_md73">Even Generation Mode</a><ul><li class="level2"><a href="#autotoc_md74">Output folder structure:</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#autotoc_md75">Library mode without MCMC</a><ul><li class="level2"><a href="#autotoc_md76">Non-Minimal Mode:</a></li>
+<li class="level2"><a href="#autotoc_md77">Minimal Mode:</a></li>
+<li class="level2"><a href="#autotoc_md78">Use of hepfit-config:</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#autotoc_md79">Custom models and observables</a><ul><li class="level2"><a href="#autotoc_md80">Custom Models:</a></li>
+<li class="level2"><a href="#autotoc_md81">Custom Observables</a></li>
 </ul>
 </li>
 </ul>
 </div>
-<div class="textblock"><p>The HEPfit installer generates the library <code>"libSufyFit.a"</code> along with header files including a combined header file, HEPfit.h. To perform a Bayesian statistical analysis with the Markov Chain Monte Carlo [<b>Library mode with MCMC</b>] one can use the given example implementation. Alternatively, one can use the library to obtain predictions of observables for a given point in the parameter space of the model, allowing our computational tool to be called from the user's own program [<b>Library mode without MCMC</b>].</p>
-<h1><a class="anchor" id="autotoc_md33"></a>
+<div class="textblock"><p>After the <code>HEPfit</code> installer generates the library <code>libHEPFit.a</code> along with header files included in a combined header file, <code>HEPfit.h</code>, the given example implementation can be used to perform a MCMC based Bayesian statistical analysis. Alternatively, the library can be used to obtain predictions of observables for a given point in the parameter space of a model, allowing <code>HEPfit</code> to be called from the user's own program. We explain both methods below. In addition <code>HEPfit</code> provides the ability to the user to define custom models and observables as explained below. We give a brief description on how to get started with custom models and observables.</p>
+<h1><a class="anchor" id="autotoc_md36"></a>
 Monte Carlo mode</h1>
 <p>The Monte Carlo analysis is performed with the <a href="https://www.mppmu.mpg.de/bat/">BAT library</a>. First, a text configuration file containing a list of model parameters, model flags and observables to be analyzed has to be prepared. Another configuration file for the Monte Carlo run has to be prepared, too.</p>
-<h2><a class="anchor" id="autotoc_md34"></a>
-Step 1: %Model configuration file:</h2>
-<p>A configuration file for model parameters, model flags and observables are written as follows:</p>
+<h2><a class="anchor" id="autotoc_md37"></a>
+Step 1: Model configuration file:</h2>
+<p>The configuration files are the primary way to control the behaviour of the code and to detail its input and output. While a lot of checks have been implemented in <code>HEPfit</code> to make sure the configuration files are of the right format, it is not possible to make it error-proof. Hence, care should be taken in preparing these files. A configuration file for model parameters, model flags, and observables is written as follows:</p>
 <div class="fragment"><div class="line">StandardModel</div>
 <div class="line"># Model parameters:</div>
 <div class="line">ModelParameter  mtop        173.2       0.9         0.  </div>
@@ -216,129 +230,188 @@ Step 1: %Model configuration file:</h2>
 <li>The first line must be <b>the name of the model</b> to be analyzed, where the available models are listed in the page <a class="el" href="../../dd/dbf/_page_models.html">Models</a>.<br  />
 <br  />
 </li>
-<li><p class="startli"><b>A model parameter</b> is given in the format:</p>
-<p class="startli"><code>ModelParameter &lt;name&gt; &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt;</code></p>
-<p class="startli">where all the parameters in a given model (see <a class="el" href="../../dd/dbf/_page_models.html">Models</a>) have to be listed in the configuration file.</p>
+<li><b><a class="el" href="../../d0/de3/class_model.html" title="A class for the template of models.">Model</a> flags</b>, if necessary, should be specified right after the model because some of them can control the way the input parameters are read. <br  />
+ <div class="fragment"><div class="line">ModelFlag &lt;name&gt; &lt;value&gt;</div>
+</div><!-- fragment --></li>
+<li><b>A model parameter</b> is given in the format: <div class="fragment"><div class="line">%ModelParameter &lt;name&gt; &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt;</div>
+</div><!-- fragment --> where all the parameters in a given model (see <a class="el" href="../../dd/dbf/_page_models.html">Models</a>) have to be listed in the configuration file. <br  />
 </li>
-<li><b>A set of correlated model parameter</b> is specified with "CorrelatedGaussianParameters name Npar" which initializes a set of Npars correlated parameters. It must be followed by exactly Npar Parameter lines and then by Npar lines of Npar numbers for the correlation matrix. See the above example.</li>
-<li><p class="startli">Optionally, one can set <b>a model flag</b> in the format:</p>
-<p class="startli"><code>ModelFlag &lt;name&gt; &lt;value&gt;</code></p>
-<p class="startli">where the available flags for a given model can be found in the page <a class="el" href="../../dd/dbf/_page_models.html">Models</a>.</p>
+<li><b>A set of correlated model parameter</b> is specified with " <div class="fragment"><div class="line">CorrelatedGaussianParameters name Npar</div>
+</div><!-- fragment --> which initializes a set of <code>Npars</code> correlated parameters. It must be followed by exactly <code>Npar</code> Parameter lines and then by <code>Npar</code> lines of <code>Npar</code> numbers for the correlation matrix. See the example above.</li>
+<li><b>An observable</b> to be computed is specified in one of the following formats: <div class="fragment"><div class="line">Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC (no)weight &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt;</div>
+<div class="line">Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC file &lt;filename&gt; &lt;histoname&gt;</div>
+<div class="line">Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; noMCMC noweight</div>
+<div class="line">Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; noMCMC writeChain</div>
+</div><!-- fragment --><ul>
+<li><code>&lt;name&gt;</code> is a user given name for different observables which must be unique for each observable.</li>
+<li><code>&lt;obs label&gt;</code> is the theory label of the observable (see the online documentation).</li>
+<li><code>&lt;histolabel&gt;</code> is used for the label of the output <code>ROOT</code> histogram, while <code>&lt;min&gt;</code> and <code>&lt;max&gt;</code> represent the range of the histogram (if <code>&lt;min&gt;</code> &lt;= <code>&lt;max&gt;</code> the range of the histogram is set automatically).</li>
+<li><code>(no)MCMC</code> is the flag specifying whether the observable should be included in likelihood used for the MCMC sampling.</li>
+<li><code>(no)weight</code> specifies if the observable weight will be computed or not. If <code>weight</code> is specified with <code>noMCMC</code> then a chain containing the weights for the observable will be stored in the <code>MCout*.root</code> file. <br  />
 </li>
-<li><p class="startli"><b>An observable</b> to be computed is specified in one of the following formats:</p>
-<p class="startli"><code>Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC (no)weight &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt;</code><br  />
- <code>Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC file &lt;filename&gt; &lt;histoname&gt;</code><br  />
- <code>Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; noMCMC noweight</code></p><ul>
-<li><code>&lt;name&gt;</code> is user given name for different observables which must be unique for each observable</li>
-<li><code>&lt;obs label&gt;</code> is the theory label of the observable (see <a class="el" href="../../dd/dbf/_page_models.html">Models</a>).</li>
-<li><code>&lt;histolabel&gt;</code> is used for the label of the output ROOT histogram, while <code>&lt;min&gt;</code> and <code>&lt;max&gt;</code> represent the range of the histogram.</li>
-<li>(no)MCMC is the flag specifying whether the observable should be included in the Monte Carlo prerun or not</li>
-<li>(no)weight specifies if the observable weight will be computed or not. If weigh is specified with noMCMC then the weight of the observable will be stored in the MCout*.root file</li>
-<li>Experimental data is specified as <code>central value Gaussian error flat error</code>. If weight is specified both the errors cannot be 0.</li>
-<li>A histogram in a ROOT file is specifed by the name of the root file (filename) and then the name of the histogram (histoname). <br  />
-<br  />
+<li><code>noMCMC noweight</code> is the combination to be used to get a prediction for an observable.</li>
+<li>When the <code>weight</code> option is specified, at least one of the <code>&lt;Gaussian error&gt;</code> or the <code>&lt;flat error&gt;</code> must be nonvanishing, and the <code>&lt;central value&gt;</code> must of course be specified.</li>
+<li>When using the <code>file</code> option, a histogram in a <code>ROOT</code> file must be specified by the name of the <code>ROOT</code> file (<code>filename</code>) and then the name of the histogram (<code>histoname</code>) in the file (including, if needed, the directory).</li>
+<li>The <code>writeChain</code> option allows one to write all the values of the observable generated during the main run of the MCMC into the <code>ROOT</code> file. <br  />
 </li>
 </ul>
 </li>
-<li><b>Correlations among the data of observables</b> can be taken into account with the line "CorrelatedGaussianObservables name Nobs", which initializes a set of Nobs correlated observables. It must be followed by exactly Nobs Observable lines and then by Nobs lines of Nobs numbers for the correlation matrix. See the above example. One can use the keyword noMCMC and noweight, instead of MCMC and weight. <br  />
-<br  />
+<li><b>A <code>BinnedObservable</code></b> is similar in construction to an <code><a class="el" href="../../d9/dba/class_observable.html" title="A class for observables.">Observable</a></code> but with two extra arguments specifying the upper and lower limit of the bin: <div class="fragment"><div class="line">BinnedObservable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC (no)weight &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt; &lt;bin_min&gt;       &lt;bin_max&gt;</div>
+<div class="line">BinnedObservable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC (no)weight &lt;filename&gt; &lt;histoname&gt; &lt;bin_min&gt; &lt;bin_max&gt;</div>
+<div class="line">BinnedObservable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; noMCMC writeChain 0. 0. 0. &lt;bin_min&gt; &lt;bin_max&gt;</div>
+</div><!-- fragment --> Because of the order of parsing the <code>&lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt;</code> cannot be dropped out even in the <code>noMCMC noweight</code> case for a <code>BinnedObservable</code>. <br  />
 </li>
-<li><p class="startli"><b>A correlation between two observables</b> can be obtained with:</p>
-<p class="startli"><code>Observable2D &lt;name&gt; &lt;obs1 label&gt; &lt;histolabel1&gt; &lt;min1&gt; &lt;max1&gt; noMCMC noweight &lt;obs2 label&gt; &lt;histolabel2&gt; &lt;min2&gt; &lt;max2&gt;</code><br  />
- <code>Observable2D &lt;name&gt; &lt;obs1 label&gt; &lt;histolabel1&gt; &lt;min1&gt; &lt;max1&gt; MCMC file &lt;filename&gt; &lt;histoname&gt; &lt;obs2 label&gt; &lt;histolabel2&gt; &lt;min2&gt; &lt;max2&gt;</code> <br  />
- or <br  />
- <code>Observable2D &lt;name&gt; (no)MCMC (no)weight</code><br  />
- <code>(Binned)Observable &lt;obs label 1&gt; &lt;histolabel 1&gt; &lt;min&gt; &lt;max&gt; &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt; (&lt;bin_min&gt; &lt;bin_max&gt;)</code><br  />
- <code>(Binned)Observable &lt;obs label 2&gt; &lt;histolabel 2&gt; &lt;min&gt; &lt;max&gt; &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt; (&lt;bin_min&gt; &lt;bin_max&gt;)</code><br  />
- <code>Observable2D &lt;name&gt; MCMC file filename histoname</code><br  />
- <code>(Binned)Observable &lt;obs label 1&gt; &lt;histolabel 1&gt; &lt;min&gt; &lt;max&gt; (&lt;bin_min&gt; &lt;bin_max&gt;)</code><br  />
- <code>(Binned)Observable &lt;obs label 2&gt; &lt;histolabel 2&gt; &lt;min&gt; &lt;max&gt; (&lt;bin_min&gt; &lt;bin_max&gt;)</code><br  />
-</p>
-</li>
-<li><b>Include configuration files</b> with the IncludeFile directive. This is useful if one wants to separate the input configurations for better organization and flexibility.</li>
+<li><b>A <code>FunctionObservable</code></b> is the same as a <code>BinnedObservable</code> but with only one extra argument that points to the value at which the function is computed: <div class="fragment"><div class="line">FunctionObservable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC (no)weight &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt; &lt;x_value&gt;</div>
+<div class="line">FunctionObservable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC  (no)weight &lt;filename&gt; &lt;histoname&gt; &lt;x_value&gt;</div>
+<div class="line">FunctionObservable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; noMCMC writeChain 0. 0. 0. &lt;x_value&gt;</div>
+</div><!-- fragment --></li>
+<li><b>An asymmetric Gaussian</b> constraint can be set using <code>AsyGausObservable</code>: <div class="fragment"><div class="line">AsyGausObservable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC (no)weight &lt;central value&gt; &lt;left_error&gt; &lt;right_error&gt;</div>
+</div><!-- fragment --></li>
+<li><p class="startli"><b>Correlations among observables</b> can be taken into account with the line <code><a class="el" href="../../dc/d47/class_correlated_gaussian_observables.html" title="A class for correlated Gaussian observables.">CorrelatedGaussianObservables</a> name Nobs</code>, which initializes a set of <code>Nobs</code> correlated observables. It must be followed by exactly <code>Nobs</code> <code><a class="el" href="../../d9/dba/class_observable.html" title="A class for observables.">Observable</a></code> lines and then by <code>Nobs</code> rows of <code>Nobs</code> numbers for the correlation matrix (see the above example). One can use the keywords <code>noMCMC</code> and <code>noweight</code>, instead of <code>MCMC</code> and <code>weight</code>. <br  />
+ </p><div class="fragment"><div class="line">CorrelatedGaussianObservables &lt;name&gt; Nobs</div>
+<div class="line">Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC (no)weight    &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt;</div>
+<div class="line">Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC (no)weight    &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt;</div>
+<div class="line">...</div>
+<div class="line">...</div>
+<div class="line">&lt;Total of Nobs lines of Observables&gt;</div>
+<div class="line">&lt;Nobs x Nobs correlation matrix&gt;</div>
+</div><!-- fragment --><p> Any construction for <code><a class="el" href="../../d9/dba/class_observable.html" title="A class for observables.">Observable</a></code> mentioned in item 5 of this list above can be used in a <code><a class="el" href="../../dc/d47/class_correlated_gaussian_observables.html" title="A class for correlated Gaussian observables.">CorrelatedGaussianObservables</a></code> set. Also, <code>BinnedObservables</code> or <code>FunctionObservables</code> can be used instead of and alongside <code><a class="el" href="../../d9/dba/class_observable.html" title="A class for observables.">Observable</a></code>. If <code>noweight</code> is specified for any <code><a class="el" href="../../d9/dba/class_observable.html" title="A class for observables.">Observable</a></code> then that particular <code><a class="el" href="../../d9/dba/class_observable.html" title="A class for observables.">Observable</a></code> along with the corresponding row and column of the correlation matrix is excluded from the set of <code><a class="el" href="../../dc/d47/class_correlated_gaussian_observables.html" title="A class for correlated Gaussian observables.">CorrelatedGaussianObservables</a></code>.</p>
+<p class="startli">In addition, the inverse covariance matrix of a set of <code>Nobs</code> <code>Observables</code> can be specified with the following: <br  />
+ </p><div class="fragment"><div class="line">ObservablesWithCovarianceInverse &lt;name&gt; Nobs</div>
+<div class="line">Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; MCMC weight    &lt;central value&gt; 0. 0.</div>
+<div class="line">Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; MCMC weight    &lt;central value&gt; 0. 0.</div>
+<div class="line">...</div>
+<div class="line">...</div>
+<div class="line">&lt;Total of Nobs lines of Observables&gt;</div>
+<div class="line">&lt;Nobs x Nobs inverse covariance matrix&gt;</div>
+</div><!-- fragment --></li>
+<li><b>A correlation between two observables</b> can be obtained with: <div class="fragment"><div class="line">%Observable2D &lt;name&gt; &lt;obs1 label&gt; &lt;histolabel1&gt; &lt;min1&gt; &lt;max1&gt; noMCMC noweight &lt;obs2 label&gt; &lt;histolabel2&gt; &lt;min2&gt; &lt;max2&gt;</div>
+<div class="line">%Observable2D &lt;name&gt; &lt;obs1 label&gt; &lt;histolabel1&gt; &lt;min1&gt; &lt;max1&gt; MCMC file &lt;filename&gt; &lt;histoname&gt; &lt;obs2 label&gt; &lt;histolabel2&gt; &lt;min2&gt; &lt;max2&gt;</div>
+<div class="line">or</div>
+<div class="line">%Observable2D &lt;name&gt; (no)MCMC (no)weight</div>
+<div class="line">(Binned)%Observable &lt;obs label 1&gt; &lt;histolabel 1&gt; &lt;min&gt; &lt;max&gt; &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt; (&lt;bin_min&gt; &lt;bin_max&gt;)</div>
+<div class="line">(Binned)%Observable &lt;obs label 2&gt; &lt;histolabel 2&gt; &lt;min&gt; &lt;max&gt; &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt; (&lt;bin_min&gt; &lt;bin_max&gt;)</div>
+<div class="line">%Observable2D &lt;name&gt; MCMC file filename histoname</div>
+<div class="line">(Binned)%Observable &lt;obs label 1&gt; &lt;histolabel 1&gt; &lt;min&gt; &lt;max&gt; (&lt;bin_min&gt; &lt;bin_max&gt;)</div>
+<div class="line">(Binned)%Observable &lt;obs label 2&gt; &lt;histolabel 2&gt; &lt;min&gt; &lt;max&gt; (&lt;bin_min&gt; &lt;bin_max&gt;)</div>
+</div><!-- fragment --></li>
 </ol>
-<h2><a class="anchor" id="autotoc_md35"></a>
-Step 2: %Monte Carlo configuration file:</h2>
-<p>The parameters and options of the Monte Carlo run are specified in a configuration file, separate from the one for model parameters, etc. Each line in the file has a pair of a label and its value, separated by space(s) or tab(s). The available parameters and options are:</p>
+<ol type="1">
+<li><b>Include configuration files</b> with the <code>IncludeFile</code> directive. This is useful if one wants to separate the input configurations for better organization and flexibility.</li>
+</ol>
+<h2><a class="anchor" id="autotoc_md38"></a>
+Step 2: Monte Carlo configuration file:</h2>
+<p>The parameters and options of the Monte Carlo run are specified in a configuration file, separate from the one(s) for the model. Each line in the file has a pair of a label and its value, separated by space(s) or tab(s). The available parameters and options are:</p>
 <ul>
-<li><b>NChains</b> : The number of chains in the Monte Carlo run. A minimum of 5 is suggested (default). If the theory space is complicated and/or the number of parameters are large then more is necessary. The amount of statistics collected in the main run is proportional to the numbe rof chains.</li>
-<li><b>PrerunMaxIter</b> : The maximum number of iterations that the prerun will go through (default: 1000000). The prerun ends automatically when the chains converge (R &lt; 1.1) and all efficiencies are adjusted. While it is not necessary for the prerun to converge for a run to be successful, one should exercise caution in this case.</li>
-<li><b>Iterations</b> : The number of iterations in the main run. This run is for the purpose of collecting statistics and is at the users discretion. (default: 100000)</li>
-<li><b>Seed</b> : The seed can be fixed for deterministic runs.</li>
-<li><b>PrintAllMarginalized</b> : All marginalized distributions will be printed in a pdf file (MonteCarlo_plots_*.pdf).</li>
-<li><b>PrintCorrelationMatrix</b> : The parametric corellation will be printer in ParamCorrelations*.pdf and ParamCorrelations*.tex.</li>
-<li><b>PrintKnowledgeUpdatePlots</b> : A comparison between prior and posterior knowledge will be printed in a plot stored in ParamUpdate*.pdf.</li>
-<li><b>PrintParameterPlot</b> : As summary of the paramters will be printed in ParamSummary*.pdf.</li>
-<li><b>OrderParameters</b> : This determines whether the parameters will be randomized one at a time or as a whole set in the entire run. While for quick estimates it is not necessary to order the prameters (false), it is suggested to do so for more accurate estimates.</li>
-<li><b>FindModeWithMinuit</b> : To find global mode with MINUIT starting from the best fit parameters in the MCMC run.</li>
-<li><b>MinimumEfficiency</b> : This allows the setting of the minimum eifficiency of all the prameters. The default is 0.15.</li>
-<li><b>WriteChain</b> : The chains will be written in the root file MCout*.root. This can be used for analyzing the performance of the chains.</li>
-<li><b>CalculateNormalization</b> : The normalization of the theory space will be calculated at the end of the Monte Carlo run. This is useful for model comparison.</li>
-<li><b>WritePreRunData</b> : The prerun data is written to a file for rerun. <br  />
-</li>
-<li><b>ReadPreRunData</b> : The prerun data will be read from a previously stored prerun file.</li>
+<li><code>NChains</code>: The number of chains in the Monte Carlo run. A minimum of 5 is suggested (default). If the theory space is complicated and/or the number of parameters is large then more chains are necessary. The amount of statistics collected in the main run is proportional to the number of chains.</li>
+<li><code>PrerunMaxIter</code>: The maximum number of iterations that the prerun will go through (Default: 1000000). The prerun ends automatically when the chains converge (by default R$&lt;$1.1, see below) and all efficiencies are adjusted. While it is not necessary for the prerun to converge for a run to be completed, one should exercise caution if convergence is not attained.</li>
+<li><code>NIterationsUpdateMax</code>: The maximum number of iterations after which the proposal functions are updated in the pre-run and convergence is checked. (Default: 1000)</li>
+<li><code>Seed</code>: The seed can be fixed for deterministic runs. (Default: 0, corresponding to a random seed initialization)</li>
+<li><code>Iterations</code>: The number of iterations in the main run. This run is for the purpose of collecting statistics and is at the users discretion. (Default: 100000)</li>
+<li><code>MinimumEfficiency</code>: This allows setting the minimum efficiency of all the parameters to be attained in the prerun. (Default: 0.15)</li>
+<li><code>MaximumEfficiency</code>: This allows setting the maximum efficiency of all the parameters to be attained in the prerun. (Default: 0.35)</li>
+<li><code>RValueForConvergence</code>: The $R$-value for which convergence is considered to be attained in the prerun can be set with this flag. (Default: 1.1)</li>
+<li><code>WriteParametersChains</code>: The chains will be written in the <code>ROOT</code> file MCout*.root. This can be used for analyzing the performance of the chains and/or to use the sampled pdf for postprocessing. (Default: false)</li>
+<li><code>FindModeWithMinuit</code>: To find the global mode with <code>MINUIT</code> starting from the best fit parameters in the MCMC run. (Default: false)</li>
+<li><code>RunMinuitOnly</code>: To run a <code>MINUIT</code> minimization only, without running the MCMC. (Default: false)</li>
+<li><code>CalculateNormalization</code>: Whether the normalization of the posterior pdf will be calculated at the end of the Monte Carlo run. This is useful for model comparison. (Default: false)</li>
+<li><code>NIterationNormalizationMC</code>: The maximum number of iterations used to compute the normalization. (Default: 1000000)</li>
+<li><code>PrintAllMarginalized</code>: Whether all marginalized distributions will be printed in a pdf file (MonteCarlo_plots_*.pdf). (Default: true)</li>
+<li><code>PrintCorrelationMatrix</code>: Whether the parametric correlation will be printed in ParamCorrelations*.pdf and ParamCorrelations*.tex. (Default: false)</li>
+<li><code>PrintKnowledgeUpdatePlots</code>: Whether comparison between prior and posterior knowledge will be printed in a plot stored in ParamUpdate*.pdf. (Default: false)</li>
+<li><code>PrintParameterPlot</code>: Whether a summary of the parameters will be printed in ParamSummary*.pdf. (Default: false)</li>
+<li><code>PrintTrianglePlot</code>: Whether a triangle plot of the parameters will be printed. (Default: false)</li>
+<li><code>WritePreRunData</code>: Whether the prerun data is written to a file. Useful to exploit a successful prerun for multiple runs. (Default: false)</li>
+<li><code>ReadPreRunData</code>: Whether the prerun data will be read from a previously stored prerun file. (Name of the file, default: empty)</li>
+<li><code>MultivariateProposal</code>: Whether the proposal function will be multivariate or uncorrelated. (Default: true)</li>
+<li><code>Histogram1DSmooth</code>: Sets the number of iterative smoothing of 1D histograms. (Default: 0)</li>
+<li><code>Histogram2DType</code>: Sets the type of 2D histograms: 1001 -&gt; Lego (default), 101 -&gt; Filled, 1 -&gt; Contour.</li>
+<li><code>MCMCInitialPosition</code>: The initial distribution of chains over the parameter space. (Options: Center, RandomPrior, RandomUniform (default))</li>
+<li><code>PrintLogo</code>: Toggle the printing of the <code>HEPfit</code> logo on the histograms. (Default: true)</li>
+<li><code>NoHistogramLegend</code>: Toggle the printing of the histogram legend. (Default: false)</li>
+<li><code>PrintLoglikelihoodPlots</code>: Whether to print the 2D histograms for the parameters vs. loglikelihood. (Default: false)</li>
+<li><code>WriteLogLikelihoodChain</code>: Whether to write the value of loglikelihood in a chain. (Default: false)</li>
+<li><code>Histogram2DAlpha</code>: Control the transparency of the 2D histograms. This does not work with all 2D histogram types. (Default: 1)</li>
+<li><code>NBinsHistogram1D</code>: The number of bins in the 1D histograms. (Default: 100, 0 sets default)</li>
+<li><code>NBinsHistogram2D</code>: The number of bins in the 2D histograms. (Default: 100, 0 sets default)</li>
+<li><code>InitialPositionAttemptLimit</code>: The maximum number of attempts made at getting a valid logarithm of the likelihood for all chains before the pre-run starts. (Default: 10000, 0 sets default)</li>
+<li><code>SignificantDigits</code> The number of significant digits appearing in the Statistics file. (Default: computed based on individual results, 0 sets default)</li>
 </ul>
+<p>{\bf \texttt{HistogramBufferSize}}: The memory allocated to each histogram. Also determines the number of events collected before setting automatically the histogram range. (Default: 100000)\</p>
 <p>For example, a Monte Carlo configuration file is written as:</p>
-<div class="fragment"><div class="line">NChains                    10    (Default: 5)</div>
-<div class="line">PrerunMaxIter              50000 (Default: 1000000)</div>
-<div class="line">Iterations                 10000 (Default: 100000)</div>
+<div class="fragment"><div class="line">NChains                    10    </div>
+<div class="line">PrerunMaxIter              50000 </div>
+<div class="line">Iterations                 10000 </div>
 <div class="line">#Seed                       1</div>
-<div class="line">PrintAllMarginalized       true  (Default: false)</div>
-<div class="line">PrintCorrelationMatrix     true  (Default: false)    </div>
-<div class="line">PrintKnowledgeUpdatePlots  false (Default: false)</div>
-<div class="line">PrintParameterPlot         false (Default: false)</div>
-<div class="line">OrderParameters            true  (Default: true)</div>
+<div class="line">PrintAllMarginalized       true  </div>
+<div class="line">PrintCorrelationMatrix     true      </div>
+<div class="line">PrintKnowledgeUpdatePlots  false </div>
+<div class="line">PrintParameterPlot         false </div>
+<div class="line">MultivariateProposal       true  </div>
 </div><!-- fragment --><p>where a '#' can be placed at the beginning of each line to comment it out. These are the most commonly used settings. Some less commonly used settings:</p>
 <div class="fragment"><div class="line">FindModeWithMinuit      (Default: false)</div>
 <div class="line">MinimumEfficiency       (Default: 0.15, set to 0. - 1.)</div>
-<div class="line">WriteChain              (Default: false)</div>
+<div class="line">WriteParametersChaina   (Default: false)</div>
 <div class="line">CalculateNormalization  (Default: false)</div>
 <div class="line">WritePreRunData         (Mandatory: name of file)</div>
 <div class="line">ReadPreRunData          (Read existing prerun data file)</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md36"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md39"></a>
 Step 3: Run:</h2>
-<h1><a class="anchor" id="autotoc_md37"></a>
-Library mode with MCMC</h1>
-<p>An example can be found in examples/MonteCarloMode</p>
-<div class="fragment"><div class="line">$ cd examples/MonteCarloMode</div>
-<div class="line">$ make</div>
-</div><!-- fragment --><p>After making the configuration files, run with the command:</p>
-<div class="fragment"><div class="line">$ analysis &lt;model conf&gt; &lt;Monte Carlo conf&gt;</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md38"></a>
-Alternative: Run with MPI.</h2>
-<p>HEPfit allows for parallel processing of the MCMC run and the observable computations. To allow for this HEPfit and BAT has to be compiled with MPI support as explained in the <a class="el" href="../../d6/d57/_page_installation.html">Installation</a> page. The command</p>
-<div class="fragment"><div class="line">$ mpiexec -n N analysis &lt;model conf&gt; &lt;Monte Carlo conf&gt;</div>
-</div><!-- fragment --><p>will launch analysis on <code>N</code> thread/cores/processors depending on the smallest processing unit of the hardware used. Our MPI implementation allows for runs on multi-threaded single processors as well as clusters with MPI support.</p>
-<p><b>NOTE:</b> Our MPI implementation of HEPfit cannot be used with BAT compiled with the <code>--enable-parallelization</code> option. It is mandatory to use the MPI patched version of BAT as explained in the <a class="el" href="../../d6/d57/_page_installation.html">Installation</a> page.</p>
-<h2><a class="anchor" id="autotoc_md39"></a>
-Output Files:</h2>
-<ul>
-<li>log.txt: This is the log file.</li>
-<li>MCout.root: This is the root file containing all the information of the run and the histogram objects.</li>
-<li>MonteCarlo_results.txt: This file contains the fits to the parameters.</li>
-<li>MonteCarlo_plots.pdf: This File contains the histograms for the parameters.</li>
-<li>Observables: This directory will contain the histograms of all the observables specified in the config file.</li>
-<li>Observables/HistoLog.txt: This file contains the information on over-run and under-run of the histogram filling.</li>
-<li>Observables/Statistics.txt: This file contains the compilation of the statistics extracted from the histograms.</li>
-</ul>
-<p>Other files might be generated depending on the options specified in the Monte Carlo configuration file.</p>
 <h1><a class="anchor" id="autotoc_md40"></a>
+Library mode with MCMC</h1>
+<p>An example can be found in examples/MonteCarloMode</p>
+<div class="fragment"><div class="line">$ cd examples/MonteCarloMode</div>
+<div class="line">$ make</div>
+</div><!-- fragment --><p>After making the configuration files, run with the command:</p>
+<div class="fragment"><div class="line">$ analysis &lt;model conf&gt; &lt;Monte Carlo conf&gt;</div>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md41"></a>
+Alternative: Run with MPI.</h2>
+<p>HEPfit allows for parallel processing of the MCMC run and the observable computations. To allow for this HEPfit and BAT has to be compiled with MPI support as explained in the <a class="el" href="../../d6/d57/_page_installation.html">Installation</a> page. The command</p>
+<div class="fragment"><div class="line">$ mpiexec -n N analysis &lt;model conf&gt; &lt;Monte Carlo conf&gt;</div>
+</div><!-- fragment --><p>will launch analysis on <code>N</code> thread/cores/processors depending on the smallest processing unit of the hardware used. Our MPI implementation allows for runs on multi-threaded single processors as well as clusters with MPI support.</p>
+<p><b>NOTE:</b> Our MPI implementation of HEPfit cannot be used with BAT compiled with the <code>--enable-parallelization</code> option. It is mandatory to use the MPI patched version of BAT as explained in the <a class="el" href="../../d6/d57/_page_installation.html">Installation</a> page.</p>
+<h2><a class="anchor" id="autotoc_md42"></a>
+Output Files:</h2>
+<ul>
+<li><code>log.txt</code>: This is the log file.</li>
+<li><code>MCout.root</code>: This is the root file containing all the information of the run and the histogram objects.</li>
+<li><code>MonteCarlo_results.txt</code>: This file contains the fits to the parameters.</li>
+<li><code>MonteCarlo_plots.pdf</code>: This File contains the histograms for the parameters.</li>
+<li><code>Observables</code>: This directory will contain the histograms of all the observables specified in the config file.</li>
+<li><code>Observables/HistoLog.txt</code>: This file contains the information on over-run and under-run of the histogram filling.</li>
+<li><code>Observables/Statistics.txt</code>: This file contains the compilation of the statistics extracted from the histograms.</li>
+</ul>
+<p>Other files might be generated depending on the options specified in the Monte Carlo configuration file.</p>
+<h1><a class="anchor" id="autotoc_md43"></a>
 Single event mode</h1>
 <p>Using the model configuration file used in the Monte Carlo mode, one can obtain predictions of observabes for the central values of the model parameters with the command:</p>
 <div class="fragment"><div class="line">$ analysis &lt;model conf&gt; --noMC</div>
 </div><!-- fragment --><p>where the results are printed on the standard output.</p>
-<h1><a class="anchor" id="autotoc_md41"></a>
+<h1><a class="anchor" id="autotoc_md44"></a>
+Even Generation Mode</h1>
+<p>Using the model configuration file used in the Monte Carlo mode, one can obtain predictions of observables. An example can be found in <code>examples/EventGeneration</code> folder:</p>
+<div class="fragment"><div class="line">$ cd examples/EventGeneration</div>
+<div class="line">$ make</div>
+</div><!-- fragment --><p>After making the configuration files, run with the command: </p><div class="fragment"><div class="line">$ ./analysis &lt;model conf&gt; &lt;number of iterations&gt; [output folder]</div>
+</div><!-- fragment --><p>The <code>&lt;number of iterations&gt;</code> defines the number of random points in the parameter space that will be evaluated. Setting this to 0 gives the value of the observables at the central value of all the parameters. If the <code>[output folder]</code> is not specified everything is printed on the screen and no data is saved. Alternately, one can specify the output folder and the run will be saved if <code>&lt;number of iterations&gt;</code> &gt; 0. The output folder can be found in <code>./GeneratedEvents</code>. The structure of the output folder is as follows.</p>
+<h2><a class="anchor" id="autotoc_md45"></a>
+Output folder structure:</h2>
+<ul>
+<li><code>CGO: Contains any correlated Gaussian observables that might have been listed in the model configuration files. *</code>Observables<code>: Contains any observables that might have been listed in the model configuration files. *</code>Parameters<code>: Contains all the parameters that were varied in the model configuration files. *</code>Summary.txt`: Contains a list of the model used, the parameters varied, the observables computed and the number of events generated. This can be used, for example, to access all the files from a third party program.</li>
+</ul>
+<p>The parameters and the observables are stored in the respective directories in files that are named after the same. For example, the parameter <code>lambda</code> will be saved in the file <code>lambda.txt</code> in the <code>Parameters</code> folder.</p>
+<h1><a class="anchor" id="autotoc_md46"></a>
 Library mode without MCMC</h1>
-<p>The library mode allows for access to all the observables implemented in HEPfit without a Monte Carlo run. The users can use one of our defined <a class="el" href="../../dd/dbf/_page_models.html">Models</a> and vary ModelParameters according to their own algorithm and get the corresponding predictions for the observables.</p>
+<p>The library mode allows for access to all the observables implemented in <code>HEPfit</code> without a Monte Carlo run. The users can use one of our defined <a class="el" href="../../dd/dbf/_page_models.html">Models</a> and vary ModelParameters according to their own algorithm and get the corresponding predictions for the observables.</p>
 <p>This is made possible through:</p>
 <ul>
 <li>a combined library: libHEPfit.a (installed in <code>HEPFIT_INSTALL_DIR/lib/</code></li>
 <li>a combined header file: HEPfit.h (installed in <code>HEPFIT_INSTALL_DIR/include/HEPfit/</code>)</li>
 </ul>
-<p>The HEPfit library allows for two different implementations of the access algorithm.</p>
-<h2><a class="anchor" id="autotoc_md42"></a>
+<p>The <code>HEPfit</code> library allows for two different implementations of the access algorithm.</p>
+<h2><a class="anchor" id="autotoc_md47"></a>
 Non-Minimal Mode:</h2>
-<p>In the non-minimal mode the user can use the SomeModel.conf file to pass the default value of the model parameters. The following elements must be present in the user code to define the parameters and access the observable. (For details of model parameters, observables etc. please lookup <a class="el" href="../../dd/dbf/_page_models.html">Models</a>.)</p>
+<p>In the non-minimal mode the user can use the model configuration file to pass the default value of the model parameters. The following elements must be present in the user code to define the parameters and access the observable. (For details of model parameters, observables etc. please lookup <a class="el" href="../../dd/dbf/_page_models.html">Models</a>.)</p>
 <div class="fragment"><div class="line"><span class="comment">// Include the necessary header file. </span></div>
 <div class="line"><span class="preprocessor">#include &lt;HEPfit.h&gt;</span></div>
 <div class="line"> </div>
@@ -365,7 +438,7 @@ Non-Minimal Mode:</h2>
 <div class="line"> </div>
 <div class="line"><span class="comment">// Get the map of observables with the parameter values defined above. </span></div>
 <div class="line">DObs = CO.compute(DPars);</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md43"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md48"></a>
 Minimal Mode:</h2>
 <p>In the minimal mode the user can use the default values in <a class="el" href="../../dd/da7/class_input_parameters.html" title="A class for defining the default values of the mandatory parameters of the model being used on the li...">InputParameters</a> header file to define the default values of the model parameters therefore not requiring any additional input files to be parsed. (For details of model name, flags, parameters, observables etc. please lookup <a class="el" href="../../dd/dbf/_page_models.html">Models</a>.)</p>
 <div class="fragment"><div class="line"><span class="comment">// Include the necessary header file. </span></div>
@@ -417,22 +490,74 @@ Minimal Mode:</h2>
 <div class="line"> </div>
 <div class="line"><span class="comment">// Get the map of observables with the parameter values defined above. </span></div>
 <div class="line">DObs = CO.compute(DPars);</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md44"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md49"></a>
 Use of hepfit-config:</h2>
-<p>If &lsquo;'make install&rsquo;<code>has been done, a hepfit-config script can be found in the </code>HEPFIT_INSTALL_DIR/bin/` directory, which can be invoked with the following options:</p>
+<p>A hepfit-config script can be found in the <code>HEPFIT_INSTALL_DIR/bin/</code> directory, which can be invoked with the following options:</p>
 <div class="fragment"><div class="line">Library and Library Path: hepfit-config --libs</div>
-<div class="line"> </div>
 <div class="line">Include Path: hepfit-config --cflags</div>
-<div class="line"> </div>
-<div class="line">Parameters List: hepfit-config --variable=parameters | sh</div>
-</div><!-- fragment --><p>The last command lists all the mandatory parameters in all the models sorted alphabetically and their default values as set in the class <a class="el" href="../../dd/da7/class_input_parameters.html" title="A class for defining the default values of the mandatory parameters of the model being used on the li...">InputParameters</a>.</p>
-<p>The HEPfit installer generates the library <code>"libSufyFit.a"</code> along with header files including a combined header file, HEPfit.h. To perform a Bayesian statistical analysis with the Markov Chain Monte Carlo [<b>Library mode with MCMC</b>] one can use the given example implementation. Alternatively, one can use the library to obtain predictions of observables for a given point in the parameter space of the model, allowing our computational tool to be called from the user's own program [<b>Library mode without MCMC</b>].</p>
-<h1><a class="anchor" id="autotoc_md57"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md50"></a>
+Custom models and observables</h1>
+<p>A very useful feature of <code>HEPfit</code> is that it allows the user to create custom models and observables. We have already provided a template that can be found in the <code>examples/myModel</code> directory which can be used as a starting point. Below we describe how to implement both custom models and custom observables.</p>
+<h2><a class="anchor" id="autotoc_md51"></a>
+Custom Models:</h2>
+<p>The idea of a custom model is to define an additional set of parameters over and above what is defined in any model in <code>HEPfi</code>. Typically the starting point is the <code><a class="el" href="../../dc/dd5/class_standard_model.html" title="A model class for the Standard Model.">StandardModel</a></code>, as in the template present in the <code>HEPfit</code> package. Going by this template in the <code>examples/myModel</code> directory, to create a model one has to define the following:</p>
+<ul>
+<li>In the <code>myModel.h</code> header file:<ol type="1">
+<li>Define the number of additional parameters: <div class="fragment"><div class="line">static const int NmyModelvars = 4;</div>
+</div><!-- fragment --></li>
+<li>Define the variables corresponding to the parameters: <div class="fragment"><div class="line">double c1, c2, c3, c4;</div>
+</div><!-- fragment --></li>
+<li>Define getters for all the parameters: <div class="fragment"><div class="line">double getc1() const { return c1; }</div>
+<div class="line">double getc2() const { return c2; }</div>
+<div class="line">double getc3() const { return c3; }</div>
+<div class="line">double getc4() const { return c4; }</div>
+</div><!-- fragment --></li>
+</ol>
+</li>
+<li>In the <code>myModel.cpp</code> file:<ol type="1">
+<li>Define the names of the parameters (they can be different from the variable names): <div class="fragment"><div class="line">const std::string myModel::myModelvars[NmyModelvars] = {&quot;c1&quot;, &quot;c2&quot;, &quot;c3&quot;, &quot;c4&quot;};</div>
+</div><!-- fragment --></li>
+<li>Link the parameter name to the variable containing it for all the parameters: <br  />
+ <div class="fragment"><div class="line">ModelParamMap.insert(std::make_pair(&quot;c1&quot;, std::cref(c1)));</div>
+<div class="line">ModelParamMap.insert(std::make_pair(&quot;c2&quot;, std::cref(c2)));</div>
+<div class="line">ModelParamMap.insert(std::make_pair(&quot;c3&quot;, std::cref(c3)));</div>
+<div class="line">ModelParamMap.insert(std::make_pair(&quot;c4&quot;, std::cref(c4)));</div>
+</div><!-- fragment --></li>
+<li>Link the names of the parameters to the corresponding variables in the \texttt{setParameter} method: <br  />
+ <div class="fragment"><div class="line">if(name.compare(&quot;c1&quot;) == 0)</div>
+<div class="line">        c1 = value;</div>
+<div class="line">    else if(name.compare(&quot;c2&quot;) == 0)</div>
+<div class="line">        c2 = value;</div>
+<div class="line">    else if(name.compare(&quot;c3&quot;) == 0)</div>
+<div class="line">        c3 = value;</div>
+<div class="line">    else if(name.compare(&quot;c4&quot;) == 0)</div>
+<div class="line">        c4 = value;</div>
+<div class="line">    else</div>
+<div class="line">        StandardModel::setParameter(name,value);</div>
+</div><!-- fragment --></li>
+</ol>
+</li>
+</ul>
+<p>This completes the definition of the model. One can also define flags that will control certain aspects of the model, but since this is an advanced and not so commonly used feature we will not describe it here. There is an implementation in the template for the user to follow should it be needed. Finally, the custom model needs to be added with a name to the <code><a class="el" href="../../db/da7/class_model_factory.html" title="A class for.">ModelFactory</a></code> in the main function as is done in <code>examples/myModel/myModel_MCMC.cpp</code>.</p>
+<div class="fragment"><div class="line">ModelF.addModelToFactory(&quot;myModel&quot;, boost::factory&lt;myModel*&gt;() );</div>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md52"></a>
+Custom Observables</h2>
+<p>The definition of custom observables does not depend on having defined a custom model or not. A custom observable can be any observable that has not been defined in <code>HEPfit</code>. It can be a function of parameters already defined in a <code>HEPfit</code> model or in a custom model or a combination of the two. However, a custom observable has to be explicitly added to the <code><a class="el" href="../../d5/d49/class_th_obs_factory.html" title="A class for.">ThObsFactory</a></code> in the main function as is done in <code>examples/myModel/myModel_MCMC.cpp</code>. </p><div class="fragment"><div class="line">ThObsF.addObsToFactory(&quot;BIN1&quot;, boost::bind(boost::factory&lt;yield*&gt;(), _1, 1) );</div>
+<div class="line">ThObsF.addObsToFactory(&quot;BIN2&quot;, boost::bind(boost::factory&lt;yield*&gt;(), _1, 2) );</div>
+<div class="line">ThObsF.addObsToFactory(&quot;BIN3&quot;, boost::bind(boost::factory&lt;yield*&gt;(), _1, 3) );</div>
+<div class="line">ThObsF.addObsToFactory(&quot;BIN4&quot;, boost::bind(boost::factory&lt;yield*&gt;(), _1, 4) );</div>
+<div class="line">ThObsF.addObsToFactory(&quot;BIN5&quot;, boost::bind(boost::factory&lt;yield*&gt;(), _1, 5) );</div>
+<div class="line">ThObsF.addObsToFactory(&quot;BIN6&quot;, boost::bind(boost::factory&lt;yield*&gt;(), _1, 6) );</div>
+<div class="line">ThObsF.addObsToFactory(&quot;C_3&quot;, boost::factory&lt;C_3*&gt;() );</div>
+<div class="line">ThObsF.addObsToFactory(&quot;C_4&quot;, boost::factory&lt;C_4*&gt;() );</div>
+</div><!-- fragment --><p>The first 6 observables require an argument and hence needed <code>boost::bind</code>. The last two do not need an argument. The implementation of these observables can be found in <code>examples/myModel/src/myObservables.cpp</code> and the corresponding header file. In this template the <code><a class="el" href="../../dd/db0/classmy_observables.html" title="A class for the gg -&gt; 4l.">myObservables</a></code> class inherits from the <code>THObservable</code> class and the observables called <code>yield</code>, <code><a class="el" href="../../d2/d11/class_c__3.html">C_3</a></code> and <code><a class="el" href="../../d7/d8c/class_c__4.html">C_4</a></code> inherit from the former. Passing an object of the <code><a class="el" href="../../dc/dd5/class_standard_model.html" title="A model class for the Standard Model.">StandardModel</a></code> class as a reference is mandatory as is the overloading of the <code>computeThValue</code> method by the custom observables, which is used to compute the value of the observable at each iteration.</p>
+<p>After the <code>HEPfit</code> installer generates the library <code>libHEPFit.a</code> along with header files included in a combined header file, <code>HEPfit.h</code>, the given example implementation can be used to perform a MCMC based Bayesian statistical analysis. Alternatively, the library can be used to obtain predictions of observables for a given point in the parameter space of a model, allowing <code>HEPfit</code> to be called from the user's own program. We explain both methods below. In addition <code>HEPfit</code> provides the ability to the user to define custom models and observables as explained below. We give a brief description on how to get started with custom models and observables.</p>
+<h1><a class="anchor" id="autotoc_md65"></a>
 Monte Carlo mode</h1>
 <p>The Monte Carlo analysis is performed with the <a href="https://www.mppmu.mpg.de/bat/">BAT library</a>. First, a text configuration file containing a list of model parameters, model flags and observables to be analyzed has to be prepared. Another configuration file for the Monte Carlo run has to be prepared, too.</p>
-<h2><a class="anchor" id="autotoc_md58"></a>
-Step 1: %Model configuration file:</h2>
-<p>A configuration file for model parameters, model flags and observables are written as follows:</p>
+<h2><a class="anchor" id="autotoc_md66"></a>
+Step 1: Model configuration file:</h2>
+<p>The configuration files are the primary way to control the behaviour of the code and to detail its input and output. While a lot of checks have been implemented in <code>HEPfit</code> to make sure the configuration files are of the right format, it is not possible to make it error-proof. Hence, care should be taken in preparing these files. A configuration file for model parameters, model flags, and observables is written as follows:</p>
 <div class="fragment"><div class="line">StandardModel</div>
 <div class="line"># Model parameters:</div>
 <div class="line">ModelParameter  mtop        173.2       0.9         0.  </div>
@@ -486,129 +611,188 @@ Step 1: %Model configuration file:</h2>
 <li>The first line must be <b>the name of the model</b> to be analyzed, where the available models are listed in the page <a class="el" href="../../dd/dbf/_page_models.html">Models</a>.<br  />
 <br  />
 </li>
-<li><p class="startli"><b>A model parameter</b> is given in the format:</p>
-<p class="startli"><code>ModelParameter &lt;name&gt; &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt;</code></p>
-<p class="startli">where all the parameters in a given model (see <a class="el" href="../../dd/dbf/_page_models.html">Models</a>) have to be listed in the configuration file.</p>
+<li><b><a class="el" href="../../d0/de3/class_model.html" title="A class for the template of models.">Model</a> flags</b>, if necessary, should be specified right after the model because some of them can control the way the input parameters are read. <br  />
+ <div class="fragment"><div class="line">ModelFlag &lt;name&gt; &lt;value&gt;</div>
+</div><!-- fragment --></li>
+<li><b>A model parameter</b> is given in the format: <div class="fragment"><div class="line">%ModelParameter &lt;name&gt; &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt;</div>
+</div><!-- fragment --> where all the parameters in a given model (see <a class="el" href="../../dd/dbf/_page_models.html">Models</a>) have to be listed in the configuration file. <br  />
 </li>
-<li><b>A set of correlated model parameter</b> is specified with "CorrelatedGaussianParameters name Npar" which initializes a set of Npars correlated parameters. It must be followed by exactly Npar Parameter lines and then by Npar lines of Npar numbers for the correlation matrix. See the above example.</li>
-<li><p class="startli">Optionally, one can set <b>a model flag</b> in the format:</p>
-<p class="startli"><code>ModelFlag &lt;name&gt; &lt;value&gt;</code></p>
-<p class="startli">where the available flags for a given model can be found in the page <a class="el" href="../../dd/dbf/_page_models.html">Models</a>.</p>
+<li><b>A set of correlated model parameter</b> is specified with " <div class="fragment"><div class="line">CorrelatedGaussianParameters name Npar</div>
+</div><!-- fragment --> which initializes a set of <code>Npars</code> correlated parameters. It must be followed by exactly <code>Npar</code> Parameter lines and then by <code>Npar</code> lines of <code>Npar</code> numbers for the correlation matrix. See the example above.</li>
+<li><b>An observable</b> to be computed is specified in one of the following formats: <div class="fragment"><div class="line">Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC (no)weight &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt;</div>
+<div class="line">Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC file &lt;filename&gt; &lt;histoname&gt;</div>
+<div class="line">Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; noMCMC noweight</div>
+<div class="line">Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; noMCMC writeChain</div>
+</div><!-- fragment --><ul>
+<li><code>&lt;name&gt;</code> is a user given name for different observables which must be unique for each observable.</li>
+<li><code>&lt;obs label&gt;</code> is the theory label of the observable (see the online documentation).</li>
+<li><code>&lt;histolabel&gt;</code> is used for the label of the output <code>ROOT</code> histogram, while <code>&lt;min&gt;</code> and <code>&lt;max&gt;</code> represent the range of the histogram (if <code>&lt;min&gt;</code> &lt;= <code>&lt;max&gt;</code> the range of the histogram is set automatically).</li>
+<li><code>(no)MCMC</code> is the flag specifying whether the observable should be included in likelihood used for the MCMC sampling.</li>
+<li><code>(no)weight</code> specifies if the observable weight will be computed or not. If <code>weight</code> is specified with <code>noMCMC</code> then a chain containing the weights for the observable will be stored in the <code>MCout*.root</code> file. <br  />
 </li>
-<li><p class="startli"><b>An observable</b> to be computed is specified in one of the following formats:</p>
-<p class="startli"><code>Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC (no)weight &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt;</code><br  />
- <code>Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC file &lt;filename&gt; &lt;histoname&gt;</code><br  />
- <code>Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; noMCMC noweight</code></p><ul>
-<li><code>&lt;name&gt;</code> is user given name for different observables which must be unique for each observable</li>
-<li><code>&lt;obs label&gt;</code> is the theory label of the observable (see <a class="el" href="../../dd/dbf/_page_models.html">Models</a>).</li>
-<li><code>&lt;histolabel&gt;</code> is used for the label of the output ROOT histogram, while <code>&lt;min&gt;</code> and <code>&lt;max&gt;</code> represent the range of the histogram.</li>
-<li>(no)MCMC is the flag specifying whether the observable should be included in the Monte Carlo prerun or not</li>
-<li>(no)weight specifies if the observable weight will be computed or not. If weigh is specified with noMCMC then the weight of the observable will be stored in the MCout*.root file</li>
-<li>Experimental data is specified as <code>central value Gaussian error flat error</code>. If weight is specified both the errors cannot be 0.</li>
-<li>A histogram in a ROOT file is specifed by the name of the root file (filename) and then the name of the histogram (histoname). <br  />
-<br  />
+<li><code>noMCMC noweight</code> is the combination to be used to get a prediction for an observable.</li>
+<li>When the <code>weight</code> option is specified, at least one of the <code>&lt;Gaussian error&gt;</code> or the <code>&lt;flat error&gt;</code> must be nonvanishing, and the <code>&lt;central value&gt;</code> must of course be specified.</li>
+<li>When using the <code>file</code> option, a histogram in a <code>ROOT</code> file must be specified by the name of the <code>ROOT</code> file (<code>filename</code>) and then the name of the histogram (<code>histoname</code>) in the file (including, if needed, the directory).</li>
+<li>The <code>writeChain</code> option allows one to write all the values of the observable generated during the main run of the MCMC into the <code>ROOT</code> file. <br  />
 </li>
 </ul>
 </li>
-<li><b>Correlations among the data of observables</b> can be taken into account with the line "CorrelatedGaussianObservables name Nobs", which initializes a set of Nobs correlated observables. It must be followed by exactly Nobs Observable lines and then by Nobs lines of Nobs numbers for the correlation matrix. See the above example. One can use the keyword noMCMC and noweight, instead of MCMC and weight. <br  />
-<br  />
+<li><b>A <code>BinnedObservable</code></b> is similar in construction to an <code><a class="el" href="../../d9/dba/class_observable.html" title="A class for observables.">Observable</a></code> but with two extra arguments specifying the upper and lower limit of the bin: <div class="fragment"><div class="line">BinnedObservable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC (no)weight &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt; &lt;bin_min&gt;       &lt;bin_max&gt;</div>
+<div class="line">BinnedObservable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC (no)weight &lt;filename&gt; &lt;histoname&gt; &lt;bin_min&gt; &lt;bin_max&gt;</div>
+<div class="line">BinnedObservable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; noMCMC writeChain 0. 0. 0. &lt;bin_min&gt; &lt;bin_max&gt;</div>
+</div><!-- fragment --> Because of the order of parsing the <code>&lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt;</code> cannot be dropped out even in the <code>noMCMC noweight</code> case for a <code>BinnedObservable</code>. <br  />
 </li>
-<li><p class="startli"><b>A correlation between two observables</b> can be obtained with:</p>
-<p class="startli"><code>Observable2D &lt;name&gt; &lt;obs1 label&gt; &lt;histolabel1&gt; &lt;min1&gt; &lt;max1&gt; noMCMC noweight &lt;obs2 label&gt; &lt;histolabel2&gt; &lt;min2&gt; &lt;max2&gt;</code><br  />
- <code>Observable2D &lt;name&gt; &lt;obs1 label&gt; &lt;histolabel1&gt; &lt;min1&gt; &lt;max1&gt; MCMC file &lt;filename&gt; &lt;histoname&gt; &lt;obs2 label&gt; &lt;histolabel2&gt; &lt;min2&gt; &lt;max2&gt;</code> <br  />
- or <br  />
- <code>Observable2D &lt;name&gt; (no)MCMC (no)weight</code><br  />
- <code>(Binned)Observable &lt;obs label 1&gt; &lt;histolabel 1&gt; &lt;min&gt; &lt;max&gt; &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt; (&lt;bin_min&gt; &lt;bin_max&gt;)</code><br  />
- <code>(Binned)Observable &lt;obs label 2&gt; &lt;histolabel 2&gt; &lt;min&gt; &lt;max&gt; &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt; (&lt;bin_min&gt; &lt;bin_max&gt;)</code><br  />
- <code>Observable2D &lt;name&gt; MCMC file filename histoname</code><br  />
- <code>(Binned)Observable &lt;obs label 1&gt; &lt;histolabel 1&gt; &lt;min&gt; &lt;max&gt; (&lt;bin_min&gt; &lt;bin_max&gt;)</code><br  />
- <code>(Binned)Observable &lt;obs label 2&gt; &lt;histolabel 2&gt; &lt;min&gt; &lt;max&gt; (&lt;bin_min&gt; &lt;bin_max&gt;)</code><br  />
-</p>
-</li>
-<li><b>Include configuration files</b> with the IncludeFile directive. This is useful if one wants to separate the input configurations for better organization and flexibility.</li>
+<li><b>A <code>FunctionObservable</code></b> is the same as a <code>BinnedObservable</code> but with only one extra argument that points to the value at which the function is computed: <div class="fragment"><div class="line">FunctionObservable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC (no)weight &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt; &lt;x_value&gt;</div>
+<div class="line">FunctionObservable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC  (no)weight &lt;filename&gt; &lt;histoname&gt; &lt;x_value&gt;</div>
+<div class="line">FunctionObservable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; noMCMC writeChain 0. 0. 0. &lt;x_value&gt;</div>
+</div><!-- fragment --></li>
+<li><b>An asymmetric Gaussian</b> constraint can be set using <code>AsyGausObservable</code>: <div class="fragment"><div class="line">AsyGausObservable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC (no)weight &lt;central value&gt; &lt;left_error&gt; &lt;right_error&gt;</div>
+</div><!-- fragment --></li>
+<li><p class="startli"><b>Correlations among observables</b> can be taken into account with the line <code><a class="el" href="../../dc/d47/class_correlated_gaussian_observables.html" title="A class for correlated Gaussian observables.">CorrelatedGaussianObservables</a> name Nobs</code>, which initializes a set of <code>Nobs</code> correlated observables. It must be followed by exactly <code>Nobs</code> <code><a class="el" href="../../d9/dba/class_observable.html" title="A class for observables.">Observable</a></code> lines and then by <code>Nobs</code> rows of <code>Nobs</code> numbers for the correlation matrix (see the above example). One can use the keywords <code>noMCMC</code> and <code>noweight</code>, instead of <code>MCMC</code> and <code>weight</code>. <br  />
+ </p><div class="fragment"><div class="line">CorrelatedGaussianObservables &lt;name&gt; Nobs</div>
+<div class="line">Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC (no)weight    &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt;</div>
+<div class="line">Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; (no)MCMC (no)weight    &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt;</div>
+<div class="line">...</div>
+<div class="line">...</div>
+<div class="line">&lt;Total of Nobs lines of Observables&gt;</div>
+<div class="line">&lt;Nobs x Nobs correlation matrix&gt;</div>
+</div><!-- fragment --><p> Any construction for <code><a class="el" href="../../d9/dba/class_observable.html" title="A class for observables.">Observable</a></code> mentioned in item 5 of this list above can be used in a <code><a class="el" href="../../dc/d47/class_correlated_gaussian_observables.html" title="A class for correlated Gaussian observables.">CorrelatedGaussianObservables</a></code> set. Also, <code>BinnedObservables</code> or <code>FunctionObservables</code> can be used instead of and alongside <code><a class="el" href="../../d9/dba/class_observable.html" title="A class for observables.">Observable</a></code>. If <code>noweight</code> is specified for any <code><a class="el" href="../../d9/dba/class_observable.html" title="A class for observables.">Observable</a></code> then that particular <code><a class="el" href="../../d9/dba/class_observable.html" title="A class for observables.">Observable</a></code> along with the corresponding row and column of the correlation matrix is excluded from the set of <code><a class="el" href="../../dc/d47/class_correlated_gaussian_observables.html" title="A class for correlated Gaussian observables.">CorrelatedGaussianObservables</a></code>.</p>
+<p class="startli">In addition, the inverse covariance matrix of a set of <code>Nobs</code> <code>Observables</code> can be specified with the following: <br  />
+ </p><div class="fragment"><div class="line">ObservablesWithCovarianceInverse &lt;name&gt; Nobs</div>
+<div class="line">Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; MCMC weight    &lt;central value&gt; 0. 0.</div>
+<div class="line">Observable &lt;name&gt; &lt;obs label&gt; &lt;histolabel&gt; &lt;min&gt; &lt;max&gt; MCMC weight    &lt;central value&gt; 0. 0.</div>
+<div class="line">...</div>
+<div class="line">...</div>
+<div class="line">&lt;Total of Nobs lines of Observables&gt;</div>
+<div class="line">&lt;Nobs x Nobs inverse covariance matrix&gt;</div>
+</div><!-- fragment --></li>
+<li><b>A correlation between two observables</b> can be obtained with: <div class="fragment"><div class="line">%Observable2D &lt;name&gt; &lt;obs1 label&gt; &lt;histolabel1&gt; &lt;min1&gt; &lt;max1&gt; noMCMC noweight &lt;obs2 label&gt; &lt;histolabel2&gt; &lt;min2&gt; &lt;max2&gt;</div>
+<div class="line">%Observable2D &lt;name&gt; &lt;obs1 label&gt; &lt;histolabel1&gt; &lt;min1&gt; &lt;max1&gt; MCMC file &lt;filename&gt; &lt;histoname&gt; &lt;obs2 label&gt; &lt;histolabel2&gt; &lt;min2&gt; &lt;max2&gt;</div>
+<div class="line">or</div>
+<div class="line">%Observable2D &lt;name&gt; (no)MCMC (no)weight</div>
+<div class="line">(Binned)%Observable &lt;obs label 1&gt; &lt;histolabel 1&gt; &lt;min&gt; &lt;max&gt; &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt; (&lt;bin_min&gt; &lt;bin_max&gt;)</div>
+<div class="line">(Binned)%Observable &lt;obs label 2&gt; &lt;histolabel 2&gt; &lt;min&gt; &lt;max&gt; &lt;central value&gt; &lt;Gaussian error&gt; &lt;flat error&gt; (&lt;bin_min&gt; &lt;bin_max&gt;)</div>
+<div class="line">%Observable2D &lt;name&gt; MCMC file filename histoname</div>
+<div class="line">(Binned)%Observable &lt;obs label 1&gt; &lt;histolabel 1&gt; &lt;min&gt; &lt;max&gt; (&lt;bin_min&gt; &lt;bin_max&gt;)</div>
+<div class="line">(Binned)%Observable &lt;obs label 2&gt; &lt;histolabel 2&gt; &lt;min&gt; &lt;max&gt; (&lt;bin_min&gt; &lt;bin_max&gt;)</div>
+</div><!-- fragment --></li>
 </ol>
-<h2><a class="anchor" id="autotoc_md59"></a>
-Step 2: %Monte Carlo configuration file:</h2>
-<p>The parameters and options of the Monte Carlo run are specified in a configuration file, separate from the one for model parameters, etc. Each line in the file has a pair of a label and its value, separated by space(s) or tab(s). The available parameters and options are:</p>
+<ol type="1">
+<li><b>Include configuration files</b> with the <code>IncludeFile</code> directive. This is useful if one wants to separate the input configurations for better organization and flexibility.</li>
+</ol>
+<h2><a class="anchor" id="autotoc_md67"></a>
+Step 2: Monte Carlo configuration file:</h2>
+<p>The parameters and options of the Monte Carlo run are specified in a configuration file, separate from the one(s) for the model. Each line in the file has a pair of a label and its value, separated by space(s) or tab(s). The available parameters and options are:</p>
 <ul>
-<li><b>NChains</b> : The number of chains in the Monte Carlo run. A minimum of 5 is suggested (default). If the theory space is complicated and/or the number of parameters are large then more is necessary. The amount of statistics collected in the main run is proportional to the numbe rof chains.</li>
-<li><b>PrerunMaxIter</b> : The maximum number of iterations that the prerun will go through (default: 1000000). The prerun ends automatically when the chains converge (R &lt; 1.1) and all efficiencies are adjusted. While it is not necessary for the prerun to converge for a run to be successful, one should exercise caution in this case.</li>
-<li><b>Iterations</b> : The number of iterations in the main run. This run is for the purpose of collecting statistics and is at the users discretion. (default: 100000)</li>
-<li><b>Seed</b> : The seed can be fixed for deterministic runs.</li>
-<li><b>PrintAllMarginalized</b> : All marginalized distributions will be printed in a pdf file (MonteCarlo_plots_*.pdf).</li>
-<li><b>PrintCorrelationMatrix</b> : The parametric corellation will be printer in ParamCorrelations*.pdf and ParamCorrelations*.tex.</li>
-<li><b>PrintKnowledgeUpdatePlots</b> : A comparison between prior and posterior knowledge will be printed in a plot stored in ParamUpdate*.pdf.</li>
-<li><b>PrintParameterPlot</b> : As summary of the paramters will be printed in ParamSummary*.pdf.</li>
-<li><b>OrderParameters</b> : This determines whether the parameters will be randomized one at a time or as a whole set in the entire run. While for quick estimates it is not necessary to order the prameters (false), it is suggested to do so for more accurate estimates.</li>
-<li><b>FindModeWithMinuit</b> : To find global mode with MINUIT starting from the best fit parameters in the MCMC run.</li>
-<li><b>MinimumEfficiency</b> : This allows the setting of the minimum eifficiency of all the prameters. The default is 0.15.</li>
-<li><b>WriteChain</b> : The chains will be written in the root file MCout*.root. This can be used for analyzing the performance of the chains.</li>
-<li><b>CalculateNormalization</b> : The normalization of the theory space will be calculated at the end of the Monte Carlo run. This is useful for model comparison.</li>
-<li><b>WritePreRunData</b> : The prerun data is written to a file for rerun. <br  />
-</li>
-<li><b>ReadPreRunData</b> : The prerun data will be read from a previously stored prerun file.</li>
+<li><code>NChains</code>: The number of chains in the Monte Carlo run. A minimum of 5 is suggested (default). If the theory space is complicated and/or the number of parameters is large then more chains are necessary. The amount of statistics collected in the main run is proportional to the number of chains.</li>
+<li><code>PrerunMaxIter</code>: The maximum number of iterations that the prerun will go through (Default: 1000000). The prerun ends automatically when the chains converge (by default R$&lt;$1.1, see below) and all efficiencies are adjusted. While it is not necessary for the prerun to converge for a run to be completed, one should exercise caution if convergence is not attained.</li>
+<li><code>NIterationsUpdateMax</code>: The maximum number of iterations after which the proposal functions are updated in the pre-run and convergence is checked. (Default: 1000)</li>
+<li><code>Seed</code>: The seed can be fixed for deterministic runs. (Default: 0, corresponding to a random seed initialization)</li>
+<li><code>Iterations</code>: The number of iterations in the main run. This run is for the purpose of collecting statistics and is at the users discretion. (Default: 100000)</li>
+<li><code>MinimumEfficiency</code>: This allows setting the minimum efficiency of all the parameters to be attained in the prerun. (Default: 0.15)</li>
+<li><code>MaximumEfficiency</code>: This allows setting the maximum efficiency of all the parameters to be attained in the prerun. (Default: 0.35)</li>
+<li><code>RValueForConvergence</code>: The $R$-value for which convergence is considered to be attained in the prerun can be set with this flag. (Default: 1.1)</li>
+<li><code>WriteParametersChains</code>: The chains will be written in the <code>ROOT</code> file MCout*.root. This can be used for analyzing the performance of the chains and/or to use the sampled pdf for postprocessing. (Default: false)</li>
+<li><code>FindModeWithMinuit</code>: To find the global mode with <code>MINUIT</code> starting from the best fit parameters in the MCMC run. (Default: false)</li>
+<li><code>RunMinuitOnly</code>: To run a <code>MINUIT</code> minimization only, without running the MCMC. (Default: false)</li>
+<li><code>CalculateNormalization</code>: Whether the normalization of the posterior pdf will be calculated at the end of the Monte Carlo run. This is useful for model comparison. (Default: false)</li>
+<li><code>NIterationNormalizationMC</code>: The maximum number of iterations used to compute the normalization. (Default: 1000000)</li>
+<li><code>PrintAllMarginalized</code>: Whether all marginalized distributions will be printed in a pdf file (MonteCarlo_plots_*.pdf). (Default: true)</li>
+<li><code>PrintCorrelationMatrix</code>: Whether the parametric correlation will be printed in ParamCorrelations*.pdf and ParamCorrelations*.tex. (Default: false)</li>
+<li><code>PrintKnowledgeUpdatePlots</code>: Whether comparison between prior and posterior knowledge will be printed in a plot stored in ParamUpdate*.pdf. (Default: false)</li>
+<li><code>PrintParameterPlot</code>: Whether a summary of the parameters will be printed in ParamSummary*.pdf. (Default: false)</li>
+<li><code>PrintTrianglePlot</code>: Whether a triangle plot of the parameters will be printed. (Default: false)</li>
+<li><code>WritePreRunData</code>: Whether the prerun data is written to a file. Useful to exploit a successful prerun for multiple runs. (Default: false)</li>
+<li><code>ReadPreRunData</code>: Whether the prerun data will be read from a previously stored prerun file. (Name of the file, default: empty)</li>
+<li><code>MultivariateProposal</code>: Whether the proposal function will be multivariate or uncorrelated. (Default: true)</li>
+<li><code>Histogram1DSmooth</code>: Sets the number of iterative smoothing of 1D histograms. (Default: 0)</li>
+<li><code>Histogram2DType</code>: Sets the type of 2D histograms: 1001 -&gt; Lego (default), 101 -&gt; Filled, 1 -&gt; Contour.</li>
+<li><code>MCMCInitialPosition</code>: The initial distribution of chains over the parameter space. (Options: Center, RandomPrior, RandomUniform (default))</li>
+<li><code>PrintLogo</code>: Toggle the printing of the <code>HEPfit</code> logo on the histograms. (Default: true)</li>
+<li><code>NoHistogramLegend</code>: Toggle the printing of the histogram legend. (Default: false)</li>
+<li><code>PrintLoglikelihoodPlots</code>: Whether to print the 2D histograms for the parameters vs. loglikelihood. (Default: false)</li>
+<li><code>WriteLogLikelihoodChain</code>: Whether to write the value of loglikelihood in a chain. (Default: false)</li>
+<li><code>Histogram2DAlpha</code>: Control the transparency of the 2D histograms. This does not work with all 2D histogram types. (Default: 1)</li>
+<li><code>NBinsHistogram1D</code>: The number of bins in the 1D histograms. (Default: 100, 0 sets default)</li>
+<li><code>NBinsHistogram2D</code>: The number of bins in the 2D histograms. (Default: 100, 0 sets default)</li>
+<li><code>InitialPositionAttemptLimit</code>: The maximum number of attempts made at getting a valid logarithm of the likelihood for all chains before the pre-run starts. (Default: 10000, 0 sets default)</li>
+<li><code>SignificantDigits</code> The number of significant digits appearing in the Statistics file. (Default: computed based on individual results, 0 sets default)</li>
 </ul>
+<p>{\bf \texttt{HistogramBufferSize}}: The memory allocated to each histogram. Also determines the number of events collected before setting automatically the histogram range. (Default: 100000)\</p>
 <p>For example, a Monte Carlo configuration file is written as:</p>
-<div class="fragment"><div class="line">NChains                    10    (Default: 5)</div>
-<div class="line">PrerunMaxIter              50000 (Default: 1000000)</div>
-<div class="line">Iterations                 10000 (Default: 100000)</div>
+<div class="fragment"><div class="line">NChains                    10    </div>
+<div class="line">PrerunMaxIter              50000 </div>
+<div class="line">Iterations                 10000 </div>
 <div class="line">#Seed                       1</div>
-<div class="line">PrintAllMarginalized       true  (Default: false)</div>
-<div class="line">PrintCorrelationMatrix     true  (Default: false)    </div>
-<div class="line">PrintKnowledgeUpdatePlots  false (Default: false)</div>
-<div class="line">PrintParameterPlot         false (Default: false)</div>
-<div class="line">OrderParameters            true  (Default: true)</div>
+<div class="line">PrintAllMarginalized       true  </div>
+<div class="line">PrintCorrelationMatrix     true      </div>
+<div class="line">PrintKnowledgeUpdatePlots  false </div>
+<div class="line">PrintParameterPlot         false </div>
+<div class="line">MultivariateProposal       true  </div>
 </div><!-- fragment --><p>where a '#' can be placed at the beginning of each line to comment it out. These are the most commonly used settings. Some less commonly used settings:</p>
 <div class="fragment"><div class="line">FindModeWithMinuit      (Default: false)</div>
 <div class="line">MinimumEfficiency       (Default: 0.15, set to 0. - 1.)</div>
-<div class="line">WriteChain              (Default: false)</div>
+<div class="line">WriteParametersChaina   (Default: false)</div>
 <div class="line">CalculateNormalization  (Default: false)</div>
 <div class="line">WritePreRunData         (Mandatory: name of file)</div>
 <div class="line">ReadPreRunData          (Read existing prerun data file)</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md60"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md68"></a>
 Step 3: Run:</h2>
-<h1><a class="anchor" id="autotoc_md61"></a>
+<h1><a class="anchor" id="autotoc_md69"></a>
 Library mode with MCMC</h1>
 <p>An example can be found in examples/MonteCarloMode</p>
 <div class="fragment"><div class="line">$ cd examples/MonteCarloMode</div>
 <div class="line">$ make</div>
 </div><!-- fragment --><p>After making the configuration files, run with the command:</p>
 <div class="fragment"><div class="line">$ analysis &lt;model conf&gt; &lt;Monte Carlo conf&gt;</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md62"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md70"></a>
 Alternative: Run with MPI.</h2>
 <p>HEPfit allows for parallel processing of the MCMC run and the observable computations. To allow for this HEPfit and BAT has to be compiled with MPI support as explained in the <a class="el" href="../../d6/d57/_page_installation.html">Installation</a> page. The command</p>
 <div class="fragment"><div class="line">$ mpiexec -n N analysis &lt;model conf&gt; &lt;Monte Carlo conf&gt;</div>
 </div><!-- fragment --><p>will launch analysis on <code>N</code> thread/cores/processors depending on the smallest processing unit of the hardware used. Our MPI implementation allows for runs on multi-threaded single processors as well as clusters with MPI support.</p>
 <p><b>NOTE:</b> Our MPI implementation of HEPfit cannot be used with BAT compiled with the <code>--enable-parallelization</code> option. It is mandatory to use the MPI patched version of BAT as explained in the <a class="el" href="../../d6/d57/_page_installation.html">Installation</a> page.</p>
-<h2><a class="anchor" id="autotoc_md63"></a>
+<h2><a class="anchor" id="autotoc_md71"></a>
 Output Files:</h2>
 <ul>
-<li>log.txt: This is the log file.</li>
-<li>MCout.root: This is the root file containing all the information of the run and the histogram objects.</li>
-<li>MonteCarlo_results.txt: This file contains the fits to the parameters.</li>
-<li>MonteCarlo_plots.pdf: This File contains the histograms for the parameters.</li>
-<li>Observables: This directory will contain the histograms of all the observables specified in the config file.</li>
-<li>Observables/HistoLog.txt: This file contains the information on over-run and under-run of the histogram filling.</li>
-<li>Observables/Statistics.txt: This file contains the compilation of the statistics extracted from the histograms.</li>
+<li><code>log.txt</code>: This is the log file.</li>
+<li><code>MCout.root</code>: This is the root file containing all the information of the run and the histogram objects.</li>
+<li><code>MonteCarlo_results.txt</code>: This file contains the fits to the parameters.</li>
+<li><code>MonteCarlo_plots.pdf</code>: This File contains the histograms for the parameters.</li>
+<li><code>Observables</code>: This directory will contain the histograms of all the observables specified in the config file.</li>
+<li><code>Observables/HistoLog.txt</code>: This file contains the information on over-run and under-run of the histogram filling.</li>
+<li><code>Observables/Statistics.txt</code>: This file contains the compilation of the statistics extracted from the histograms.</li>
 </ul>
 <p>Other files might be generated depending on the options specified in the Monte Carlo configuration file.</p>
-<h1><a class="anchor" id="autotoc_md64"></a>
+<h1><a class="anchor" id="autotoc_md72"></a>
 Single event mode</h1>
 <p>Using the model configuration file used in the Monte Carlo mode, one can obtain predictions of observabes for the central values of the model parameters with the command:</p>
 <div class="fragment"><div class="line">$ analysis &lt;model conf&gt; --noMC</div>
 </div><!-- fragment --><p>where the results are printed on the standard output.</p>
-<h1><a class="anchor" id="autotoc_md65"></a>
+<h1><a class="anchor" id="autotoc_md73"></a>
+Even Generation Mode</h1>
+<p>Using the model configuration file used in the Monte Carlo mode, one can obtain predictions of observables. An example can be found in <code>examples/EventGeneration</code> folder:</p>
+<div class="fragment"><div class="line">$ cd examples/EventGeneration</div>
+<div class="line">$ make</div>
+</div><!-- fragment --><p>After making the configuration files, run with the command: </p><div class="fragment"><div class="line">$ ./analysis &lt;model conf&gt; &lt;number of iterations&gt; [output folder]</div>
+</div><!-- fragment --><p>The <code>&lt;number of iterations&gt;</code> defines the number of random points in the parameter space that will be evaluated. Setting this to 0 gives the value of the observables at the central value of all the parameters. If the <code>[output folder]</code> is not specified everything is printed on the screen and no data is saved. Alternately, one can specify the output folder and the run will be saved if <code>&lt;number of iterations&gt;</code> &gt; 0. The output folder can be found in <code>./GeneratedEvents</code>. The structure of the output folder is as follows.</p>
+<h2><a class="anchor" id="autotoc_md74"></a>
+Output folder structure:</h2>
+<ul>
+<li><code>CGO: Contains any correlated Gaussian observables that might have been listed in the model configuration files. *</code>Observables<code>: Contains any observables that might have been listed in the model configuration files. *</code>Parameters<code>: Contains all the parameters that were varied in the model configuration files. *</code>Summary.txt`: Contains a list of the model used, the parameters varied, the observables computed and the number of events generated. This can be used, for example, to access all the files from a third party program.</li>
+</ul>
+<p>The parameters and the observables are stored in the respective directories in files that are named after the same. For example, the parameter <code>lambda</code> will be saved in the file <code>lambda.txt</code> in the <code>Parameters</code> folder.</p>
+<h1><a class="anchor" id="autotoc_md75"></a>
 Library mode without MCMC</h1>
-<p>The library mode allows for access to all the observables implemented in HEPfit without a Monte Carlo run. The users can use one of our defined <a class="el" href="../../dd/dbf/_page_models.html">Models</a> and vary ModelParameters according to their own algorithm and get the corresponding predictions for the observables.</p>
+<p>The library mode allows for access to all the observables implemented in <code>HEPfit</code> without a Monte Carlo run. The users can use one of our defined <a class="el" href="../../dd/dbf/_page_models.html">Models</a> and vary ModelParameters according to their own algorithm and get the corresponding predictions for the observables.</p>
 <p>This is made possible through:</p>
 <ul>
 <li>a combined library: libHEPfit.a (installed in <code>HEPFIT_INSTALL_DIR/lib/</code></li>
 <li>a combined header file: HEPfit.h (installed in <code>HEPFIT_INSTALL_DIR/include/HEPfit/</code>)</li>
 </ul>
-<p>The HEPfit library allows for two different implementations of the access algorithm.</p>
-<h2><a class="anchor" id="autotoc_md66"></a>
+<p>The <code>HEPfit</code> library allows for two different implementations of the access algorithm.</p>
+<h2><a class="anchor" id="autotoc_md76"></a>
 Non-Minimal Mode:</h2>
-<p>In the non-minimal mode the user can use the SomeModel.conf file to pass the default value of the model parameters. The following elements must be present in the user code to define the parameters and access the observable. (For details of model parameters, observables etc. please lookup <a class="el" href="../../dd/dbf/_page_models.html">Models</a>.)</p>
+<p>In the non-minimal mode the user can use the model configuration file to pass the default value of the model parameters. The following elements must be present in the user code to define the parameters and access the observable. (For details of model parameters, observables etc. please lookup <a class="el" href="../../dd/dbf/_page_models.html">Models</a>.)</p>
 <div class="fragment"><div class="line"><span class="comment">// Include the necessary header file. </span></div>
 <div class="line"><span class="preprocessor">#include &lt;HEPfit.h&gt;</span></div>
 <div class="line"> </div>
@@ -635,7 +819,7 @@ Non-Minimal Mode:</h2>
 <div class="line"> </div>
 <div class="line"><span class="comment">// Get the map of observables with the parameter values defined above. </span></div>
 <div class="line">DObs = CO.compute(DPars);</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md67"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md77"></a>
 Minimal Mode:</h2>
 <p>In the minimal mode the user can use the default values in <a class="el" href="../../dd/da7/class_input_parameters.html" title="A class for defining the default values of the mandatory parameters of the model being used on the li...">InputParameters</a> header file to define the default values of the model parameters therefore not requiring any additional input files to be parsed. (For details of model name, flags, parameters, observables etc. please lookup <a class="el" href="../../dd/dbf/_page_models.html">Models</a>.)</p>
 <div class="fragment"><div class="line"><span class="comment">// Include the necessary header file. </span></div>
@@ -687,25 +871,77 @@ Minimal Mode:</h2>
 <div class="line"> </div>
 <div class="line"><span class="comment">// Get the map of observables with the parameter values defined above. </span></div>
 <div class="line">DObs = CO.compute(DPars);</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md68"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md78"></a>
 Use of hepfit-config:</h2>
-<p>If &lsquo;'make install&rsquo;<code>has been done, a hepfit-config script can be found in the </code>HEPFIT_INSTALL_DIR/bin/` directory, which can be invoked with the following options:</p>
+<p>A hepfit-config script can be found in the <code>HEPFIT_INSTALL_DIR/bin/</code> directory, which can be invoked with the following options:</p>
 <div class="fragment"><div class="line">Library and Library Path: hepfit-config --libs</div>
-<div class="line"> </div>
 <div class="line">Include Path: hepfit-config --cflags</div>
-<div class="line"> </div>
-<div class="line">Parameters List: hepfit-config --variable=parameters | sh</div>
-</div><!-- fragment --><p>The last command lists all the mandatory parameters in all the models sorted alphabetically and their default values as set in the class <a class="el" href="../../dd/da7/class_input_parameters.html" title="A class for defining the default values of the mandatory parameters of the model being used on the li...">InputParameters</a>. </p>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md79"></a>
+Custom models and observables</h1>
+<p>A very useful feature of <code>HEPfit</code> is that it allows the user to create custom models and observables. We have already provided a template that can be found in the <code>examples/myModel</code> directory which can be used as a starting point. Below we describe how to implement both custom models and custom observables.</p>
+<h2><a class="anchor" id="autotoc_md80"></a>
+Custom Models:</h2>
+<p>The idea of a custom model is to define an additional set of parameters over and above what is defined in any model in <code>HEPfi</code>. Typically the starting point is the <code><a class="el" href="../../dc/dd5/class_standard_model.html" title="A model class for the Standard Model.">StandardModel</a></code>, as in the template present in the <code>HEPfit</code> package. Going by this template in the <code>examples/myModel</code> directory, to create a model one has to define the following:</p>
+<ul>
+<li>In the <code>myModel.h</code> header file:<ol type="1">
+<li>Define the number of additional parameters: <div class="fragment"><div class="line">static const int NmyModelvars = 4;</div>
+</div><!-- fragment --></li>
+<li>Define the variables corresponding to the parameters: <div class="fragment"><div class="line">double c1, c2, c3, c4;</div>
+</div><!-- fragment --></li>
+<li>Define getters for all the parameters: <div class="fragment"><div class="line">double getc1() const { return c1; }</div>
+<div class="line">double getc2() const { return c2; }</div>
+<div class="line">double getc3() const { return c3; }</div>
+<div class="line">double getc4() const { return c4; }</div>
+</div><!-- fragment --></li>
+</ol>
+</li>
+<li>In the <code>myModel.cpp</code> file:<ol type="1">
+<li>Define the names of the parameters (they can be different from the variable names): <div class="fragment"><div class="line">const std::string myModel::myModelvars[NmyModelvars] = {&quot;c1&quot;, &quot;c2&quot;, &quot;c3&quot;, &quot;c4&quot;};</div>
+</div><!-- fragment --></li>
+<li>Link the parameter name to the variable containing it for all the parameters: <br  />
+ <div class="fragment"><div class="line">ModelParamMap.insert(std::make_pair(&quot;c1&quot;, std::cref(c1)));</div>
+<div class="line">ModelParamMap.insert(std::make_pair(&quot;c2&quot;, std::cref(c2)));</div>
+<div class="line">ModelParamMap.insert(std::make_pair(&quot;c3&quot;, std::cref(c3)));</div>
+<div class="line">ModelParamMap.insert(std::make_pair(&quot;c4&quot;, std::cref(c4)));</div>
+</div><!-- fragment --></li>
+<li>Link the names of the parameters to the corresponding variables in the \texttt{setParameter} method: <br  />
+ <div class="fragment"><div class="line">if(name.compare(&quot;c1&quot;) == 0)</div>
+<div class="line">        c1 = value;</div>
+<div class="line">    else if(name.compare(&quot;c2&quot;) == 0)</div>
+<div class="line">        c2 = value;</div>
+<div class="line">    else if(name.compare(&quot;c3&quot;) == 0)</div>
+<div class="line">        c3 = value;</div>
+<div class="line">    else if(name.compare(&quot;c4&quot;) == 0)</div>
+<div class="line">        c4 = value;</div>
+<div class="line">    else</div>
+<div class="line">        StandardModel::setParameter(name,value);</div>
+</div><!-- fragment --></li>
+</ol>
+</li>
+</ul>
+<p>This completes the definition of the model. One can also define flags that will control certain aspects of the model, but since this is an advanced and not so commonly used feature we will not describe it here. There is an implementation in the template for the user to follow should it be needed. Finally, the custom model needs to be added with a name to the <code><a class="el" href="../../db/da7/class_model_factory.html" title="A class for.">ModelFactory</a></code> in the main function as is done in <code>examples/myModel/myModel_MCMC.cpp</code>.</p>
+<div class="fragment"><div class="line">ModelF.addModelToFactory(&quot;myModel&quot;, boost::factory&lt;myModel*&gt;() );</div>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md81"></a>
+Custom Observables</h2>
+<p>The definition of custom observables does not depend on having defined a custom model or not. A custom observable can be any observable that has not been defined in <code>HEPfit</code>. It can be a function of parameters already defined in a <code>HEPfit</code> model or in a custom model or a combination of the two. However, a custom observable has to be explicitly added to the <code><a class="el" href="../../d5/d49/class_th_obs_factory.html" title="A class for.">ThObsFactory</a></code> in the main function as is done in <code>examples/myModel/myModel_MCMC.cpp</code>. </p><div class="fragment"><div class="line">ThObsF.addObsToFactory(&quot;BIN1&quot;, boost::bind(boost::factory&lt;yield*&gt;(), _1, 1) );</div>
+<div class="line">ThObsF.addObsToFactory(&quot;BIN2&quot;, boost::bind(boost::factory&lt;yield*&gt;(), _1, 2) );</div>
+<div class="line">ThObsF.addObsToFactory(&quot;BIN3&quot;, boost::bind(boost::factory&lt;yield*&gt;(), _1, 3) );</div>
+<div class="line">ThObsF.addObsToFactory(&quot;BIN4&quot;, boost::bind(boost::factory&lt;yield*&gt;(), _1, 4) );</div>
+<div class="line">ThObsF.addObsToFactory(&quot;BIN5&quot;, boost::bind(boost::factory&lt;yield*&gt;(), _1, 5) );</div>
+<div class="line">ThObsF.addObsToFactory(&quot;BIN6&quot;, boost::bind(boost::factory&lt;yield*&gt;(), _1, 6) );</div>
+<div class="line">ThObsF.addObsToFactory(&quot;C_3&quot;, boost::factory&lt;C_3*&gt;() );</div>
+<div class="line">ThObsF.addObsToFactory(&quot;C_4&quot;, boost::factory&lt;C_4*&gt;() );</div>
+</div><!-- fragment --><p>The first 6 observables require an argument and hence needed <code>boost::bind</code>. The last two do not need an argument. The implementation of these observables can be found in <code>examples/myModel/src/myObservables.cpp</code> and the corresponding header file. In this template the <code><a class="el" href="../../dd/db0/classmy_observables.html" title="A class for the gg -&gt; 4l.">myObservables</a></code> class inherits from the <code>THObservable</code> class and the observables called <code>yield</code>, <code><a class="el" href="../../d2/d11/class_c__3.html">C_3</a></code> and <code><a class="el" href="../../d7/d8c/class_c__4.html">C_4</a></code> inherit from the former. Passing an object of the <code><a class="el" href="../../dc/dd5/class_standard_model.html" title="A model class for the Standard Model.">StandardModel</a></code> class as a reference is mandatory as is the overloading of the <code>computeThValue</code> method by the custom observables, which is used to compute the value of the observable at each iteration. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <div class="ttc" id="aclass_compute_observables_html"><div class="ttname"><a href="../../dd/d3e/class_compute_observables.html">ComputeObservables</a></div><div class="ttdoc">A class for providing access to the computation of observables without a Monte Carlo run.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dae/_compute_observables_8h_source.html#l00035">ComputeObservables.h:35</a></div></div>
-<div class="ttc" id="aclass_input_parameters_html_a78a60b93b32047d18d50c85d7a2bf1bf"><div class="ttname"><a href="../../dd/da7/class_input_parameters.html#a78a60b93b32047d18d50c85d7a2bf1bf">InputParameters::getInputParameters</a></div><div class="ttdeci">std::map&lt; std::string, double &gt; getInputParameters(std::string &amp;ModelName)</div><div class="ttdoc">A method that returns the map of the mandatory model parameters given the model name.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df8/_input_parameters_8h_source.html#l00039">InputParameters.h:39</a></div></div>
-<div class="ttc" id="aclass_input_parameters_html"><div class="ttname"><a href="../../dd/da7/class_input_parameters.html">InputParameters</a></div><div class="ttdoc">A class for defining the default values of the mandatory parameters of the model being used on the li...</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df8/_input_parameters_8h_source.html#l00019">InputParameters.h:19</a></div></div>
+<div class="ttc" id="aclass_input_parameters_html_a78a60b93b32047d18d50c85d7a2bf1bf"><div class="ttname"><a href="../../dd/da7/class_input_parameters.html#a78a60b93b32047d18d50c85d7a2bf1bf">InputParameters::getInputParameters</a></div><div class="ttdeci">std::map&lt; std::string, double &gt; getInputParameters(std::string &amp;ModelName)</div><div class="ttdoc">A method that returns the map of the mandatory model parameters given the model name.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df8/_input_parameters_8h_source.html#l00041">InputParameters.h:41</a></div></div>
+<div class="ttc" id="aclass_input_parameters_html"><div class="ttname"><a href="../../dd/da7/class_input_parameters.html">InputParameters</a></div><div class="ttdoc">A class for defining the default values of the mandatory parameters of the model being used on the li...</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df8/_input_parameters_8h_source.html#l00021">InputParameters.h:21</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Oct 29 2019 for $\texttt{HEPfit}$ using
+    <li class="footer">Generated on Thu Oct 31 2019 for $\texttt{HEPfit}$ using
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>

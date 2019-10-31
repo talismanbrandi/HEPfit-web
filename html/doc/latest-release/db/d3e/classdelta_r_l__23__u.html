@@ -189,7 +189,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a0ef8858eb91f235db00cc98d0d7c6e90"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dc/d6f/class_s_u_s_y.html">SUSY</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d3e/classdelta_r_l__23__u.html#a0ef8858eb91f235db00cc98d0d7c6e90">mySUSY</a></td></tr>
+<tr class="memitem:a0ef8858eb91f235db00cc98d0d7c6e90"><td class="memItemLeft" align="right" valign="top">const SUSY &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d3e/classdelta_r_l__23__u.html#a0ef8858eb91f235db00cc98d0d7c6e90">mySUSY</a></td></tr>
 <tr class="separator:a0ef8858eb91f235db00cc98d0d7c6e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
@@ -262,11 +262,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d04/_s_fermiondeltas_8cpp_source.html#l00224">224</a> of file <a class="el" href="../../d4/d04/_s_fermiondeltas_8cpp_source.html">SFermiondeltas.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;{</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <a class="code" href="../../d1/d3c/classgslpp_1_1matrix.html">gslpp::matrix&lt;gslpp::complex&gt;</a> TUhat = <a class="code" href="../../db/d3e/classdelta_r_l__23__u.html#a0ef8858eb91f235db00cc98d0d7c6e90">mySUSY</a>.<a class="code" href="../../dc/d6f/class_s_u_s_y.html#a1b16e31c09612f4a19dea7976820df06">getTUhat</a>();</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <a class="code" href="../../d1/d3c/classgslpp_1_1matrix.html">gslpp::matrix&lt;gslpp::complex&gt;</a> msQhat2( <a class="code" href="../../db/d3e/classdelta_r_l__23__u.html#a0ef8858eb91f235db00cc98d0d7c6e90">mySUSY</a>.<a class="code" href="../../dc/d6f/class_s_u_s_y.html#a6803f20914d8b5b5556c5d7b9306c676">getMsQhat2</a>() );</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    <a class="code" href="../../d1/d3c/classgslpp_1_1matrix.html">gslpp::matrix&lt;gslpp::complex&gt;</a> msUhat2( <a class="code" href="../../db/d3e/classdelta_r_l__23__u.html#a0ef8858eb91f235db00cc98d0d7c6e90">mySUSY</a>.<a class="code" href="../../dc/d6f/class_s_u_s_y.html#ab94da7c8a70be5162070cb90a4fcdd81">getMsUhat2</a>() );</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <a class="code" href="../../d1/d3c/classgslpp_1_1matrix.html">gslpp::matrix&lt;gslpp::complex&gt;</a> TUhat = <a class="code" href="../../db/d3e/classdelta_r_l__23__u.html#a0ef8858eb91f235db00cc98d0d7c6e90">mySUSY</a>.getTUhat();</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <a class="code" href="../../d1/d3c/classgslpp_1_1matrix.html">gslpp::matrix&lt;gslpp::complex&gt;</a> msQhat2( <a class="code" href="../../db/d3e/classdelta_r_l__23__u.html#a0ef8858eb91f235db00cc98d0d7c6e90">mySUSY</a>.getMsQhat2() );</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    <a class="code" href="../../d1/d3c/classgslpp_1_1matrix.html">gslpp::matrix&lt;gslpp::complex&gt;</a> msUhat2( <a class="code" href="../../db/d3e/classdelta_r_l__23__u.html#a0ef8858eb91f235db00cc98d0d7c6e90">mySUSY</a>.getMsUhat2() );</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="keywordtype">double</span> Mu2average_32=<a class="code" href="../../dd/d39/namespacegslpp.html#a93400e94a451fb30fcb88e4eaddff83b">sqrt</a>(msQhat2(2,2)*msUhat2(1,1)).<a class="code" href="../../dd/d9b/classgslpp_1_1complex.html#aeb8c263d7a2aa6a58648013f0bf710f3">abs</a>();</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keywordtype">double</span> v2 = <a class="code" href="../../db/d3e/classdelta_r_l__23__u.html#a0ef8858eb91f235db00cc98d0d7c6e90">mySUSY</a>.<a class="code" href="../../dc/d6f/class_s_u_s_y.html#a14fa73e70f25ee1e0d1e0a8a8a7e3f0c">v2</a>();</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keywordtype">double</span> v2 = <a class="code" href="../../db/d3e/classdelta_r_l__23__u.html#a0ef8858eb91f235db00cc98d0d7c6e90">mySUSY</a>.v2();</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160; </div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <span class="keywordflow">return</span> TUhat(2,1).real()*v2/Mu2average_32;  <span class="comment">//deltaRL_23_u</span></div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;}</div>
@@ -284,7 +284,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../dc/d6f/class_s_u_s_y.html">SUSY</a>&amp; deltaRL_23_u::mySUSY</td>
+          <td class="memname">const SUSY&amp; deltaRL_23_u::mySUSY</td>
         </tr>
       </table>
   </td>
@@ -304,20 +304,16 @@ Additional Inherited Members</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclass_s_u_s_y_html_ab94da7c8a70be5162070cb90a4fcdd81"><div class="ttname"><a href="../../dc/d6f/class_s_u_s_y.html#ab94da7c8a70be5162070cb90a4fcdd81">SUSY::getMsUhat2</a></div><div class="ttdeci">gslpp::matrix&lt; gslpp::complex &gt; getMsUhat2() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d37/_s_u_s_y_8h_source.html#l00316">SUSY.h:316</a></div></div>
 <div class="ttc" id="aclassdelta_r_l__23__u_html_a0ef8858eb91f235db00cc98d0d7c6e90"><div class="ttname"><a href="../../db/d3e/classdelta_r_l__23__u.html#a0ef8858eb91f235db00cc98d0d7c6e90">deltaRL_23_u::mySUSY</a></div><div class="ttdeci">const SUSY &amp; mySUSY</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc6/_s_fermiondeltas_8h_source.html#l00408">SFermiondeltas.h:408</a></div></div>
 <div class="ttc" id="aclassgslpp_1_1matrix_html"><div class="ttname"><a href="../../d1/d3c/classgslpp_1_1matrix.html">gslpp::matrix&lt; gslpp::complex &gt;</a></div></div>
-<div class="ttc" id="aclass_s_u_s_y_html_a6803f20914d8b5b5556c5d7b9306c676"><div class="ttname"><a href="../../dc/d6f/class_s_u_s_y.html#a6803f20914d8b5b5556c5d7b9306c676">SUSY::getMsQhat2</a></div><div class="ttdeci">gslpp::matrix&lt; gslpp::complex &gt; getMsQhat2() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d37/_s_u_s_y_8h_source.html#l00311">SUSY.h:311</a></div></div>
 <div class="ttc" id="aclass_th_observable_html_a61df653abc411fb5b5ccd090f735a0c4"><div class="ttname"><a href="../../dc/d1f/class_th_observable.html#a61df653abc411fb5b5ccd090f735a0c4">ThObservable::ThObservable</a></div><div class="ttdeci">ThObservable(const StandardModel &amp;SM_i)</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dcd/_th_observable_8h_source.html#l00032">ThObservable.h:32</a></div></div>
 <div class="ttc" id="aclassgslpp_1_1complex_html_aeb8c263d7a2aa6a58648013f0bf710f3"><div class="ttname"><a href="../../dd/d9b/classgslpp_1_1complex.html#aeb8c263d7a2aa6a58648013f0bf710f3">gslpp::complex::abs</a></div><div class="ttdeci">double abs() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d58/gslpp__complex_8cpp_source.html#l00081">gslpp_complex.cpp:81</a></div></div>
 <div class="ttc" id="anamespacegslpp_html_a93400e94a451fb30fcb88e4eaddff83b"><div class="ttname"><a href="../../dd/d39/namespacegslpp.html#a93400e94a451fb30fcb88e4eaddff83b">gslpp::sqrt</a></div><div class="ttdeci">complex sqrt(const complex &amp;z)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d58/gslpp__complex_8cpp_source.html#l00385">gslpp_complex.cpp:385</a></div></div>
-<div class="ttc" id="aclass_s_u_s_y_html_a14fa73e70f25ee1e0d1e0a8a8a7e3f0c"><div class="ttname"><a href="../../dc/d6f/class_s_u_s_y.html#a14fa73e70f25ee1e0d1e0a8a8a7e3f0c">SUSY::v2</a></div><div class="ttdeci">double v2() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dad/_s_u_s_y_8cpp_source.html#l00330">SUSY.cpp:330</a></div></div>
-<div class="ttc" id="aclass_s_u_s_y_html_a1b16e31c09612f4a19dea7976820df06"><div class="ttname"><a href="../../dc/d6f/class_s_u_s_y.html#a1b16e31c09612f4a19dea7976820df06">SUSY::getTUhat</a></div><div class="ttdeci">gslpp::matrix&lt; gslpp::complex &gt; getTUhat() const</div><div class="ttdoc">Gets the trilinear-coupling matrix for up-type squarks.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d37/_s_u_s_y_8h_source.html#l00330">SUSY.h:330</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d3e/classdelta_r_l__23__u.html">deltaRL_23_u</a></li>
-    <li class="footer">Generated on Tue Oct 29 2019 for $\texttt{HEPfit}$ using
+    <li class="footer">Generated on Thu Oct 31 2019 for $\texttt{HEPfit}$ using
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.16 </li>
   </ul>
